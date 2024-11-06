@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+</head>
+<body>
+    <h1>Multiple Choice Quiz</h1>
+    <div id="quiz-container"></div>
+    <button onclick="submitQuiz()">Submit Quiz</button>
+    <div id="result-container"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+<style>
+    .feedback p {
+        font-weight: bold;
+        margin-top: 8px;
+    }
+    .feedback p strong {
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    .question {
+            margin-bottom: 20px;
+        }
+
+        .question label {
+            display: block;
+            margin: 0px 0; /* Increase space between options */
+        }
+
+        #result-container {
+            margin-top: 20px;
+        }
+</style>
