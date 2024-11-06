@@ -1,13 +1,152 @@
 [
     {
-      "question": "What is the capital of France?",
-      "options": ["Paris", "London", "Berlin", "Rome"],
-      "correctIndex": 0
+        "question": "In which country did motor insurance originate?",
+        "options": ["United States", "Germany", "United Kingdom", "France"],
+        "correctIndex": 2
     },
     {
-      "question": "What is 2 + 2?",
-      "options": ["3", "4", "5", "6"],
-      "correctIndex": 1
+        "question": "Which Act introduced compulsory third-party insurance?",
+        "options": ["The Road Traffic Act 1930", "The Motor Vehicles Act 1939", "The Insurance Act 1950", "The Traffic Regulations Act 1945"],
+        "correctIndex": 0
+    },
+    {
+        "question": "What does the principle of indemnity in motor insurance imply?",
+        "options": [
+            "The insured can make a profit from a loss",
+            "The insurer replaces the insured vehicle",
+            "The insured is restored to their original position before the loss",
+            "The insurer covers all vehicle damages without conditions"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Which organization regulates third-party premium rates in India?",
+        "options": ["IRDA", "RBI", "Ministry of Transport", "Insurance Council"],
+        "correctIndex": 0
+    },
+    {
+        "question": "What does a 'Stage Carriage' permit allow?",
+        "options": [
+            "Transporting goods across state borders",
+            "Carrying passengers with fares charged at different stages",
+            "Driving a private vehicle commercially",
+            "Transporting hazardous materials"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which principle requires the insured to disclose all relevant facts to the insurer?",
+        "options": ["Principle of Insurable Interest", "Principle of Contribution", "Principle of Utmost Good Faith", "Principle of Indemnity"],
+        "correctIndex": 2
+    },
+    {
+        "question": "When was the Motor Vehicles Act first introduced in India?",
+        "options": ["1925", "1939", "1955", "1988"],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the purpose of a Certificate of Insurance under the Motor Vehicles Act?",
+        "options": [
+            "Proof of vehicle ownership",
+            "Proof of vehicle registration",
+            "Proof of third-party insurance",
+            "Proof of vehicle fitness"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Who is required to hold insurable interest in a vehicle to obtain motor insurance?",
+        "options": ["Only the driver", "Owner, financier, or legal heir", "Only the insurer", "Government authorities"],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does the doctrine of subrogation allow the insurer to do?",
+        "options": [
+            "Claim ownership of the insured vehicle",
+            "Transfer ownership rights to the insured",
+            "Recover the claim amount from the responsible third party",
+            "Cancel the insurance policy anytime"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Which Act mandates that vehicles in India must have insurance to operate on public roads?",
+        "options": [
+            "The Insurance Act 1972",
+            "The Motor Vehicles Act 1988",
+            "The Road Transport Act 2000",
+            "The Third-Party Insurance Act 1995"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which amendment to the Motor Vehicles Act introduced stringent penalties for rash driving?",
+        "options": ["1994", "2000", "2001", "2008"],
+        "correctIndex": 3
+    },
+    {
+        "question": "Under which type of permit can an auto-rickshaw operate within city limits?",
+        "options": [
+            "National Permit",
+            "Temporary Permit",
+            "Stage Carriage Permit",
+            "Auto Rickshaw and Taxi Permit"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "question": "Which motor insurance trend has led to 72% of third-party claims going into litigation?",
+        "options": [
+            "Increased vehicle sales",
+            "Lack of standardized processes",
+            "Rise in insurance fraud",
+            "Increased litigation costs"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "question": "What is the validity period of a transport license for driving a goods vehicle?",
+        "options": ["Six months", "One year", "Three years", "Five years"],
+        "correctIndex": 2
+    },
+    {
+        "question": "Which section of the Motor Vehicles Act, 1988, addresses third-party insurance?",
+        "options": ["Section 39", "Section 66", "Section 145", "Section 157"],
+        "correctIndex": 2
+    },
+    {
+        "question": "What happens if a driving license application is renewed within 30 days of expiry?",
+        "options": [
+            "It is renewed from the date of application",
+            "It is renewed from the date of expiry",
+            "The applicant must take a driving test",
+            "The license is considered invalid"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Who is responsible for enforcing vehicle permit conditions under the Motor Vehicles Act?",
+        "options": [
+            "Insurance Regulatory and Development Authority",
+            "State Transport Authority and Traffic Police",
+            "Road Transport Ministry",
+            "Automobile associations"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "According to the Motor Vehicles Act, what is the minimum age to drive a geared motorcycle?",
+        "options": ["16 years", "18 years", "20 years", "21 years"],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does the Solatium Fund provide for?",
+        "options": [
+            "Compensation for hit-and-run accident victims",
+            "Legal fees for accident litigation",
+            "Vehicle repair costs",
+            "Road safety initiatives"
+        ],
+        "correctIndex": 0
     }
-  ]
-  
+]
