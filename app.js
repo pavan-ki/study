@@ -59,7 +59,7 @@ function submitQuiz() {
             feedbackContainer.style.color = 'green';
         } else {
             incorrectCount++;
-            feedbackContainer.textContent = 'Incorrect';
+            feedbackContainer.textContent = `Incorrect! The correct answer is: ${q.answer}`;
             feedbackContainer.style.color = 'red';
         }
     });
