@@ -26,49 +26,43 @@ function createQuestionHTML(question, index) {
             <div class="options-container">
                 ${optionsHTML}
             </div>
-            <div class="feedback"></div> <!-- Feedback will go here -->
+            <div class="feedback" style="padding-top: 10px; font-weight: bold;"></div>
         </div>
     `;
 }
 
 function selectAnswer(questionIndex, answer, button) {
-    // Save user answer
     userAnswers[questionIndex] = answer;
 
-    // Clear selected state on all options for this question
     const optionButtons = button.parentNode.querySelectorAll('.option-button');
     optionButtons.forEach(btn => btn.classList.remove('selected'));
 
-    // Set selected state on the clicked button
     button.classList.add('selected');
 }
 
 function submitQuiz() {
     let correctCount = 0;
     let incorrectCount = 0;
+    let unansweredCount = 0;
 
     questions.forEach((q, index) => {
         const userAnswer = userAnswers[index];
         const feedbackContainer = document.getElementById(`question-${index}`).querySelector('.feedback');
 
         if (userAnswer === undefined) {
-            // User did not answer this question
-            incorrectCount++;
-            feedbackContainer.textContent = `Unanswered! Correct answer: ${q.answer}`;
-            feedbackContainer.className = 'feedback incorrect';
+            unansweredCount++;
+            feedbackContainer.textContent = 'Unanswered';
+            feedbackContainer.style.color = 'orange';
         } else if (userAnswer === q.answer) {
-            // Correct answer
             correctCount++;
             feedbackContainer.textContent = 'Correct!';
-            feedbackContainer.className = 'feedback correct';
+            feedbackContainer.style.color = 'green';
         } else {
-            // Incorrect answer
             incorrectCount++;
-            feedbackContainer.textContent = `Incorrect! Correct answer: ${q.answer}`;
-            feedbackContainer.className = 'feedback incorrect';
+            feedbackContainer.textContent = 'Incorrect';
+            feedbackContainer.style.color = 'red';
         }
     });
 
-    // Update summary
-    document.getElementById('summary').textContent = `Correct: ${correctCount} | Incorrect: ${incorrectCount}`;
+    document.getElementById('summary').textContent = `Correct: ${correctCount} | Incorrect: ${incorrectCount} | Unanswered: ${unansweredCount}`;
 }
