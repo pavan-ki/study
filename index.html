@@ -37,7 +37,7 @@
             margin-top: 20px;
         }
 
-        .question-card, .summary-card {
+        .question-card {
             background-color: #ffffff;
             border-radius: 8px;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -125,13 +125,11 @@
 <body>
     <div class="header">
         <span id="question-count"></span>
-        <div id="summary" class="summary-card"></div>
+        <span id="summary"></span>
     </div>
     <h2>Promotion Exercise 2025 - 2026</h2>
     <div id="quiz-container"></div>
     <button class="submit-btn" onclick="submitQuiz()">Submit</button>
-
-    <div id="result-container" class="summary-card"></div>
 
     <script src="app.js"></script>
 </body>
