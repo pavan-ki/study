@@ -53,7 +53,7 @@ function submitQuiz() {
 
     const incorrectCount = questions.length - correctCount;
     displayResults(results, correctCount, incorrectCount);
-    saveResults(results);
+    //saveResults(results);
 }
 
 function displayResults(results, correctCount, incorrectCount) {
