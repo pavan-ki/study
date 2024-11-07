@@ -14,8 +14,8 @@ async function loadQuiz() {
 }
 
 function createQuestionHTML(question, index) {
-    const optionsHTML = question.options.map(option => `
-        <button class="option-button" onclick="selectAnswer(${index}, '${option}', this)">
+    const optionsHTML = question.options.map((option, optionIndex) => `
+        <button class="option-button" onclick="selectAnswer(${index}, ${optionIndex}, this)">
             ${option}
         </button>
     `).join('');
@@ -31,8 +31,8 @@ function createQuestionHTML(question, index) {
     `;
 }
 
-function selectAnswer(questionIndex, answer, button) {
-    userAnswers[questionIndex] = answer;
+function selectAnswer(questionIndex, optionIndex, button) {
+    userAnswers[questionIndex] = optionIndex;
 
     const optionButtons = button.parentNode.querySelectorAll('.option-button');
     optionButtons.forEach(btn => btn.classList.remove('selected'));
@@ -53,13 +53,13 @@ function submitQuiz() {
             unansweredCount++;
             feedbackContainer.textContent = 'Unanswered';
             feedbackContainer.style.color = 'orange';
-        } else if (userAnswer === q.answer) {
+        } else if (userAnswer === q.correctIndex) {
             correctCount++;
             feedbackContainer.textContent = 'Correct!';
             feedbackContainer.style.color = 'green';
         } else {
             incorrectCount++;
-            feedbackContainer.textContent = `Incorrect! The correct answer is: ${q.answer}`;
+            feedbackContainer.textContent = `Incorrect! The correct answer is: ${q.options[q.correctIndex]}`;
             feedbackContainer.style.color = 'red';
         }
     });
