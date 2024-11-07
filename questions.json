@@ -148,5 +148,105 @@
             "Proof of insurance from the home country"
         ],
         "correctIndex": 2
+    },
+    {
+        "question": "What issue did the Motor Third Party Pool aim to address?",
+        "options": [
+            "Low insurance premiums",
+            "Limited availability of third-party insurance for commercial vehicles",
+            "High costs for private vehicle insurance",
+            "Regulation of motor insurance companies"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "How does 'Usage-Based Insurance' (UBI) determine premium costs?",
+        "options": [
+            "Based on driver’s age",
+            "Based on vehicle model",
+            "Based on how, when, and where the vehicle is driven",
+            "Based on the vehicle's color"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Which vehicles are exempt from the Knock for Knock Agreement?",
+        "options": [
+            "Private cars",
+            "Two-wheelers",
+            "Goods and public service vehicles",
+            "Rental vehicles"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What does the 'Declined Risk Pool' allow insurers to do?",
+        "options": [
+            "Reject high-risk policies",
+            "Transfer high-risk policies to a shared pool",
+            "Increase premiums for all vehicles",
+            "Only insure low-risk vehicles"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What do 'Preferred Garages' offer to insured vehicle owners?",
+        "options": [
+            "Higher insurance premiums",
+            "Cashless repair services",
+            "Only repair for minor damages",
+            "Limited warranty on repairs"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is one of the main benefits of buying motor insurance online?",
+        "options": [
+            "Lower premiums",
+            "Instant policy issuance without paperwork",
+            "Better coverage options",
+            "Free vehicle repairs"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Who oversees the administration of the Motor Third Party Pool?",
+        "options": [
+            "The Reserve Bank of India",
+            "The General Insurance Corporation (GIC)",
+            "The Motor Vehicles Authority",
+            "Local traffic police"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is a requirement for obtaining an International Driving Permit (IDP) in India?",
+        "options": [
+            "Owning a private vehicle",
+            "Holding a valid Indian driving license",
+            "Being over 25 years of age",
+            "Paying a large deposit"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which organization provides rules and procedures for underwriting in the Motor Third Party Pool?",
+        "options": [
+            "The Reserve Bank of India",
+            "The Insurance Regulatory and Development Authority of India (IRDAI)",
+            "The General Insurance Council",
+            "The Indian National Motor Association"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Which concept in motor insurance uses GPS tracking to monitor driving behavior?",
+        "options": [
+            "Knock for Knock Agreement",
+            "Usage-Based Insurance (UBI)",
+            "Third-Party Insurance",
+            "Rent-a-Car Insurance"
+        ],
+        "correctIndex": 1
     }
 ]
