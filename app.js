@@ -4,60 +4,82 @@ let questions = [];
 let userAnswers = {};
 
 async function loadQuiz() {
-    // Fetch questions from JSON file
     const response = await fetch('questions.json');
     questions = await response.json();
 
-    // Display questions
+    document.getElementById('question-count').textContent = `Questions: ${questions.length}`;
+
     const quizContainer = document.getElementById('quiz-container');
     quizContainer.innerHTML = questions.map((q, index) => createQuestionHTML(q, index)).join('');
 }
 
 function createQuestionHTML(question, index) {
-    // Generate HTML for each question and options with radio buttons
-    const optionsHTML = question.options.map((option, i) => `
-        <label>
-            <input type="radio" name="question${index}" value="${i}" onclick="recordAnswer(${index}, ${i})">
+    const optionsHTML = question.options.map(option => `
+        <button class="option-button" onclick="selectAnswer(${index}, '${option}', this)">
             ${option}
-        </label><br>
+        </button>
     `).join('');
 
     return `
-        <div class="question">
-            <h3>${question.question}</h3>
-            ${optionsHTML}
-            <div id="feedback${index}" class="feedback"></div>
+        <div class="question-card">
+            <h3 class="question-title">${index + 1}. ${question.question}</h3>
+            <div class="options-container">
+                ${optionsHTML}
+            </div>
         </div>
     `;
 }
 
-function recordAnswer(questionIndex, selectedIndex) {
-    // Save user answer by option index
-    userAnswers[questionIndex] = selectedIndex;
+function selectAnswer(questionIndex, answer, button) {
+    // Save user answer
+    userAnswers[questionIndex] = answer;
+
+    // Clear selected state on all options for this question
+    const optionButtons = button.parentNode.querySelectorAll('.option-button');
+    optionButtons.forEach(btn => btn.classList.remove('selected'));
+
+    // Set selected state on the clicked button
+    button.classList.add('selected');
 }
 
 function submitQuiz() {
-    // Evaluate answers and display results below each question
-    questions.forEach((q, index) => {
+    let correctCount = 0;
+    const results = questions.map((q, index) => {
         const userAnswer = userAnswers[index];
-        const feedbackContainer = document.getElementById(`feedback${index}`);
-
-        if (userAnswer === q.correctIndex) {
-            // Correct answer
-            feedbackContainer.innerHTML = `<p style="color: green;">Correct!</p>`;
-        } else {
-            // Wrong answer, show correct answer
-            feedbackContainer.innerHTML = `
-                <p style="color: red;">Incorrect. The correct answer is: <strong>${q.options[q.correctIndex]}</strong></p>
-            `;
-        }
+        const isCorrect = userAnswer === q.answer;
+        if (isCorrect) correctCount++;
+        return { question: q.question, userAnswer, isCorrect };
     });
-    
-    // Optionally, disable further selections after submission
-    disableOptions();
+
+    const incorrectCount = questions.length - correctCount;
+    displayResults(results, correctCount, incorrectCount);
+    saveResults(results);
 }
 
-function disableOptions() {
-    const inputs = document.querySelectorAll('input[type="radio"]');
-    inputs.forEach(input => input.disabled = true);
+function displayResults(results, correctCount, incorrectCount) {
+    document.getElementById('summary').textContent = `Correct: ${correctCount} | Incorrect: ${incorrectCount}`;
+
+    const resultContainer = document.getElementById('result-container');
+    resultContainer.innerHTML = `
+        <h2>Results</h2>
+        <p>You got ${correctCount} out of ${questions.length} correct.</p>
+        <ul>
+            ${results.map(r => `
+                <li>${r.question} - Your answer: ${r.userAnswer} (${r.isCorrect ? 'Correct' : 'Wrong'})</li>
+            `).join('')}
+        </ul>
+    `;
+}
+
+function saveResults(results) {
+    const resultsData = JSON.stringify(results, null, 2);
+
+    const blob = new Blob([resultsData], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'quiz-results.json';
+    a.click();
+    URL.revokeObjectURL(url);
 }
