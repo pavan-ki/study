@@ -21,17 +21,17 @@ function createQuestionHTML(question, index) {
     `).join('');
 
     return `
-        <div class="question-card">
+        <div class="question-card" id="question-${index}">
             <h3 class="question-title">${index + 1}. ${question.question}</h3>
             <div class="options-container">
                 ${optionsHTML}
             </div>
+            <div class="feedback"></div> <!-- Feedback will go here -->
         </div>
     `;
 }
 
 function selectAnswer(questionIndex, answer, button) {
-    // Save user answer
     userAnswers[questionIndex] = answer;
 
     // Clear selected state on all options for this question
@@ -44,29 +44,23 @@ function selectAnswer(questionIndex, answer, button) {
 
 function submitQuiz() {
     let correctCount = 0;
-    const results = questions.map((q, index) => {
+    let incorrectCount = 0;
+
+    questions.forEach((q, index) => {
         const userAnswer = userAnswers[index];
-        const isCorrect = userAnswer === q.answer;
-        if (isCorrect) correctCount++;
-        return { question: q.question, userAnswer, isCorrect };
+        const feedbackContainer = document.getElementById(`question-${index}`).querySelector('.feedback');
+        
+        if (userAnswer === q.answer) {
+            correctCount++;
+            feedbackContainer.textContent = 'Correct!';
+            feedbackContainer.className = 'feedback correct';
+        } else {
+            incorrectCount++;
+            feedbackContainer.textContent = `Incorrect! Correct answer: ${q.answer}`;
+            feedbackContainer.className = 'feedback incorrect';
+        }
     });
 
-    const incorrectCount = questions.length - correctCount;
-    displayResults(results, correctCount, incorrectCount);
-    //saveResults(results);
-}
-
-function displayResults(results, correctCount, incorrectCount) {
+    // Update summary
     document.getElementById('summary').textContent = `Correct: ${correctCount} | Incorrect: ${incorrectCount}`;
-
-    const resultContainer = document.getElementById('result-container');
-    resultContainer.innerHTML = `
-        <h2>Results</h2>
-        <p>You got ${correctCount} out of ${questions.length} correct.</p>
-        <ul>
-            ${results.map(r => `
-                <li>${r.question} - Your answer: ${r.userAnswer} (${r.isCorrect ? 'Correct' : 'Wrong'})</li>
-            `).join('')}
-        </ul>
-    `;
 }
