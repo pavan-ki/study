@@ -32,6 +32,7 @@ function createQuestionHTML(question, index) {
 }
 
 function selectAnswer(questionIndex, answer, button) {
+    // Save user answer
     userAnswers[questionIndex] = answer;
 
     // Clear selected state on all options for this question
@@ -49,12 +50,19 @@ function submitQuiz() {
     questions.forEach((q, index) => {
         const userAnswer = userAnswers[index];
         const feedbackContainer = document.getElementById(`question-${index}`).querySelector('.feedback');
-        
-        if (userAnswer === q.answer) {
+
+        if (userAnswer === undefined) {
+            // User did not answer this question
+            incorrectCount++;
+            feedbackContainer.textContent = `Unanswered! Correct answer: ${q.answer}`;
+            feedbackContainer.className = 'feedback incorrect';
+        } else if (userAnswer === q.answer) {
+            // Correct answer
             correctCount++;
             feedbackContainer.textContent = 'Correct!';
             feedbackContainer.className = 'feedback correct';
         } else {
+            // Incorrect answer
             incorrectCount++;
             feedbackContainer.textContent = `Incorrect! Correct answer: ${q.answer}`;
             feedbackContainer.className = 'feedback incorrect';
