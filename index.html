@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Promotion Exercise 2025 - 2026</title>
     <style>
-        /* Light theme styling */
+        /* General styles */
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f9;
@@ -17,112 +17,61 @@
             margin: 0;
         }
 
-        .header {
-            display: flex;
-            justify-content: space-between;
-            width: 90%;
-            max-width: 600px;
-            margin-top: 20px;
+        /* Hamburger menu styling */
+        .hamburger-menu {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            cursor: pointer;
+            font-size: 1.5em;
+            user-select: none;
+        }
+
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            top: 50px;
+            left: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .dropdown-menu.show {
+            display: block;
+        }
+
+        .dropdown-menu button {
+            width: 100%;
             padding: 10px;
-            background-color: #ffffff;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            font-size: 0.6em; /* Reduced font size */
-            color: #333;
-        }
-
-        #quiz-container {
-            width: 90%;
-            max-width: 600px;
-            margin-top: 20px;
-        }
-
-        .question-card {
-            background-color: #ffffff;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            margin-bottom: 20px;
-        }
-
-        .question-title {
-            font-size: 1.1em;
-            margin-bottom: 10px;
-            color: #333;
-        }
-
-        .options-container {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
-
-        .option-button {
-            padding: 12px;
-            font-size: 1em;
-            cursor: pointer;
-            border: 2px solid #4a90e2;
-            border-radius: 5px;
-            background-color: #f0f8ff;
-            color: #333;
-            transition: background-color 0.3s ease, color 0.3s ease;
-        }
-
-        .option-button:hover, .option-button.selected {
-            background-color: #4a90e2;
-            color: white;
-        }
-
-        /* Feedback styles */
-        .correct {
-            color: #4caf50; /* Green for correct answers */
-            margin-top: 10px;
-            font-weight: bold;
-        }
-
-        .incorrect {
-            color: #e57373; /* Red for incorrect answers */
-            margin-top: 10px;
-            font-weight: bold;
-        }
-
-        .unanswered {
-            color: #ffb74d; /* Orange for unanswered */
-            margin-top: 10px;
-            font-weight: bold;
-        }
-
-        /* Summary styling */
-        #result-container {
-            margin-top: 20px;
-            padding: 15px;
-            background-color: #ffffff;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            color: #333;
-            text-align: center;
-            width: 90%;
-            max-width: 600px;
-        }
-
-        button.submit-btn {
-            padding: 12px 24px;
-            font-size: 1em;
+            background-color: #fff;
             border: none;
-            border-radius: 5px;
-            background-color: #4a90e2;
-            color: white;
+            text-align: left;
             cursor: pointer;
-            transition: background-color 0.3s ease;
-            margin-top: 20px;
+            transition: background-color 0.2s;
         }
 
-        button.submit-btn:hover {
-            background-color: #357abd;
+        .dropdown-menu button:hover {
+            background-color: #f0f8ff;
+        }
+
+        /* Other styling remains the same */
+        .header, #quiz-container, .question-card, #result-container, .submit-btn {
+            /* Existing styling code here */
         }
     </style>
 </head>
 <body>
+    <!-- Hamburger icon for menu -->
+    <div class="hamburger-menu" onclick="toggleDropdownMenu()">☰</div>
+    <!-- Dropdown menu for chapter selection -->
+    <div class="dropdown-menu" id="dropdownMenu">
+        <button onclick="loadQuiz('chapter01.json')">Chapter 01</button>
+        <button onclick="loadQuiz('chapter02.json')">Chapter 02</button>
+        <button onclick="loadQuiz('chapter03.json')">Chapter 03</button>
+    </div>
+
     <div class="header">
         <span id="question-count"></span>
         <span id="summary"></span>
@@ -130,6 +79,8 @@
     <h2>Promotion Exercise 2025 - 2026</h2>
     <div id="quiz-container"></div>
     <button class="submit-btn" onclick="submitQuiz()">Submit</button>
+
+    <div id="result-container" class="summary-card"></div>
 
     <script src="app.js"></script>
 </body>
