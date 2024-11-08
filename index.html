@@ -166,11 +166,7 @@
     <!-- Hamburger icon for menu -->
     <div class="hamburger-menu" onclick="toggleDropdownMenu()">☰</div>
     <!-- Dropdown menu for chapter selection -->
-    <div class="dropdown-menu" id="dropdownMenu">
-        <button onclick="loadQuiz('chapter01.json')">Chapter 01</button>
-        <button onclick="loadQuiz('chapter02.json')">Chapter 02</button>
-        <button onclick="loadQuiz('chapter03.json')">Chapter 03</button>
-    </div>
+    <div class="dropdown-menu" id="dropdownMenu"></div>
 
     <div class="header">
         <span id="question-count"></span>
@@ -184,10 +180,23 @@
 
     <script src="app.js"></script>
     <script>
+        const chapters = ["chapter01.json", "chapter02.json", "chapter03.json"]; // List of available chapters
+
+        // Populate dropdown menu based on available chapters
+        function populateDropdownMenu() {
+            const dropdownMenu = document.getElementById('dropdownMenu');
+            dropdownMenu.innerHTML = ""; // Clear any existing buttons
+            chapters.forEach(chapter => {
+                const button = document.createElement('button');
+                button.textContent = chapter.replace('.json', '').replace('chapter', 'Chapter ');
+                button.onclick = () => loadQuiz(chapter);
+                dropdownMenu.appendChild(button);
+            });
+        }
+
         // Toggle the visibility of the dropdown menu
         function toggleDropdownMenu() {
-            const dropdownMenu = document.getElementById('dropdownMenu');
-            dropdownMenu.classList.toggle('show');
+            document.getElementById('dropdownMenu').classList.toggle('show');
         }
 
         // Close the dropdown if the user clicks outside of it
@@ -202,6 +211,9 @@
                 }
             }
         }
+
+        // Initialize the dropdown menu
+        document.addEventListener("DOMContentLoaded", populateDropdownMenu);
     </script>
 </body>
 </html>
