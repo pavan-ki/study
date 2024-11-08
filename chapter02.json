@@ -1,0 +1,22 @@
+[
+  {
+        "question": "What is the role of an auto dealer in motor insurance?",
+        "options": [
+            "Selling insurance independently",
+            "Providing mandatory registration and insurance options",
+            "Setting premium rates",
+            "Offering free car insurance with every sale"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does 'Pay As You Drive' (PAYD) insurance calculate premiums based on?",
+        "options": [
+            "Vehicle type",
+            "Annual mileage and usage data",
+            "Driving record",
+            "Vehicle purchase price"
+        ],
+        "correctIndex": 1
+    }
+]
