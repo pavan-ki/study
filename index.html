@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Promotion Exercise 2025 - 2026</title>
     <style>
-        /* General styling */
+        /* Light theme styling */
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f9;
@@ -48,7 +48,97 @@
             background-color: #388e3c;
         }
 
-        /* Hamburger menu styling */
+        #quiz-container {
+            width: 90%;
+            max-width: 600px;
+            margin-top: 20px;
+        }
+
+        .question-card {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .question-title {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .options-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .option-button {
+            padding: 12px;
+            font-size: 1em;
+            cursor: pointer;
+            border: 2px solid #4a90e2;
+            border-radius: 5px;
+            background-color: #f0f8ff;
+            color: #333;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .option-button:hover, .option-button.selected {
+            background-color: #4a90e2;
+            color: white;
+        }
+
+        /* Feedback styles */
+        .correct {
+            color: #4caf50;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .incorrect {
+            color: #e57373;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .unanswered {
+            color: #ffb74d;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        /* Summary styling */
+        #result-container {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            color: #333;
+            text-align: center;
+            width: 90%;
+            max-width: 600px;
+        }
+
+        button.submit-btn {
+            padding: 12px 24px;
+            font-size: 1em;
+            border: none;
+            border-radius: 5px;
+            background-color: #4a90e2;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+        }
+
+        button.submit-btn:hover {
+            background-color: #357abd;
+        }
+
+        /* Side navigation menu styling */
         .hamburger-menu {
             position: absolute;
             top: 20px;
@@ -132,63 +222,5 @@
     <div id="result-container" class="summary-card"></div>
 
     <script src="app.js"></script>
-    <script>
-        // Example folder structure
-        const chapters = {
-            "Chapter 01": ["Quiz 01.json", "Quiz 02.json"],
-            "Chapter 02": ["Quiz 01.json", "Quiz 02.json"],
-            "Chapter 03": ["Quiz 01.json", "Quiz 02.json"]
-        };
-
-        function openNav() {
-            document.getElementById("mySidenav").style.width = "250px";
-            document.addEventListener("click", closeNavOnClickOutside);
-        }
-
-        function closeNav() {
-            document.getElementById("mySidenav").style.width = "0";
-            document.removeEventListener("click", closeNavOnClickOutside);
-        }
-
-        function closeNavOnClickOutside(event) {
-            const sidenav = document.getElementById("mySidenav");
-            const hamburgerMenu = document.querySelector(".hamburger-menu");
-            
-            if (!sidenav.contains(event.target) && !hamburgerMenu.contains(event.target)) {
-                closeNav();
-            }
-        }
-
-        // Dynamically populate the accordion menu with chapters and quizzes
-        function populateMenu() {
-            const sidenav = document.getElementById("mySidenav");
-            sidenav.innerHTML = ""; // Clear previous content
-
-            Object.keys(chapters).forEach((chapter, chapterIndex) => {
-                // Create chapter heading
-                const chapterHeading = document.createElement("h3");
-                chapterHeading.textContent = chapter;
-                chapterHeading.className = chapterIndex === 0 ? "expanded" : ""; // Expand first chapter by default
-                chapterHeading.onclick = () => chapterHeading.classList.toggle("expanded");
-
-                // Create quiz links container
-                const quizLinksContainer = document.createElement("div");
-                quizLinksContainer.className = "quiz-links";
-
-                chapters[chapter].forEach(quiz => {
-                    const quizLink = document.createElement("a");
-                    quizLink.textContent = quiz.replace(".json", ""); // Display name without .json
-                    quizLink.onclick = () => loadQuiz(`${chapter}/${quiz}`);
-                    quizLinksContainer.appendChild(quizLink);
-                });
-
-                sidenav.appendChild(chapterHeading);
-                sidenav.appendChild(quizLinksContainer);
-            });
-        }
-
-        // Call populateMenu on page load
-        document.addEventListener("DOMContentLoaded", populateMenu);
-    </script>
 </body>
 </html>
