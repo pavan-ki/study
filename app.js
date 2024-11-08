@@ -43,6 +43,7 @@ async function loadQuiz(filePath) {
         const response = await fetch(filePath);
         questions = await response.json();
 
+        // Reset UI for a new quiz
         userAnswers = {};
         document.getElementById('question-count').textContent = `Questions: ${questions.length}`;
         document.getElementById('quiz-container').innerHTML = questions.map((q, index) => createQuestionHTML(q, index)).join('');
@@ -54,4 +55,71 @@ async function loadQuiz(filePath) {
     }
 }
 
-// Other functions remain the same...
+// Generates HTML for each question card
+function createQuestionHTML(question, index) {
+    const optionsHTML = question.options.map((option, optionIndex) => `
+        <button class="option-button" onclick="selectAnswer(${index}, ${optionIndex}, this)">
+            ${option}
+        </button>
+    `).join('');
+
+    return `
+        <div class="question-card" id="question-${index}">
+            <h3 class="question-title">${index + 1}. ${question.question}</h3>
+            <div class="options-container">
+                ${optionsHTML}
+            </div>
+            <div class="feedback" style="padding-top: 10px; font-weight: bold;"></div>
+        </div>
+    `;
+}
+
+// Track user's selected answers
+function selectAnswer(questionIndex, optionIndex, button) {
+    userAnswers[questionIndex] = optionIndex;
+
+    // Clear selected state on all options for this question
+    const optionButtons = button.parentNode.querySelectorAll('.option-button');
+    optionButtons.forEach(btn => btn.classList.remove('selected'));
+
+    // Set selected state on the clicked button
+    button.classList.add('selected');
+}
+
+// Submit quiz and evaluate results
+function submitQuiz() {
+    let correctCount = 0;
+    let incorrectCount = 0;
+    let unansweredCount = 0;
+
+    questions.forEach((q, index) => {
+        const userAnswer = userAnswers[index];
+        const feedbackContainer = document.getElementById(`question-${index}`).querySelector('.feedback');
+
+        if (userAnswer === undefined) {
+            unansweredCount++;
+            feedbackContainer.textContent = 'Unanswered';
+            feedbackContainer.style.color = 'orange';
+        } else if (userAnswer === q.correctIndex) {
+            correctCount++;
+            feedbackContainer.textContent = 'Correct!';
+            feedbackContainer.style.color = 'green';
+        } else {
+            incorrectCount++;
+            feedbackContainer.textContent = `Incorrect! The correct answer is: ${q.options[q.correctIndex]}`;
+            feedbackContainer.style.color = 'red';
+        }
+    });
+
+    // Update summary
+    document.getElementById('summary').textContent = `Correct: ${correctCount} | Incorrect: ${incorrectCount} | Unanswered: ${unansweredCount}`;
+}
+
+// Reveal correct answers for all questions
+function revealAnswers() {
+    questions.forEach((q, index) => {
+        const feedbackContainer = document.getElementById(`question-${index}`).querySelector('.feedback');
+        feedbackContainer.textContent = `Answer: ${q.options[q.correctIndex]}`;
+        feedbackContainer.style.color = '#4caf50'; // Green for correct answers
+    });
+}
