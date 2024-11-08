@@ -149,15 +149,6 @@
             background-color: #575757;
         }
 
-        .sidenav .closebtn {
-            position: absolute;
-            top: 10px;
-            right: 20px;
-            font-size: 1.5em;
-            cursor: pointer;
-            color: #f4f4f9;
-        }
-
         .hamburger-menu {
             position: absolute;
             top: 20px;
@@ -174,7 +165,6 @@
 
     <!-- Side navigation menu -->
     <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <!-- Dynamic Chapter Links -->
         <a href="javascript:void(0)" onclick="loadQuiz('chapter01.json')">Chapter 01</a>
         <a href="javascript:void(0)" onclick="loadQuiz('chapter02.json')">Chapter 02</a>
@@ -197,11 +187,25 @@
         /* Open side navigation */
         function openNav() {
             document.getElementById("mySidenav").style.width = "250px";
+            // Add event listener to detect clicks outside the sidenav
+            document.addEventListener("click", closeNavOnClickOutside);
         }
 
         /* Close side navigation */
         function closeNav() {
             document.getElementById("mySidenav").style.width = "0";
+            document.removeEventListener("click", closeNavOnClickOutside);
+        }
+
+        /* Close the sidenav when clicking outside */
+        function closeNavOnClickOutside(event) {
+            const sidenav = document.getElementById("mySidenav");
+            const hamburgerMenu = document.querySelector(".hamburger-menu");
+            
+            // Check if the click is outside the sidenav and the hamburger icon
+            if (!sidenav.contains(event.target) && !hamburgerMenu.contains(event.target)) {
+                closeNav();
+            }
         }
     </script>
 </body>
