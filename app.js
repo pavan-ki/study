@@ -1,16 +1,31 @@
-document.addEventListener("DOMContentLoaded", loadQuiz);
+document.addEventListener("DOMContentLoaded", () => {
+    // Load the first chapter by default, or none initially if desired.
+    loadQuiz('chapter01.json');
+});
 
 let questions = [];
 let userAnswers = {};
 
-async function loadQuiz() {
-    const response = await fetch('questions.json');
-    questions = await response.json();
+// Function to toggle the visibility of the dropdown menu
+function toggleDropdownMenu() {
+    document.getElementById('dropdownMenu').classList.toggle('show');
+}
 
-    document.getElementById('question-count').textContent = `Questions: ${questions.length}`;
+// Load quiz from selected chapter JSON file
+async function loadQuiz(filename) {
+    try {
+        const response = await fetch(filename);
+        questions = await response.json();
 
-    const quizContainer = document.getElementById('quiz-container');
-    quizContainer.innerHTML = questions.map((q, index) => createQuestionHTML(q, index)).join('');
+        // Reset UI for a new quiz
+        userAnswers = {};
+        document.getElementById('question-count').textContent = `Questions: ${questions.length}`;
+        document.getElementById('quiz-container').innerHTML = questions.map((q, index) => createQuestionHTML(q, index)).join('');
+        document.getElementById('summary').textContent = '';
+        document.getElementById('result-container').textContent = '';
+    } catch (error) {
+        console.error("Error loading quiz:", error);
+    }
 }
 
 function createQuestionHTML(question, index) {
