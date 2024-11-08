@@ -1,14 +1,18 @@
-document.addEventListener("DOMContentLoaded", populateMenu);
+document.addEventListener("DOMContentLoaded", () => {
+    populateMenu();
+    // Load the first mock test by default
+    loadQuiz("Chapter 01/Mock Test 1.json");
+});
 
 let questions = [];
 let userAnswers = {};
 
-// Dynamically populate the accordion menu with chapters and quizzes
+// Dynamically populate the accordion menu with chapters and mock tests
 function populateMenu() {
     const chapters = {
-        "Chapter 01": ["Quiz 01.json", "Quiz 02.json"],
-        "Chapter 02": ["Quiz 01.json", "Quiz 02.json"],
-        "Chapter 03": ["Quiz 01.json", "Quiz 02.json"]
+        "Chapter 01": ["Mock Test 1.json", "Mock Test 2.json"],
+        "Chapter 02": ["Mock Test 1.json", "Mock Test 2.json"],
+        "Chapter 03": ["Mock Test 1.json", "Mock Test 2.json"]
     };
 
     const sidenav = document.getElementById("mySidenav");
@@ -21,14 +25,14 @@ function populateMenu() {
         chapterHeading.className = chapterIndex === 0 ? "expanded" : ""; // Expand first chapter by default
         chapterHeading.onclick = () => chapterHeading.classList.toggle("expanded");
 
-        // Create quiz links container
+        // Create mock test links container
         const quizLinksContainer = document.createElement("div");
         quizLinksContainer.className = "quiz-links";
 
-        chapters[chapter].forEach(quiz => {
+        chapters[chapter].forEach(mockTest => {
             const quizLink = document.createElement("a");
-            quizLink.textContent = quiz.replace(".json", ""); // Display name without .json
-            quizLink.onclick = () => loadQuiz(`${chapter}/${quiz}`);
+            quizLink.textContent = mockTest.replace(".json", ""); // Display name without .json
+            quizLink.onclick = () => loadQuiz(`${chapter}/${mockTest}`);
             quizLinksContainer.appendChild(quizLink);
         });
 
@@ -37,7 +41,7 @@ function populateMenu() {
     });
 }
 
-// Load quiz from a specific chapter and quiz file
+// Load quiz from a specific chapter and mock test file
 async function loadQuiz(filePath) {
     try {
         const response = await fetch(filePath);
@@ -121,5 +125,9 @@ function revealAnswers() {
         const feedbackContainer = document.getElementById(`question-${index}`).querySelector('.feedback');
         feedbackContainer.textContent = `Answer: ${q.options[q.correctIndex]}`;
         feedbackContainer.style.color = '#4caf50'; // Green for correct answers
+
+        // Highlight the correct answer button
+        const optionButtons = document.getElementById(`question-${index}`).querySelectorAll('.option-button');
+        optionButtons[q.correctIndex].classList.add('highlight');
     });
 }
