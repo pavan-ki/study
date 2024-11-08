@@ -1,20 +1,14 @@
 document.addEventListener("DOMContentLoaded", () => {
-    // Load the first chapter by default, or none initially if desired.
-    loadQuiz('chapter01.json');
+    // Load the first quiz by default if desired, or keep it empty initially.
 });
 
 let questions = [];
 let userAnswers = {};
 
-// Function to toggle the visibility of the dropdown menu
-function toggleDropdownMenu() {
-    document.getElementById('dropdownMenu').classList.toggle('show');
-}
-
-// Load quiz from selected chapter JSON file
-async function loadQuiz(filename) {
+// Load quiz from a specific chapter and quiz file
+async function loadQuiz(filePath) {
     try {
-        const response = await fetch(filename);
+        const response = await fetch(filePath);
         questions = await response.json();
 
         // Reset UI for a new quiz
@@ -25,9 +19,11 @@ async function loadQuiz(filename) {
         document.getElementById('result-container').textContent = '';
     } catch (error) {
         console.error("Error loading quiz:", error);
+        alert("Quiz file not found.");
     }
 }
 
+// Generates HTML for each question card
 function createQuestionHTML(question, index) {
     const optionsHTML = question.options.map((option, optionIndex) => `
         <button class="option-button" onclick="selectAnswer(${index}, ${optionIndex}, this)">
@@ -46,15 +42,19 @@ function createQuestionHTML(question, index) {
     `;
 }
 
+// Track user's selected answers
 function selectAnswer(questionIndex, optionIndex, button) {
     userAnswers[questionIndex] = optionIndex;
 
+    // Clear selected state on all options for this question
     const optionButtons = button.parentNode.querySelectorAll('.option-button');
     optionButtons.forEach(btn => btn.classList.remove('selected'));
 
+    // Set selected state on the clicked button
     button.classList.add('selected');
 }
 
+// Submit quiz and evaluate results
 function submitQuiz() {
     let correctCount = 0;
     let incorrectCount = 0;
@@ -79,5 +79,15 @@ function submitQuiz() {
         }
     });
 
+    // Update summary
     document.getElementById('summary').textContent = `Correct: ${correctCount} | Incorrect: ${incorrectCount} | Unanswered: ${unansweredCount}`;
+}
+
+// Reveal correct answers for all questions
+function revealAnswers() {
+    questions.forEach((q, index) => {
+        const feedbackContainer = document.getElementById(`question-${index}`).querySelector('.feedback');
+        feedbackContainer.textContent = `Answer: ${q.options[q.correctIndex]}`;
+        feedbackContainer.style.color = '#4caf50'; // Green for correct answers
+    });
 }
