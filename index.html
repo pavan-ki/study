@@ -121,7 +121,43 @@
             background-color: #357abd;
         }
 
-        /* Hamburger menu styling */
+        /* Side navigation menu styling */
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #333;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+            z-index: 1000;
+            box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .sidenav a {
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 1.2em;
+            color: #f4f4f9;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .sidenav a:hover {
+            background-color: #575757;
+        }
+
+        .sidenav .closebtn {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            font-size: 1.5em;
+            cursor: pointer;
+            color: #f4f4f9;
+        }
+
         .hamburger-menu {
             position: absolute;
             top: 20px;
@@ -130,43 +166,21 @@
             font-size: 1.5em;
             user-select: none;
         }
-
-        .dropdown-menu {
-            display: none;
-            position: absolute;
-            top: 50px;
-            left: 20px;
-            background-color: #fff;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-            overflow: hidden;
-            z-index: 1000;
-        }
-
-        .dropdown-menu.show {
-            display: block;
-        }
-
-        .dropdown-menu button {
-            width: 100%;
-            padding: 10px;
-            background-color: #fff;
-            border: none;
-            text-align: left;
-            cursor: pointer;
-            transition: background-color 0.2s;
-        }
-
-        .dropdown-menu button:hover {
-            background-color: #f0f8ff;
-        }
     </style>
 </head>
 <body>
     <!-- Hamburger icon for menu -->
-    <div class="hamburger-menu" onclick="toggleDropdownMenu()">☰</div>
-    <!-- Dropdown menu for chapter selection -->
-    <div class="dropdown-menu" id="dropdownMenu"></div>
+    <div class="hamburger-menu" onclick="openNav()">☰</div>
+
+    <!-- Side navigation menu -->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <!-- Dynamic Chapter Links -->
+        <a href="javascript:void(0)" onclick="loadQuiz('chapter01.json')">Chapter 01</a>
+        <a href="javascript:void(0)" onclick="loadQuiz('chapter02.json')">Chapter 02</a>
+        <a href="javascript:void(0)" onclick="loadQuiz('chapter03.json')">Chapter 03</a>
+        <!-- Add more chapters as needed -->
+    </div>
 
     <div class="header">
         <span id="question-count"></span>
@@ -180,40 +194,15 @@
 
     <script src="app.js"></script>
     <script>
-        const chapters = ["chapter01.json", "chapter02.json", "chapter03.json"]; // List of available chapters
-
-        // Populate dropdown menu based on available chapters
-        function populateDropdownMenu() {
-            const dropdownMenu = document.getElementById('dropdownMenu');
-            dropdownMenu.innerHTML = ""; // Clear any existing buttons
-            chapters.forEach(chapter => {
-                const button = document.createElement('button');
-                button.textContent = chapter.replace('.json', '').replace('chapter', 'Chapter ');
-                button.onclick = () => loadQuiz(chapter);
-                dropdownMenu.appendChild(button);
-            });
+        /* Open side navigation */
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
         }
 
-        // Toggle the visibility of the dropdown menu
-        function toggleDropdownMenu() {
-            document.getElementById('dropdownMenu').classList.toggle('show');
+        /* Close side navigation */
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
         }
-
-        // Close the dropdown if the user clicks outside of it
-        window.onclick = function(event) {
-            if (!event.target.matches('.hamburger-menu')) {
-                const dropdowns = document.getElementsByClassName("dropdown-menu");
-                for (let i = 0; i < dropdowns.length; i++) {
-                    const openDropdown = dropdowns[i];
-                    if (openDropdown.classList.contains('show')) {
-                        openDropdown.classList.remove('show');
-                    }
-                }
-            }
-        }
-
-        // Initialize the dropdown menu
-        document.addEventListener("DOMContentLoaded", populateDropdownMenu);
     </script>
 </body>
 </html>
