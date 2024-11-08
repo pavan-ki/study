@@ -20,6 +20,7 @@
         .header {
             display: flex;
             justify-content: space-between;
+            align-items: center;
             width: 90%;
             max-width: 600px;
             margin-top: 20px;
@@ -29,6 +30,23 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             font-size: 0.9em;
             color: #333;
+        }
+
+        /* Reveal Answers Button */
+        .reveal-btn {
+            padding: 8px 16px;
+            font-size: 0.9em;
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-left: 10px;
+        }
+
+        .reveal-btn:hover {
+            background-color: #388e3c;
         }
 
         #quiz-container {
@@ -120,43 +138,6 @@
         button.submit-btn:hover {
             background-color: #357abd;
         }
-
-        /* Side navigation menu styling */
-        .sidenav {
-            height: 100%;
-            width: 0;
-            position: fixed;
-            top: 0;
-            left: 0;
-            background-color: #333;
-            overflow-x: hidden;
-            transition: 0.5s;
-            padding-top: 60px;
-            z-index: 1000;
-            box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3);
-        }
-
-        .sidenav a {
-            padding: 10px 20px;
-            text-decoration: none;
-            font-size: 1.2em;
-            color: #f4f4f9;
-            display: block;
-            transition: 0.3s;
-        }
-
-        .sidenav a:hover {
-            background-color: #575757;
-        }
-
-        .hamburger-menu {
-            position: absolute;
-            top: 20px;
-            left: 20px;
-            cursor: pointer;
-            font-size: 1.5em;
-            user-select: none;
-        }
     </style>
 </head>
 <body>
@@ -165,16 +146,15 @@
 
     <!-- Side navigation menu -->
     <div id="mySidenav" class="sidenav">
-        <!-- Dynamic Chapter Links -->
         <a href="javascript:void(0)" onclick="loadQuiz('chapter01.json')">Chapter 01</a>
         <a href="javascript:void(0)" onclick="loadQuiz('chapter02.json')">Chapter 02</a>
         <a href="javascript:void(0)" onclick="loadQuiz('chapter03.json')">Chapter 03</a>
-        <!-- Add more chapters as needed -->
     </div>
 
     <div class="header">
         <span id="question-count"></span>
         <span id="summary"></span>
+        <button class="reveal-btn" onclick="revealAnswers()">Reveal Answers</button>
     </div>
     <h2>Promotion Exercise 2025 - 2026</h2>
     <div id="quiz-container"></div>
@@ -184,25 +164,28 @@
 
     <script src="app.js"></script>
     <script>
-        /* Open side navigation */
+        function revealAnswers() {
+            questions.forEach((q, index) => {
+                const feedbackContainer = document.getElementById(`question-${index}`).querySelector('.feedback');
+                feedbackContainer.textContent = `Answer: ${q.options[q.correctIndex]}`;
+                feedbackContainer.style.color = '#4caf50'; // Green for correct answers
+            });
+        }
+
         function openNav() {
             document.getElementById("mySidenav").style.width = "250px";
-            // Add event listener to detect clicks outside the sidenav
             document.addEventListener("click", closeNavOnClickOutside);
         }
 
-        /* Close side navigation */
         function closeNav() {
             document.getElementById("mySidenav").style.width = "0";
             document.removeEventListener("click", closeNavOnClickOutside);
         }
 
-        /* Close the sidenav when clicking outside */
         function closeNavOnClickOutside(event) {
             const sidenav = document.getElementById("mySidenav");
             const hamburgerMenu = document.querySelector(".hamburger-menu");
             
-            // Check if the click is outside the sidenav and the hamburger icon
             if (!sidenav.contains(event.target) && !hamburgerMenu.contains(event.target)) {
                 closeNav();
             }
