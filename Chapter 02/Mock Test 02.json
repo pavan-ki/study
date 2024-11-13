@@ -1,0 +1,22 @@
+[
+    {
+        "question": "What is an International Driving Permit (IDP) primarily used for?",
+        "options": [
+            "Replacing a national driving license",
+            "Driving exclusively in Europe",
+            "Supplementing a national driving license in foreign countries",
+            "Allowing unlimited driving hours abroad"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What is the role of an auto dealer in motor insurance?",
+        "options": [
+            "Selling insurance independently",
+            "Providing mandatory registration and insurance options",
+            "Setting premium rates",
+            "Offering free car insurance with every sale"
+        ],
+        "correctIndex": 1
+    }
+]
