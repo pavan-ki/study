@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     populateMenu();
-    // Load the first mock test by default
-    loadQuiz("Chapter 01/Mock Test 1.json");
+    // Load the first mock test from Chapter 01 by default
+    loadQuiz(encodeURIComponent("Chapter 01/Mock Test 1.json"));
 });
 
 let questions = [];
@@ -32,7 +32,7 @@ function populateMenu() {
         chapters[chapter].forEach(mockTest => {
             const quizLink = document.createElement("a");
             quizLink.textContent = mockTest.replace(".json", ""); // Display name without .json
-            quizLink.onclick = () => loadQuiz(`${chapter}/${mockTest}`);
+            quizLink.onclick = () => loadQuiz(encodeURIComponent(`${chapter}/${mockTest}`));
             quizLinksContainer.appendChild(quizLink);
         });
 
