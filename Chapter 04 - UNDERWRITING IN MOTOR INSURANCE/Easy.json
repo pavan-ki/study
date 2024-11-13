@@ -1,0 +1,252 @@
+[
+    {
+        "question": "What does Chapter 4 primarily focus on?",
+        "options": [
+            "Motor insurance underwriting",
+            "Vehicle maintenance",
+            "Insurance claims process",
+            "Traffic rules"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What organization regulates third-party liability premium rates in India?",
+        "options": [
+            "IRDAI",
+            "Ministry of Transport",
+            "Reserve Bank of India",
+            "General Insurance Council"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which type of premium is still regulated by IRDAI?",
+        "options": [
+            "Own Damage premium",
+            "Third-party liability premium",
+            "Add-on covers premium",
+            "Fire insurance premium"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "When were insurers in India allowed to set their own rates for Own Damage cover?",
+        "options": [
+            "2007",
+            "2009",
+            "2012",
+            "2020"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the purpose of the 'File & Use' guidelines in motor insurance?",
+        "options": [
+            "To approve new insurance products and rates",
+            "To simplify policy renewal",
+            "To reduce premiums",
+            "To increase coverage limits"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which add-on cover allows insurers to file variations in deductibles?",
+        "options": [
+            "Loss of Use",
+            "Waiver of Depreciation",
+            "Standard Deductible",
+            "Fire Cover"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is an important factor in setting motor insurance premium rates?",
+        "options": [
+            "Historical data and risk assessment",
+            "Driver’s nationality",
+            "Vehicle color",
+            "Weather conditions"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is required before the issuance of a cover note in motor insurance?",
+        "options": [
+            "A completed proposal form",
+            "Vehicle registration",
+            "Previous claim history",
+            "Roadworthiness certificate"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which document is issued as temporary proof of insurance?",
+        "options": [
+            "Certificate of insurance",
+            "Cover note",
+            "Proposal form",
+            "Renewal notice"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the purpose of a liability-only policy?",
+        "options": [
+            "To cover only third-party liabilities",
+            "To cover own damage and third-party",
+            "To cover only vehicle theft",
+            "To offer cashless repairs"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the maximum sum insured for a two-wheeler's personal accident cover?",
+        "options": [
+            "Rs 1,00,000",
+            "Rs 2,00,000",
+            "Rs 50,000",
+            "Rs 75,000"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which policy section would include 'Loss of Use' and 'Waiver of Depreciation' as add-ons?",
+        "options": [
+            "Own Damage section",
+            "Third-party section",
+            "Personal accident section",
+            "Liability only section"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What does the term 'detariffing' refer to in motor insurance?",
+        "options": [
+            "Allowing insurers to set their own rates for Own Damage coverage",
+            "Removing third-party liability coverage",
+            "Increasing insurance premiums",
+            "Providing discounts for safe driving"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the maximum percentage discount available as a No Claim Bonus after five claim-free years?",
+        "options": [
+            "50%",
+            "30%",
+            "20%",
+            "10%"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the primary function of underwriting in motor insurance?",
+        "options": [
+            "To assess risk and set appropriate premiums",
+            "To process claims",
+            "To renew policies",
+            "To register vehicles"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is one way insurers monitor risks for policy renewals?",
+        "options": [
+            "By reviewing claim experience",
+            "By issuing a cover note",
+            "By providing free repairs",
+            "By reducing the IDV"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What does the File & Use guideline ensure for new insurance products?",
+        "options": [
+            "Transparency and customer value",
+            "Lower premium rates",
+            "Increased claim limits",
+            "Automatic policy approval"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What type of policy provides a limited cover against fire and theft?",
+        "options": [
+            "Fire and Theft Only",
+            "Comprehensive",
+            "Third-party liability",
+            "Personal accident cover"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the main requirement for receiving a personal accident cover for the owner-driver?",
+        "options": [
+            "The owner must hold a valid driving license",
+            "The vehicle must be new",
+            "The policy must be comprehensive",
+            "The owner must be over 25 years old"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What benefit does a customer get from an anti-theft device installation in their vehicle?",
+        "options": [
+            "A discount on Own Damage premium",
+            "Free vehicle repair",
+            "Extended coverage",
+            "Higher insurance limits"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "How is the Insured Declared Value (IDV) for a vehicle calculated?",
+        "options": [
+            "Based on manufacturer’s price minus depreciation",
+            "Based on the vehicle's color",
+            "Based on previous claims",
+            "Based on driver’s age"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which policy covers third-party liability and own damage?",
+        "options": [
+            "Package policy",
+            "Third-party only",
+            "Fire and Theft Only",
+            "Personal Accident cover"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the minimum premium for vehicles designed for the physically challenged?",
+        "options": [
+            "Rs 25",
+            "Rs 100",
+            "Rs 50",
+            "Rs 200"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "In motor insurance, what does 'Zone A' typically represent?",
+        "options": [
+            "Major cities with high traffic",
+            "Rural areas",
+            "Desert regions",
+            "Industrial zones"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is required to extend a motor insurance policy's coverage to neighboring countries?",
+        "options": [
+            "Additional premium payment",
+            "Higher IDV",
+            "Additional cover note",
+            "Driver’s certification"
+        ],
+        "correctIndex": 0
+    }
+]

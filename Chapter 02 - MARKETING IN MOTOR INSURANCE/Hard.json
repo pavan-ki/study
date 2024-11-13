@@ -1,21 +1,251 @@
 [
     {
-        "question": "What is an International Driving Permit (IDP) primarily used for?",
+        "question": "What was the primary reason for establishing the Motor Third Party Pool in India?",
         "options": [
-            "Replacing a national driving license",
-            "Driving exclusively in Europe",
-            "Supplementing a national driving license in foreign countries",
-            "Allowing unlimited driving hours abroad"
+            "To enable insurers to charge premium rates freely",
+            "To ensure coverage for commercial vehicles facing high third-party liabilities",
+            "To increase competition among private insurers",
+            "To eliminate the need for third-party insurance for commercial vehicles"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which entity was assigned the role of administrator for the Motor Third Party Pool?",
+        "options": ["General Insurance Council", "IRDAI", "GIC Re", "Ministry of Transport"],
+        "correctIndex": 2
+    },
+    {
+        "question": "What mechanism does the pooling arrangement use to share third-party insurance among insurers?",
+        "options": [
+            "Fixed contribution",
+            "Reinsurance arrangement",
+            "Equal liability sharing",
+            "Premium adjustments"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Under the Motor Third Party Pool, what is the role of the General Insurance Council?",
+        "options": [
+            "Setting rates for third-party insurance",
+            "Administering the pool's funds",
+            "Providing underwriting rules and claims procedures",
+            "Resolving disputes among insurers"
         ],
         "correctIndex": 2
     },
     {
-        "question": "What is the role of an auto dealer in motor insurance?",
+        "question": "What percentage of motor third-party risk is ceded to GIC Re in the pooling arrangement?",
+        "options": ["5%", "10%", "15%", "20%"],
+        "correctIndex": 2
+    },
+    {
+        "question": "Why did private insurers criticize the Motor Third Party Pool?",
         "options": [
-            "Selling insurance independently",
-            "Providing mandatory registration and insurance options",
-            "Setting premium rates",
-            "Offering free car insurance with every sale"
+            "They were required to accept high-risk clients without discretion",
+            "They had to bear losses caused by inadequate due diligence by public insurers",
+            "They were excluded from the pool",
+            "They had to compete with international insurers"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What was a significant outcome of the Motor Third Party Pool for public sector insurers?",
+        "options": [
+            "Increase in profits",
+            "Reduction in solvency margin requirements",
+            "Increase in private insurance clients",
+            "Decrease in third-party claims"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What happens if an insurer delays remittance of funds to the pool administrator?",
+        "options": [
+            "The insurer is fined by IRDAI",
+            "The remittance attracts interest for delayed payment",
+            "The insurer is removed from the pool",
+            "The insurer's market share is reduced"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "How does the IRDAI determine premium rates in the Declined Risk Pool?",
+        "options": [
+            "By adjusting rates based on location",
+            "By setting a one-size-fits-all premium",
+            "By consulting with private insurers",
+            "By assessing risk based on vehicle type"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the key purpose of the 'no profit, no loss' principle in motor third-party pooling?",
+        "options": [
+            "To allow insurers to earn profit on pooled policies",
+            "To ensure all pooled business operates without a profit or loss",
+            "To increase premiums for all policyholders",
+            "To eliminate claims"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the significance of the 'Knock for Knock' agreement in motor insurance?",
+        "options": [
+            "It holds the driver at fault liable",
+            "It prevents subrogation between insurers for certain claims",
+            "It allows insurers to deny all claims",
+            "It mandates equal liability sharing"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which type of vehicles are generally exempt from the Knock for Knock agreement?",
+        "options": [
+            "Private cars",
+            "Public service vehicles",
+            "Two-wheelers",
+            "Electric vehicles"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "In what way does the 'Pay As You Drive' insurance model determine premium rates?",
+        "options": [
+            "Based solely on the driver’s age",
+            "Based on mileage and driving behavior",
+            "Based on the vehicle’s market value",
+            "Based on insurance claims history"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is required along with an IDP to legally drive in most foreign countries?",
+        "options": [
+            "International insurance coverage",
+            "Passport",
+            "The national driver’s license",
+            "Vehicle registration certificate"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "How is the concept of 'Drive Less Pay Less' beneficial in motor insurance?",
+        "options": [
+            "It encourages low-mileage drivers by reducing premiums",
+            "It mandates a fixed premium for all vehicles",
+            "It eliminates third-party coverage",
+            "It lowers premiums for drivers with no claims"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Under what condition is a claim paid under the Knock for Knock agreement?",
+        "options": [
+            "If both vehicles are privately owned",
+            "If negligence cannot be established",
+            "If both parties agree to litigation",
+            "If the driver at fault has full coverage"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What type of document is required to validate an International Driving Permit in India?",
+        "options": [
+            "A valid driving license",
+            "Vehicle ownership certificate",
+            "Proof of insurance",
+            "A no-claims bonus certificate"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the purpose of a preferred garage under motor insurance policies?",
+        "options": [
+            "To offer exclusive repairs for electric vehicles",
+            "To provide cashless repair services to policyholders",
+            "To replace parts for free",
+            "To handle all insurance claims processing"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which aspect of the Declined Risk Pool allows insurers flexibility?",
+        "options": [
+            "They can deny all high-risk claims",
+            "They can choose to cover liabilities based on risk levels",
+            "They only cover third-party claims",
+            "They avoid all third-party liabilities"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does the 'multi-lateral reinsurance arrangement' involve in the pooling process?",
+        "options": [
+            "Each insurer pays a fixed amount",
+            "A cession of risks among all insurers",
+            "Only GIC Re is involved in reinsurance",
+            "Private insurers are excluded"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Why was the declined pool concept introduced for commercial vehicles?",
+        "options": [
+            "To eliminate commercial insurance requirements",
+            "To ensure fair distribution of high-risk claims among insurers",
+            "To restrict commercial vehicle operations",
+            "To standardize premium rates for commercial vehicles"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "How does the General Insurance Council support the Motor Third Party Pool?",
+        "options": [
+            "By providing guidelines for underwriting and claims",
+            "By setting premium rates for private vehicles",
+            "By managing funds from private insurers",
+            "By assessing high-risk claims"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the primary requirement for a vehicle to qualify under the Declined Risk Pool?",
+        "options": [
+            "It must be a high-risk commercial vehicle",
+            "It must have comprehensive insurance",
+            "It must be privately owned",
+            "It must not have any claims history"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the main factor in calculating the market share in the Motor Third Party Pool?",
+        "options": [
+            "Insurers' profit margin",
+            "Gross Direct Premium Income (GDPI) of each insurer",
+            "Claims processed by each insurer",
+            "Number of vehicles insured by each insurer"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Why do insurers renew the Knock for Knock agreement annually?",
+        "options": [
+            "To update premium rates",
+            "To avoid prolonged litigation and delays",
+            "To verify claims history",
+            "To include new types of vehicles"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What key factor distinguishes the Pay As You Drive (PAYD) model from traditional motor insurance?",
+        "options": [
+            "It charges drivers based on claims history",
+            "It determines premiums based on distance driven and driving patterns",
+            "It offers a fixed premium regardless of usage",
+            "It reduces premiums solely for new cars"
         ],
         "correctIndex": 1
     }

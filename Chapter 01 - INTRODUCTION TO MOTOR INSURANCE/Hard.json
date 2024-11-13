@@ -1,21 +1,246 @@
 [
     {
-        "question": "What is an International Driving Permit (IDP) primarily used for?",
+        "question": "Which section of the Motor Vehicles Act deals specifically with third-party insurance requirements?",
+        "options": ["Section 140", "Section 145", "Section 146", "Section 160"],
+        "correctIndex": 2
+    },
+    {
+        "question": "What is a unique feature of the 'No Claim Bonus' (NCB) in motor insurance policies?",
         "options": [
-            "Replacing a national driving license",
-            "Driving exclusively in Europe",
-            "Supplementing a national driving license in foreign countries",
-            "Allowing unlimited driving hours abroad"
+            "It accumulates with every claim made",
+            "It can reduce the premium significantly over time",
+            "It is only applicable for commercial vehicles",
+            "It resets automatically every year"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which Act in India marked the entry of private insurers into the motor insurance market?",
+        "options": [
+            "The Motor Vehicles Act 1988",
+            "The Insurance Act 1938",
+            "The IRDA Act 1999",
+            "The Road Traffic Act 2000"
         ],
         "correctIndex": 2
     },
     {
-        "question": "What is the role of an auto dealer in motor insurance?",
+        "question": "How does the principle of 'contribution' apply if a vehicle is insured by multiple policies?",
         "options": [
-            "Selling insurance independently",
-            "Providing mandatory registration and insurance options",
-            "Setting premium rates",
-            "Offering free car insurance with every sale"
+            "Each insurer pays an equal share of the claim",
+            "The insured must choose one insurer to pay the claim",
+            "Each insurer contributes in proportion to their coverage",
+            "Only the first policy issued will cover the claim"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What does 'Indemnity' ensure in the context of motor insurance?",
+        "options": [
+            "Full replacement cost for a new vehicle",
+            "A return to the insured's original financial position",
+            "Profit from every claim",
+            "Higher premiums each year"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which document confirms that a vehicle is insured for third-party risks?",
+        "options": [
+            "Certificate of Insurance",
+            "Registration Certificate",
+            "Driver's License",
+            "Fitness Certificate"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which organization was set up to oversee fair competition in the Indian insurance sector?",
+        "options": [
+            "IRDA",
+            "GIC",
+            "SEBI",
+            "RBI"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "In motor insurance, the Insured’s Declared Value (IDV) is primarily used to determine:",
+        "options": [
+            "The resale value of the vehicle",
+            "The premium for comprehensive coverage",
+            "The amount payable for third-party damages",
+            "The legal responsibility of the insurer"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What major shift did the IRDA Act 1999 bring to the Indian motor insurance industry?",
+        "options": [
+            "Mandated third-party insurance for all vehicles",
+            "Allowed private insurers to enter the market",
+            "Reduced premium rates for commercial vehicles",
+            "Made own damage coverage mandatory"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is required for an insured to claim for 'Own Damage' under a motor policy?",
+        "options": [
+            "Third-party liability coverage",
+            "Proof of a comprehensive policy",
+            "A fitness certificate for the vehicle",
+            "An NCB certificate"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which principle allows an insurer to recover the claim amount from the third party responsible for a loss?",
+        "options": [
+            "Utmost Good Faith",
+            "Subrogation",
+            "Contribution",
+            "Indemnity"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which of the following would typically not be covered under a standard third-party motor insurance policy?",
+        "options": [
+            "Damage to third-party property",
+            "Injury to pedestrians",
+            "Damage to the insured's own vehicle",
+            "Injury to passengers in another vehicle"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "In case of total loss, what amount is generally payable under a motor insurance policy?",
+        "options": [
+            "Market value of the vehicle",
+            "Insured’s Declared Value (IDV)",
+            "Original purchase price",
+            "Depreciated value minus NCB"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the purpose of the Motor Accident Claims Tribunal (MACT) in India?",
+        "options": [
+            "To set vehicle insurance premiums",
+            "To handle compensation claims for motor accidents",
+            "To enforce motor vehicle safety standards",
+            "To regulate insurance policies"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "How does IRDA control third-party motor insurance premiums?",
+        "options": [
+            "By mandating fixed rates",
+            "By allowing private insurers to set their own rates",
+            "By advising insurers on recommended rates",
+            "By linking premiums to driver age"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is an 'Own Damage' cover specifically designed to protect against?",
+        "options": [
+            "Injury to pedestrians",
+            "Loss or damage to the insured’s own vehicle",
+            "Loss of no-claim bonus",
+            "Increase in premium rates"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Under what condition can an insurer deny a claim due to non-disclosure?",
+        "options": [
+            "If it involves a minor accident",
+            "If material facts were intentionally withheld",
+            "If the driver was underage",
+            "If the claim amount is low"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which of these elements is not typically required to make a third-party insurance claim?",
+        "options": [
+            "Insurance certificate",
+            "Driver’s license",
+            "Police FIR",
+            "Vehicle owner’s passport"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "question": "How does the principle of indemnity affect claims for stolen vehicles?",
+        "options": [
+            "Only half of the market value is paid",
+            "The insured receives the IDV minus depreciation",
+            "The insured gets full reimbursement without deduction",
+            "Claims are automatically denied"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "In which situation is a motor insurance policy likely to apply the subrogation principle?",
+        "options": [
+            "When both parties are equally at fault",
+            "When an insurer compensates for a loss caused by a third party",
+            "When the vehicle is stolen",
+            "When there is no evidence of third-party involvement"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "How does the 'contribution' principle apply when multiple policies cover the same vehicle?",
+        "options": [
+            "The policy with the highest premium covers the loss",
+            "Each insurer pays a share of the claim proportional to the coverage",
+            "Only one policy can be used for the claim",
+            "Claims are denied in such cases"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the primary focus of the Motor Vehicles Act 1988 in India?",
+        "options": [
+            "To regulate vehicle imports",
+            "To ensure third-party insurance for public safety",
+            "To mandate own damage coverage",
+            "To control traffic fines"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which of these is a statutory obligation under the Motor Vehicles Act for all vehicle owners?",
+        "options": [
+            "Owning comprehensive insurance",
+            "Having third-party liability insurance",
+            "Paying vehicle tax annually",
+            "Renewing insurance every three years"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is a key factor in calculating motor insurance premiums for commercial vehicles?",
+        "options": [
+            "Vehicle color",
+            "Driver’s age",
+            "Type and usage of vehicle",
+            "Time of day the vehicle is used"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Which component of a motor insurance policy primarily covers damage to the insured's own vehicle?",
+        "options": [
+            "Third-party insurance",
+            "Own damage cover",
+            "No-claim bonus",
+            "Indemnity clause"
         ],
         "correctIndex": 1
     }

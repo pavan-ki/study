@@ -1,0 +1,252 @@
+[
+    {
+        "question": "What is the primary reason for IRDAI regulating third-party liability premiums in India?",
+        "options": [
+            "To prevent premium hikes in a loss-making portfolio",
+            "To increase insurers' profits",
+            "To control fraudulent claims",
+            "To encourage competition among insurers"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which factor must be considered by insurers when calculating premiums in a detariffed market?",
+        "options": [
+            "Historical loss data and vehicle risk factors",
+            "The driver’s nationality",
+            "The vehicle’s make only",
+            "Only the policyholder's age"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What impact did the detariffing of Own Damage cover have on the motor insurance market?",
+        "options": [
+            "Insurers could freely set Own Damage premiums",
+            "Third-party insurance became optional",
+            "Premiums were capped at a fixed rate",
+            "Claims processing became automated"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is a primary function of underwriting in motor insurance?",
+        "options": [
+            "To assess risk and calculate suitable premiums",
+            "To renew policies automatically",
+            "To negotiate claims",
+            "To determine policyholder's driving skills"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the primary purpose of the 'File & Use' guidelines issued by IRDAI?",
+        "options": [
+            "To ensure all new products meet transparency and fairness standards",
+            "To automatically approve premium increases",
+            "To limit product availability",
+            "To increase third-party premiums uniformly"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which add-on is specifically designed to waive the depreciation costs during a claim?",
+        "options": [
+            "Waiver of Depreciation",
+            "Loss of Use",
+            "Third-party Extension",
+            "Personal Accident Cover"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Why do insurers consider the Insured Declared Value (IDV) in policy pricing?",
+        "options": [
+            "It reflects the vehicle’s current market value for claims",
+            "It determines policyholder’s creditworthiness",
+            "It helps reduce premium rates",
+            "It indicates the policy duration"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which of the following scenarios could lead to higher motor insurance premiums?",
+        "options": [
+            "Frequent claims in the previous year",
+            "Vehicle color",
+            "Driver’s age only",
+            "Absence of any claims"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the purpose of a 'voluntary deductible' in a motor insurance policy?",
+        "options": [
+            "To reduce premium by accepting higher out-of-pocket costs during a claim",
+            "To increase the coverage limit",
+            "To remove third-party liabilities",
+            "To extend the policy term"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "How does IRDAI’s regulation impact the third-party liability premium?",
+        "options": [
+            "It prevents excessive premium increases",
+            "It removes third-party coverage",
+            "It mandates only liability coverage",
+            "It increases policy term limits"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Why might insurers analyze claim frequency and severity in a detariffed market?",
+        "options": [
+            "To set premiums more accurately and maintain profitability",
+            "To reduce the number of claims",
+            "To standardize policy features",
+            "To minimize customer complaints"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What coverage does 'Loss of Use' add-on provide?",
+        "options": [
+            "Rental costs when the vehicle is unavailable due to repairs",
+            "Waiver of depreciation",
+            "Third-party injury coverage",
+            "Coverage for total loss"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the purpose of a No Claim Bonus (NCB) transfer?",
+        "options": [
+            "To allow policyholders to carry forward their discount to a new policy",
+            "To increase the policy term",
+            "To enhance liability cover",
+            "To add more vehicles to the policy"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "How does an insurer typically calculate the premium for Own Damage coverage?",
+        "options": [
+            "Based on the vehicle’s IDV and risk factors",
+            "Based on the policyholder’s age only",
+            "Based on the claim history of other drivers",
+            "Based on the color of the vehicle"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which document must be presented to confirm insurance coverage during a police inspection?",
+        "options": [
+            "Certificate of Insurance",
+            "No Claim Bonus Certificate",
+            "Proposal form",
+            "Policy schedule"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the purpose of analyzing past loss experience in motor insurance?",
+        "options": [
+            "To set premiums based on accurate risk assessment",
+            "To eliminate liability claims",
+            "To increase the vehicle's value",
+            "To reduce the term of the policy"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Why might an insurer require a 'File & Use' approval for a new add-on?",
+        "options": [
+            "To ensure it complies with customer protection guidelines",
+            "To increase premium rates",
+            "To reduce claim amounts",
+            "To extend coverage only to luxury vehicles"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "How does 'detariffing' benefit insurers in setting Own Damage premiums?",
+        "options": [
+            "Allows them to set rates based on individual risk factors",
+            "Forces them to use uniform premium rates",
+            "Reduces the scope of coverage",
+            "Automatically lowers claim amounts"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is required to retain a No Claim Bonus at renewal?",
+        "options": [
+            "No claims during the policy term",
+            "Increasing the vehicle’s IDV",
+            "Adding additional coverage",
+            "Changing the vehicle’s registration"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What does the term 'detariffing' specifically refer to in the motor insurance industry?",
+        "options": [
+            "Allowing insurers to set their own rates for Own Damage coverage",
+            "Reducing all policy premiums",
+            "Excluding third-party liability",
+            "Requiring insurers to standardize all premiums"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "How does a competitive premium-setting model help insurers?",
+        "options": [
+            "By allowing them to set fair and market-sustainable premiums",
+            "By automatically increasing IDV",
+            "By reducing claim frequencies",
+            "By enforcing government-mandated rates"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What role does the Insured Declared Value (IDV) play in premium calculation?",
+        "options": [
+            "Higher IDV generally leads to higher premiums",
+            "It only affects claim processing",
+            "It has no impact on premiums",
+            "It decreases premiums by default"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Why is it crucial for insurers to follow the 'File & Use' guidelines when launching new products?",
+        "options": [
+            "To ensure transparency and compliance with IRDAI regulations",
+            "To reduce policy costs",
+            "To increase customer claims",
+            "To eliminate third-party liability"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What advantage does a 'voluntary deductible' provide to policyholders?",
+        "options": [
+            "Lower premiums in exchange for sharing initial claim costs",
+            "Higher premiums",
+            "Longer policy duration",
+            "Reduced liability coverage"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is a primary reason for setting a competitive premium in a detariffed market?",
+        "options": [
+            "To avoid unsustainable undercutting and excessive pricing",
+            "To encourage claims",
+            "To eliminate No Claim Bonuses",
+            "To enforce uniform premiums across vehicles"
+        ],
+        "correctIndex": 0
+    }
+]

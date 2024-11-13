@@ -1,22 +1,207 @@
 [
     {
-        "question": "What is an International Driving Permit (IDP) primarily used for?",
+        "question": "Where did motor insurance first begin?",
+        "options": ["United States", "France", "United Kingdom", "India"],
+        "correctIndex": 2
+    },
+    {
+        "question": "Which Act mandated compulsory third-party insurance in the UK?",
         "options": [
-            "Replacing a national driving license",
-            "Driving exclusively in Europe",
-            "Supplementing a national driving license in foreign countries",
-            "Allowing unlimited driving hours abroad"
+            "The Insurance Act 1925",
+            "The Road Traffic Act 1930",
+            "The Motor Vehicles Act 1939",
+            "The Traffic Control Act 1950"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "In what year was the Motor Vehicles Act introduced in India?",
+        "options": ["1929", "1939", "1949", "1959"],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does the principle of 'utmost good faith' in insurance require?",
+        "options": [
+            "Both parties disclose all material facts",
+            "Insurers reduce premium rates",
+            "Only the insured disclose their details",
+            "The policy renews automatically each year"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Who is required to have insurable interest in a vehicle to obtain motor insurance?",
+        "options": ["Only the insurer", "Vehicle owner", "Only the driver", "Any person in possession of the vehicle"],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which Act replaced the Motor Vehicles Act of 1939 in India?",
+        "options": ["The Motor Vehicles Act 1956", "The Motor Vehicles Act 1988", "The Insurance Act 1962", "The Road Safety Act 1999"],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the main purpose of third-party insurance?",
+        "options": [
+            "To cover damages to the insured’s own vehicle",
+            "To cover injury or damage to third parties",
+            "To provide no-fault benefits to the driver",
+            "To cover maintenance expenses for the vehicle"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which organization regulates motor insurance premiums in India?",
+        "options": ["Reserve Bank of India", "Ministry of Finance", "Insurance Regulatory and Development Authority (IRDA)", "General Insurance Council"],
+        "correctIndex": 2
+    },
+    {
+        "question": "The first motor insurance policy covered what type of risk?",
+        "options": ["Comprehensive coverage", "Accidental damage", "Third-party liability", "Natural disasters"],
+        "correctIndex": 2
+    },
+    {
+        "question": "What principle ensures the insured is not profiting from a loss?",
+        "options": ["Contribution", "Utmost good faith", "Indemnity", "Insurable interest"],
+        "correctIndex": 2
+    },
+    {
+        "question": "What is the primary purpose of the Motor Vehicles Act?",
+        "options": [
+            "To regulate vehicle sales",
+            "To establish road construction standards",
+            "To ensure road safety and insurance compliance",
+            "To fund public transportation"
         ],
         "correctIndex": 2
     },
     {
-        "question": "What is the role of an auto dealer in motor insurance?",
+        "question": "Which of the following is true about comprehensive motor insurance?",
         "options": [
-            "Selling insurance independently",
-            "Providing mandatory registration and insurance options",
-            "Setting premium rates",
-            "Offering free car insurance with every sale"
+            "It only covers third-party liability",
+            "It includes coverage for both own damage and third-party liability",
+            "It excludes accidental damage",
+            "It has no deductible"
         ],
         "correctIndex": 1
+    },
+    {
+        "question": "What is the loss ratio in motor insurance?",
+        "options": [
+            "The ratio of claims to the total number of policies",
+            "The ratio of total claims paid to total premiums collected",
+            "The ratio of claims to market share",
+            "The ratio of policies issued to those expired"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What legal obligation does the Motor Vehicles Act of 1988 impose on vehicle owners?",
+        "options": [
+            "To pay taxes annually",
+            "To insure their vehicles for third-party liability",
+            "To renew their license every five years",
+            "To perform vehicle safety inspections yearly"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which principle in motor insurance allows the insurer to pursue a third party responsible for a loss?",
+        "options": ["Subrogation", "Contribution", "Insurable interest", "Uberrima fides"],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is required for a motor insurance contract to be valid?",
+        "options": [
+            "Both parties must have equal knowledge of the policy",
+            "The insured must disclose all material facts",
+            "The insurer must cover all risks",
+            "The policy must be signed by a government official"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does the Motor Vehicles Act of 1988 state about liability insurance?",
+        "options": [
+            "It is optional for vehicle owners",
+            "It is compulsory for all vehicles in public places",
+            "It is only required for commercial vehicles",
+            "It is only for private vehicles"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which event allows the principle of subrogation to be applied?",
+        "options": [
+            "Loss due to natural disasters",
+            "Loss due to depreciation",
+            "Loss caused by a third party",
+            "Loss due to the owner's fault"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What is the main difference between the 1939 and 1988 Motor Vehicles Acts in India?",
+        "options": [
+            "The 1988 Act includes mandatory third-party insurance",
+            "The 1988 Act limits vehicle sales",
+            "The 1939 Act required comprehensive insurance",
+            "The 1988 Act restricts vehicle ownership to adults"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which type of insurance is mandatory for vehicles under Indian law?",
+        "options": ["Comprehensive", "Third-party liability", "Collision coverage", "Theft protection"],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which principle prevents double compensation when the same vehicle is insured by multiple policies?",
+        "options": ["Contribution", "Indemnity", "Subrogation", "Insurable interest"],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which document proves a vehicle’s third-party insurance under the Motor Vehicles Act?",
+        "options": ["Driving license", "Registration certificate", "Insurance certificate", "Fitness certificate"],
+        "correctIndex": 2
+    },
+    {
+        "question": "What is the primary role of the Insurance Regulatory and Development Authority (IRDA)?",
+        "options": [
+            "To approve vehicle purchases",
+            "To regulate and monitor insurance practices",
+            "To set vehicle safety standards",
+            "To oversee motor vehicle laws"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What factor differentiates an insurance contract from a wagering contract?",
+        "options": [
+            "The insured can make a profit",
+            "It is legally recognized and compensates upon an event",
+            "It is agreed between two parties",
+            "It is based on chance"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is required before the sale of a vehicle under the Motor Vehicles Act?",
+        "options": [
+            "Insurance for third-party liabilities",
+            "Owner’s identification proof",
+            "A fitness certificate",
+            "A pollution control certificate"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the significance of the Insured's Declared Value (IDV) in motor insurance?",
+        "options": [
+            "It is the market value of the vehicle",
+            "It is the depreciated value of the vehicle",
+            "It is the agreed amount payable in total loss cases",
+            "It is the amount paid for small repairs"
+        ],
+        "correctIndex": 2
     }
 ]

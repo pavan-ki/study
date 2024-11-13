@@ -1,21 +1,251 @@
 [
     {
-        "question": "What is an International Driving Permit (IDP) primarily used for?",
+        "question": "What specific details must be accurately filled in a motor insurance proposal form to avoid future claim rejections?",
         "options": [
-            "Replacing a national driving license",
-            "Driving exclusively in Europe",
-            "Supplementing a national driving license in foreign countries",
-            "Allowing unlimited driving hours abroad"
+            "Driving license number and personal details",
+            "Vehicle specifications, ownership details, and previous claims history",
+            "Policy renewal history",
+            "Vehicle color and seat material"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What happens if a certificate of insurance is found to be invalid during a third-party claim process?",
+        "options": [
+            "The claim is transferred to a different insurer",
+            "The claim may be denied or require additional proof",
+            "The claim amount is doubled",
+            "The insured is required to pay a fine"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which document is legally required to operate a commercial vehicle under motor trade policies?",
+        "options": [
+            "Cover note",
+            "Certificate of insurance",
+            "Policy renewal receipt",
+            "Proposal form"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "In the case of a total loss, what does the 'Insured Declared Value' (IDV) represent?",
+        "options": [
+            "The premium amount paid",
+            "The market value minus depreciation",
+            "The agreed value payable in total loss cases",
+            "The resale value of the vehicle"
         ],
         "correctIndex": 2
     },
     {
-        "question": "What is the role of an auto dealer in motor insurance?",
+        "question": "Which aspect of motor insurance policies ensures compliance with the Motor Vehicles Act?",
         "options": [
-            "Selling insurance independently",
-            "Providing mandatory registration and insurance options",
-            "Setting premium rates",
-            "Offering free car insurance with every sale"
+            "Proposal form submission",
+            "Policy issuance",
+            "Certificate of insurance issuance",
+            "Vehicle inspection report"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "How does an insurer calculate the premium for a comprehensive motor insurance policy?",
+        "options": [
+            "Based solely on the owner's driving history",
+            "Using the IDV, vehicle type, and risk assessment",
+            "Based on the vehicle's color",
+            "Using the owner’s previous insurance provider"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Why might a policyholder prefer a package policy over a liability-only policy?",
+        "options": [
+            "It offers cashless repairs at select garages",
+            "It includes both own damage and third-party liability coverage",
+            "It only covers third-party injury claims",
+            "It has no deductible"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the purpose of the 'special types' classification in motor insurance?",
+        "options": [
+            "To categorize high-risk commercial vehicles",
+            "To identify vehicles with unique functions, like ambulances and cranes",
+            "To classify vehicles for private use only",
+            "To exempt luxury vehicles from certain claims"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Under what condition can a claim be denied based on incorrect information in the proposal form?",
+        "options": [
+            "If the vehicle has been modified",
+            "If the information affects risk assessment",
+            "If the insured has a valid cover note",
+            "If the claim is below a certain amount"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does a policyholder need to claim a 'no claim bonus' transfer?",
+        "options": [
+            "Proof of no claims from the previous insurer",
+            "A new proposal form",
+            "A lower premium payment",
+            "A copy of the policy document"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Why is it important for insurers to issue a cover note immediately?",
+        "options": [
+            "To confirm the policy has been approved",
+            "To offer temporary proof of insurance",
+            "To lower the premium",
+            "To offer a discount on renewals"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What happens if an insured vehicle is driven without a valid certificate of insurance?",
+        "options": [
+            "The policy automatically renews",
+            "The driver faces legal penalties",
+            "The premium is increased",
+            "The vehicle is impounded immediately"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the impact of 'Insured Declared Value' (IDV) on motor insurance premium calculations?",
+        "options": [
+            "A higher IDV leads to a higher premium",
+            "IDV has no impact on premiums",
+            "A lower IDV increases the premium",
+            "IDV only affects vehicle resale value"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the difference between a cover note and a certificate of insurance?",
+        "options": [
+            "A cover note is temporary, while a certificate is the official proof of insurance",
+            "A cover note includes only third-party coverage",
+            "A cover note is issued for a specific claim",
+            "A certificate covers only liability claims"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the primary purpose of the 'endorsement' in a motor insurance policy?",
+        "options": [
+            "To confirm the policy’s terms and conditions",
+            "To modify or add specific coverages to an existing policy",
+            "To serve as a claim record",
+            "To increase policy premiums"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Why is it critical to declare all modifications on the proposal form for motor insurance?",
+        "options": [
+            "To ensure accurate premium calculation",
+            "To make the vehicle eligible for a discount",
+            "To automatically apply for comprehensive insurance",
+            "To guarantee an immediate payout in case of claims"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What does 'knock for knock' mean in the context of motor insurance claims?",
+        "options": [
+            "Each driver covers their own damages without involving the other insurer",
+            "Only the party at fault is liable",
+            "Insurers settle each claim proportionately",
+            "Claims are only settled if both parties agree"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is one risk of not accurately filling out a proposal form in motor insurance?",
+        "options": [
+            "Higher premium rates",
+            "Claim rejections or disputes",
+            "Automatic policy cancellation",
+            "Lower coverage limits"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "How is 'no claim bonus' (NCB) affected if a claim is filed during the policy term?",
+        "options": [
+            "It resets to zero",
+            "It increases by a fixed percentage",
+            "It remains unchanged",
+            "It doubles the next year"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Under which situation would a 'road transit risks only' policy be applicable?",
+        "options": [
+            "For private vehicles used occasionally",
+            "For commercial vehicles under transit only",
+            "For vehicles used exclusively off-road",
+            "For motorcycles in urban areas"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is one of the main reasons for classifying vehicles into different classes in motor insurance?",
+        "options": [
+            "To simplify premium calculations",
+            "To apply specific coverages and rates based on vehicle use",
+            "To offer lower premiums",
+            "To eliminate liability claims"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What document must be carried to legally prove motor insurance in case of an accident?",
+        "options": [
+            "Cover note",
+            "Certificate of insurance",
+            "Vehicle registration",
+            "Policy renewal notice"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Why is the 'Insured Declared Value' (IDV) important in the event of total loss or theft?",
+        "options": [
+            "It determines the payout amount",
+            "It determines the premium increase",
+            "It decreases each claim’s limit",
+            "It allows policyholder discounts"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Why might an insurer add an endorsement to a policy?",
+        "options": [
+            "To modify coverage due to vehicle changes",
+            "To reduce the premium automatically",
+            "To simplify the claims process",
+            "To increase the policy’s NCB"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "In motor insurance, how is the term 'insured' legally defined?",
+        "options": [
+            "The vehicle’s primary driver",
+            "The individual or entity with insurable interest in the vehicle",
+            "The owner only",
+            "The insurer itself"
         ],
         "correctIndex": 1
     }

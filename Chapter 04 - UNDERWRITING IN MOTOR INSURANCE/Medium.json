@@ -1,0 +1,252 @@
+[
+    {
+        "question": "Which organization in India regulates the third-party liability premium?",
+        "options": [
+            "IRDAI",
+            "RBI",
+            "SEBI",
+            "GIC"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What significant change occurred in the motor insurance market after 2006 in India?",
+        "options": [
+            "Detariffing of Own Damage cover",
+            "Ban on third-party liability",
+            "Introduction of free insurance",
+            "Restriction on issuing cover notes"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the main goal of the 'File & Use' guidelines in motor insurance?",
+        "options": [
+            "Ensure transparency and customer value",
+            "Increase premium rates",
+            "Reduce insurance claims",
+            "Limit product innovation"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What does the 'Loss of Use' add-on cover?",
+        "options": [
+            "Rental costs when the insured vehicle is unusable",
+            "Damages to the vehicle",
+            "Insurance premium discounts",
+            "Exclusion of third-party claims"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is required for an insurer to introduce a new motor insurance product in India?",
+        "options": [
+            "Approval under File & Use guidelines",
+            "Automatic introduction",
+            "License from Ministry of Transport",
+            "Permission from RBI"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Why is third-party liability premium still regulated by IRDAI?",
+        "options": [
+            "It is a statutory insurance and loss-making portfolio",
+            "It generates high profits",
+            "It is only for private vehicles",
+            "It has low claim frequency"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which add-on allows coverage for partial or total depreciation of the vehicle?",
+        "options": [
+            "Waiver of Depreciation",
+            "Loss of Use",
+            "Liability Only",
+            "Own Damage"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What data do insurers analyze to set motor insurance premium rates?",
+        "options": [
+            "Past loss experience and risk factors",
+            "Vehicle color",
+            "Driver's gender",
+            "Vehicle's last maintenance date"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What purpose does the No Claim Bonus (NCB) serve in motor insurance?",
+        "options": [
+            "Reward claim-free policyholders with a discount",
+            "Increase premiums for new policies",
+            "Reduce third-party coverage",
+            "Extend coverage limits"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the main reason insurers monitor claims data in a detariffed market?",
+        "options": [
+            "To improve profitability through accurate pricing",
+            "To reduce paperwork",
+            "To increase premium on renewals",
+            "To eliminate claims processing"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the significance of a 'competitive premium-setting model'?",
+        "options": [
+            "To ensure premiums are neither excessive nor unsustainable",
+            "To reduce the IDV",
+            "To impose higher rates on older vehicles",
+            "To increase premiums for commercial vehicles only"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Why would an insurer add a 'voluntary deductible' to a motor policy?",
+        "options": [
+            "To lower the premium in exchange for higher out-of-pocket costs",
+            "To provide more comprehensive coverage",
+            "To increase the IDV",
+            "To include third-party liability"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What type of motor policy allows the insurer to cover specific events like fire or theft?",
+        "options": [
+            "Fire and Theft Only",
+            "Comprehensive policy",
+            "Third-Party policy",
+            "Personal Accident policy"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the purpose of the 'Own Damage' section in motor insurance?",
+        "options": [
+            "To cover damage to the insured’s vehicle",
+            "To cover third-party liabilities only",
+            "To provide life insurance",
+            "To increase the policy term"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "How does the motor insurance market ensure fair pricing in a detariffed regime?",
+        "options": [
+            "By using past loss experience data",
+            "By charging a flat rate for all vehicles",
+            "By regulating add-ons",
+            "By eliminating third-party liability"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the primary focus of motor underwriting?",
+        "options": [
+            "Risk assessment and premium determination",
+            "Vehicle maintenance",
+            "Policyholder’s income",
+            "Weather conditions"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which clause allows for the addition of electronic accessories to the policy?",
+        "options": [
+            "Add-on Clause",
+            "Liability Clause",
+            "Depreciation Clause",
+            "Exclusion Clause"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which add-on covers the rental cost when an insured vehicle is unavailable?",
+        "options": [
+            "Loss of Use",
+            "Waiver of Depreciation",
+            "Third-party liability",
+            "Personal accident cover"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What document is required for policyholders to prove insurance compliance?",
+        "options": [
+            "Certificate of Insurance",
+            "Proposal form",
+            "Policy renewal notice",
+            "Claims form"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What does a 'Waiver of Depreciation' add-on provide?",
+        "options": [
+            "Coverage without factoring depreciation",
+            "Discounted insurance premium",
+            "Reduced IDV",
+            "Additional third-party liability"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What must be updated in motor insurance data for accurate premium setting?",
+        "options": [
+            "Vehicle classification, zones, age, and body type",
+            "Vehicle’s color",
+            "Driver’s marital status",
+            "Vehicle's sound system"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "How can policyholders achieve a No Claim Bonus?",
+        "options": [
+            "By having no claims filed in the previous year",
+            "By purchasing additional add-ons",
+            "By reducing their deductible",
+            "By changing their vehicle’s color"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the purpose of IRDAI’s regulation of third-party liability premiums?",
+        "options": [
+            "To avoid excessive premium hikes for policyholders",
+            "To increase insurance profits",
+            "To standardize all premiums",
+            "To reduce coverage limits"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What add-on is provided to cover depreciation costs?",
+        "options": [
+            "Waiver of Depreciation",
+            "Loss of Use",
+            "Fire Only Cover",
+            "Personal Accident"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What does the competitive premium-setting model help prevent?",
+        "options": [
+            "Excessive pricing and unsustainable premium undercutting",
+            "Overloading of vehicles",
+            "Reduction in insurance benefits",
+            "Claim reduction"
+        ],
+        "correctIndex": 0
+    }
+]

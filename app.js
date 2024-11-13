@@ -14,7 +14,8 @@ function populateMenu() {
     const chapters = {
         "Chapter 01 - INTRODUCTION TO MOTOR INSURANCE": ["Easy.json", "Medium.json", "Hard.json"],
         "Chapter 02 - MARKETING IN MOTOR INSURANCE": ["Easy.json", "Medium.json", "Hard.json"],
-        "Chapter 03 - TYPE OF MOTOR VEHICLES, DOCUMENTS AND POLICIES": ["Easy.json", "Medium.json", "Hard.json"]
+        "Chapter 03 - TYPE OF MOTOR VEHICLES, DOCUMENTS AND POLICIES": ["Easy.json", "Medium.json", "Hard.json"],
+        "Chapter 04 - UNDERWRITING IN MOTOR INSURANCE": ["Easy.json", "Medium.json", "Hard.json"]
     };
 
     const sidenav = document.getElementById("mySidenav");

@@ -1,22 +1,252 @@
 [
     {
-        "question": "What is an International Driving Permit (IDP) primarily used for?",
+        "question": "What is required to issue a cover note in motor insurance?",
         "options": [
-            "Replacing a national driving license",
-            "Driving exclusively in Europe",
-            "Supplementing a national driving license in foreign countries",
-            "Allowing unlimited driving hours abroad"
+            "A completed proposal form",
+            "A prior insurance policy",
+            "A vehicle inspection",
+            "A valid driving license"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which policy type in motor insurance provides coverage only for third-party liabilities?",
+        "options": [
+            "Comprehensive policy",
+            "Liability-only policy",
+            "Package policy",
+            "Cover note policy"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which vehicle class under motor trade policies covers road transit risks only?",
+        "options": [
+            "Class F",
+            "Class G",
+            "Class E",
+            "Class H"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What document must be issued within seven days of issuing a cover note?",
+        "options": [
+            "Certificate of insurance",
+            "Vehicle registration",
+            "Renewal notice",
+            "Vehicle inspection report"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "How long is a cover note typically valid in motor insurance?",
+        "options": [
+            "30 days",
+            "60 days",
+            "90 days",
+            "7 days"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the primary purpose of the proposal form in motor insurance?",
+        "options": [
+            "To serve as a temporary insurance document",
+            "To provide the insurer with necessary details to assess risk",
+            "To guarantee policy renewal",
+            "To estimate repair costs"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which document is mandatory to carry while driving a motor vehicle in India?",
+        "options": [
+            "Cover note",
+            "Proposal form",
+            "Certificate of insurance",
+            "E-insurance account"
         ],
         "correctIndex": 2
     },
     {
-        "question": "What is the role of an auto dealer in motor insurance?",
+        "question": "In which document are the details of coverage and exclusions explicitly listed?",
         "options": [
-            "Selling insurance independently",
-            "Providing mandatory registration and insurance options",
-            "Setting premium rates",
-            "Offering free car insurance with every sale"
+            "Proposal form",
+            "Cover note",
+            "Policy document",
+            "Certificate of insurance"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What is typically included in the 'own damage' section of a motor insurance policy?",
+        "options": [
+            "Liability coverage only",
+            "Coverage for damages to the insured’s own vehicle",
+            "Coverage for third-party injury",
+            "Coverage for policy renewals"
         ],
         "correctIndex": 1
+    },
+    {
+        "question": "Under which vehicle class do taxis fall in motor insurance?",
+        "options": [
+            "Class A",
+            "Class B",
+            "Class C",
+            "Class D"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What is a key feature of the Knock for Knock agreement?",
+        "options": [
+            "It eliminates the need for third-party claims between insurers",
+            "It increases the policy premium",
+            "It allows insurers to deny claims",
+            "It is applicable only for private vehicles"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which policy is recommended if the owner wants comprehensive coverage for both third-party and own damage?",
+        "options": [
+            "Liability-only policy",
+            "Cover note policy",
+            "Package policy",
+            "Third-party only policy"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "For how long is an International Driving Permit (IDP) typically valid?",
+        "options": [
+            "One year",
+            "Two years",
+            "Three years",
+            "Indefinitely"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "In motor insurance, which policy covers accidental injury or death to third parties?",
+        "options": [
+            "Package policy",
+            "Liability-only policy",
+            "Comprehensive policy",
+            "Own damage policy"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the function of a policy document in motor insurance?",
+        "options": [
+            "It serves as a temporary insurance document",
+            "It outlines the terms, coverage, and exclusions of the policy",
+            "It provides maintenance schedules for the vehicle",
+            "It serves as a driving license"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which document is considered the 'legal contract' between the insurer and the insured in motor insurance?",
+        "options": [
+            "Proposal form",
+            "Cover note",
+            "Policy document",
+            "Certificate of insurance"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "In the absence of a policy document, which document can temporarily serve as proof of insurance?",
+        "options": [
+            "Proposal form",
+            "Cover note",
+            "Renewal receipt",
+            "Claim form"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What document must be shown to law enforcement to confirm motor insurance coverage?",
+        "options": [
+            "Cover note",
+            "Certificate of insurance",
+            "Proposal form",
+            "Policy renewal notice"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What factor primarily determines the premium for a motor trade policy?",
+        "options": [
+            "The type of trade involved",
+            "The owner's age",
+            "The number of claims made",
+            "The number of cars sold by the trader"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which type of policy would cover accidental damage to the insured’s own vehicle?",
+        "options": [
+            "Liability-only policy",
+            "Own damage policy",
+            "Comprehensive policy",
+            "Third-party only policy"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What information is typically collected on a proposal form for motor insurance?",
+        "options": [
+            "Driver’s license details",
+            "Vehicle details and personal information",
+            "Vehicle service history",
+            "Number of previous policies"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is required to claim a 'no claim bonus' at renewal?",
+        "options": [
+            "No claims filed in the previous year",
+            "More than three claims filed",
+            "Vehicle repair records",
+            "Proof of vehicle ownership"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What document is crucial for third-party claims in motor insurance?",
+        "options": [
+            "Proposal form",
+            "Certificate of insurance",
+            "Vehicle inspection report",
+            "Driver’s license"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Under which class are commercial vehicles like taxis generally classified?",
+        "options": [
+            "Class A",
+            "Class B",
+            "Class C",
+            "Class D"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What document serves as an interim proof of insurance until a policy document is issued?",
+        "options": [
+            "Cover note",
+            "Proposal form",
+            "Certificate of insurance",
+            "Claim form"
+        ],
+        "correctIndex": 0
     }
 ]

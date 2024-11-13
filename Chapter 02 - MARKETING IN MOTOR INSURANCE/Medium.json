@@ -1,21 +1,256 @@
 [
     {
-        "question": "What is an International Driving Permit (IDP) primarily used for?",
+        "question": "What was the purpose of the Motor Third Party Pool created by the IRDAI in 2006?",
         "options": [
-            "Replacing a national driving license",
-            "Driving exclusively in Europe",
-            "Supplementing a national driving license in foreign countries",
-            "Allowing unlimited driving hours abroad"
+            "To allow private insurers to avoid high-risk claims",
+            "To mandate all insurers to share third-party losses for commercial vehicles",
+            "To increase premium rates for all vehicles",
+            "To eliminate third-party insurance"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which entity administers the Motor Third Party Pool?",
+        "options": ["IRDAI", "General Insurance Council", "GIC Re", "RBI"],
+        "correctIndex": 2
+    },
+    {
+        "question": "What is the role of the General Insurance Council in the Motor Third Party Pool?",
+        "options": [
+            "To set premium rates for third-party insurance",
+            "To settle claims on behalf of all insurers",
+            "To establish rules for underwriting and claims processing",
+            "To enforce penalties on insurers"
         ],
         "correctIndex": 2
     },
     {
-        "question": "What is the role of an auto dealer in motor insurance?",
+        "question": "Which vehicles are typically excluded from the Knock for Knock Agreement?",
         "options": [
-            "Selling insurance independently",
-            "Providing mandatory registration and insurance options",
-            "Setting premium rates",
-            "Offering free car insurance with every sale"
+            "Private cars",
+            "Commercial vehicles",
+            "Two-wheelers",
+            "Goods and public service vehicles"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "question": "How does the Knock for Knock Agreement benefit insurers?",
+        "options": [
+            "Reduces litigation between insurers",
+            "Increases premiums for third-party policies",
+            "Eliminates all claim settlements",
+            "Allows insurers to avoid all accident claims"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What does the term 'Declined Risk Pool' refer to?",
+        "options": [
+            "A pool where all high-risk private vehicles are insured",
+            "A pool where commercial vehicle claims are shared among insurers",
+            "A risk-sharing pool for rejected high-risk policies",
+            "A pool for vehicles with outstanding liabilities"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "In what scenario does the Knock for Knock Agreement apply?",
+        "options": [
+            "When both drivers are uninsured",
+            "When both vehicles have third-party insurance",
+            "When one driver is at fault",
+            "When both vehicles are commercial vehicles"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which principle ensures that insurers do not deny third-party insurance to high-risk vehicles?",
+        "options": [
+            "Risk pooling",
+            "Compulsory coverage",
+            "Insurable interest",
+            "No claim bonus"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does the term 'Pooling Arrangement' mean in motor insurance?",
+        "options": [
+            "All insurers share premium costs equally",
+            "All insurers share the losses based on market share",
+            "All third-party insurance is handled by one insurer",
+            "Insurers contribute a fixed amount to a shared fund"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is required for an Indian driver to legally drive a vehicle abroad?",
+        "options": [
+            "Third-party insurance",
+            "An International Driving Permit",
+            "Local license translation",
+            "Insurance from a local provider"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What role do preferred garages play in motor insurance?",
+        "options": [
+            "They only repair two-wheelers",
+            "They offer cashless repair services for policyholders",
+            "They provide discounts for insurance renewals",
+            "They handle all third-party claims processing"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is a significant benefit of the Knock for Knock Agreement for policyholders?",
+        "options": [
+            "Higher claims settlement amounts",
+            "Quicker claim settlements without litigation",
+            "Premium discounts",
+            "Higher compensation for third-party claims"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which organization regulates premium rates for third-party insurance in India?",
+        "options": [
+            "Reserve Bank of India",
+            "Insurance Regulatory and Development Authority of India (IRDAI)",
+            "General Insurance Council",
+            "Ministry of Transport"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "How is the 'Drive Less Pay Less' concept beneficial to drivers?",
+        "options": [
+            "It provides unlimited mileage for policyholders",
+            "It lowers premiums based on reduced mileage",
+            "It offers discounts on car maintenance",
+            "It covers only short-distance drives"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the purpose of 'Pay As You Drive' insurance?",
+        "options": [
+            "To charge premiums based on the distance driven",
+            "To eliminate third-party insurance",
+            "To reduce vehicle maintenance costs",
+            "To provide unlimited coverage"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "How does a Declined Risk Pool manage high-risk claims?",
+        "options": [
+            "It denies coverage for all high-risk vehicles",
+            "It transfers high-risk policies to a shared pool",
+            "It only insures low-risk vehicles",
+            "It requires special approval for high-risk vehicles"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What benefit does the Knock for Knock Agreement provide to the public?",
+        "options": [
+            "It allows drivers to choose their insurer",
+            "It reduces premium costs by lowering litigation expenses",
+            "It offers free repairs",
+            "It eliminates third-party claims"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is required to apply for an International Driving Permit in India?",
+        "options": [
+            "A valid driving license",
+            "Vehicle insurance",
+            "No-claims bonus certificate",
+            "Proof of vehicle ownership"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the purpose of a 'Pooling Mechanism' in motor insurance?",
+        "options": [
+            "To ensure each insurer pays an equal share of losses",
+            "To pool premiums only for high-risk policies",
+            "To share losses among insurers based on market share",
+            "To handle claims from uninsured vehicles"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Which vehicles primarily benefit from the Declined Risk Pool?",
+        "options": [
+            "Private cars",
+            "Commercial vehicles",
+            "Two-wheelers",
+            "Rental cars"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is required for insurers participating in the Motor Third Party Pool?",
+        "options": [
+            "They must only insure private vehicles",
+            "They must contribute based on their market share",
+            "They only cover premium clients",
+            "They only share profits"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does the Knock for Knock Agreement prevent?",
+        "options": [
+            "Claims going to court",
+            "Insurers denying third-party coverage",
+            "Vehicle owners from filing claims",
+            "All third-party insurance coverage"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Why might an insurer choose to join the Declined Risk Pool?",
+        "options": [
+            "To avoid insuring high-risk clients on their own",
+            "To reduce their share of third-party liability",
+            "To attract low-risk drivers",
+            "To insure private vehicles only"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is one restriction on commercial vehicles under the Knock for Knock Agreement?",
+        "options": [
+            "They cannot be covered by the agreement",
+            "They must have comprehensive insurance",
+            "They only receive third-party coverage",
+            "They are automatically pooled"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which aspect of the Declined Risk Pool allows insurers flexibility?",
+        "options": [
+            "They can reject high-risk clients entirely",
+            "They can choose to cover claims based on risk level",
+            "They can charge higher premiums",
+            "They can limit coverage duration"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "How do preferred garages contribute to the claims process?",
+        "options": [
+            "They provide free repairs for all claims",
+            "They handle vehicle repairs with a cashless service",
+            "They verify vehicle documents",
+            "They perform all insurance assessments"
         ],
         "correctIndex": 1
     }

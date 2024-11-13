@@ -1,252 +1,252 @@
 [
     {
-        "question": "What was one of the main reasons for creating the Motor Third Party Pool in 2006?",
+        "question": "What does Chapter 3 primarily cover in motor insurance?",
         "options": [
-            "To ensure vehicle owners could get insurance for their cars",
-            "To protect private insurers from high claims",
-            "To eliminate competition between insurers",
-            "To increase premium rates for all types of vehicles"
+            "Types of motor vehicles and relevant documents",
+            "Vehicle manufacturing",
+            "Traffic rules",
+            "Insurance premiums"
         ],
         "correctIndex": 0
     },
     {
-        "question": "What is the function of the General Insurance Corporation (GIC) within the Motor Third Party Pool?",
+        "question": "Which document is used as the basis for a motor insurance contract?",
         "options": [
-            "To set premium rates",
-            "To administer the pool and manage funds",
-            "To cover only private vehicles",
-            "To create new insurance policies"
-        ],
-        "correctIndex": 1
-    },
-    {
-        "question": "Which vehicles are covered under the Knock for Knock Agreement?",
-        "options": [
-            "All types of vehicles",
-            "Only private vehicles",
-            "Only goods and public service vehicles",
-            "Only vehicles with full coverage insurance"
-        ],
-        "correctIndex": 1
-    },
-    {
-        "question": "What is the primary purpose of the Knock for Knock Agreement?",
-        "options": [
-            "To reduce litigation costs",
-            "To increase insurance premiums",
-            "To limit vehicle repairs",
-            "To ensure all claims go to court"
+            "Proposal form",
+            "Certificate of insurance",
+            "Cover note",
+            "Policy form"
         ],
         "correctIndex": 0
     },
     {
-        "question": "What is an International Driving Permit (IDP) primarily used for?",
+        "question": "What is the purpose of a certificate of insurance?",
         "options": [
-            "Replacing a national driving license",
-            "Driving exclusively in Europe",
-            "Supplementing a national driving license in foreign countries",
-            "Allowing unlimited driving hours abroad"
-        ],
-        "correctIndex": 2
-    },
-    {
-        "question": "What is the role of an auto dealer in motor insurance?",
-        "options": [
-            "Selling insurance independently",
-            "Providing mandatory registration and insurance options",
-            "Setting premium rates",
-            "Offering free car insurance with every sale"
+            "To insure the vehicle owner only",
+            "To provide proof of insurance as required by law",
+            "To document maintenance",
+            "To calculate insurance rates"
         ],
         "correctIndex": 1
     },
     {
-        "question": "What does 'Pay As You Drive' (PAYD) insurance calculate premiums based on?",
-        "options": [
-            "Vehicle type",
-            "Annual mileage and usage data",
-            "Driving record",
-            "Vehicle purchase price"
-        ],
-        "correctIndex": 1
-    },
-    {
-        "question": "How do insurers manage high-risk claims from commercial vehicles?",
-        "options": [
-            "By increasing premium rates",
-            "By using the Declined Risk Pool",
-            "By transferring risks to private insurers",
-            "By denying coverage"
-        ],
-        "correctIndex": 1
-    },
-    {
-        "question": "What is the purpose of the Declined Risk Pool?",
-        "options": [
-            "To provide cheaper premiums for all vehicles",
-            "To allow insurers to choose certain liabilities",
-            "To eliminate third-party insurance",
-            "To increase revenue from high-risk clients"
-        ],
-        "correctIndex": 1
-    },
-    {
-        "question": "What does the 'Drive Less Pay Less' concept encourage?",
-        "options": [
-            "Driving more frequently to save money",
-            "Higher insurance premiums",
-            "Lower premiums for driving fewer miles",
-            "Paying based on vehicle age"
-        ],
-        "correctIndex": 2
-    },
-    {
-        "question": "What is one key benefit of the Knock for Knock Agreement for insurers?",
-        "options": [
-            "Reduced vehicle repairs",
-            "Fewer lawsuits between insurers",
-            "Higher premiums for all policies",
-            "Reduced third-party liability"
-        ],
-        "correctIndex": 1
-    },
-    {
-        "question": "How does the 'Rent A Car' service ensure the vehicles are legally covered?",
-        "options": [
-            "By only renting to frequent drivers",
-            "By requiring users to have valid driving licenses",
-            "By offering insurance only for new vehicles",
-            "By restricting rentals to short-term periods"
-        ],
-        "correctIndex": 1
-    },
-    {
-        "question": "Which organization is responsible for setting third-party premium rates in India?",
-        "options": [
-            "Reserve Bank of India",
-            "Insurance Regulatory and Development Authority of India (IRDAI)",
-            "General Insurance Council",
-            "Motor Vehicle Act Committee"
-        ],
-        "correctIndex": 1
-    },
-    {
-        "question": "In motor insurance, what does 'Own Damage' cover?",
-        "options": [
-            "Damage to third-party vehicles",
-            "Injuries to pedestrians",
-            "Damage to the insured’s own vehicle",
-            "Vehicle towing costs only"
-        ],
-        "correctIndex": 2
-    },
-    {
-        "question": "What is required along with an International Driving Permit to drive legally abroad?",
-        "options": [
-            "Only the IDP",
-            "An international vehicle license",
-            "A valid national driver’s license",
-            "Proof of insurance from the home country"
-        ],
-        "correctIndex": 2
-    },
-    {
-        "question": "What issue did the Motor Third Party Pool aim to address?",
-        "options": [
-            "Low insurance premiums",
-            "Limited availability of third-party insurance for commercial vehicles",
-            "High costs for private vehicle insurance",
-            "Regulation of motor insurance companies"
-        ],
-        "correctIndex": 1
-    },
-    {
-        "question": "How does 'Usage-Based Insurance' (UBI) determine premium costs?",
-        "options": [
-            "Based on driver’s age",
-            "Based on vehicle model",
-            "Based on how, when, and where the vehicle is driven",
-            "Based on the vehicle's color"
-        ],
-        "correctIndex": 2
-    },
-    {
-        "question": "Which vehicles are exempt from the Knock for Knock Agreement?",
+        "question": "What type of vehicle is classified as 'Class A' for motor insurance?",
         "options": [
             "Private cars",
-            "Two-wheelers",
-            "Goods and public service vehicles",
-            "Rental vehicles"
+            "Motorcycles",
+            "Goods-carrying vehicles",
+            "Passenger service vehicles"
         ],
         "correctIndex": 2
     },
     {
-        "question": "What does the 'Declined Risk Pool' allow insurers to do?",
+        "question": "What are 'preferred garages' in motor insurance?",
         "options": [
-            "Reject high-risk policies",
-            "Transfer high-risk policies to a shared pool",
-            "Increase premiums for all vehicles",
-            "Only insure low-risk vehicles"
+            "Garages approved by insurers for cashless repairs",
+            "Garages for luxury cars",
+            "Garages owned by the insurer",
+            "Garages for motorcycles only"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which vehicles are generally classified under 'Class C'?",
+        "options": [
+            "Private cars",
+            "Passenger service vehicles",
+            "Trailers",
+            "Goods-carrying vehicles"
         ],
         "correctIndex": 1
     },
     {
-        "question": "What do 'Preferred Garages' offer to insured vehicle owners?",
+        "question": "Which class includes vehicles like ambulances and cranes?",
         "options": [
-            "Higher insurance premiums",
-            "Cashless repair services",
-            "Only repair for minor damages",
-            "Limited warranty on repairs"
+            "Class A",
+            "Class B",
+            "Class C",
+            "Class D"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "question": "What is a 'cover note' in motor insurance?",
+        "options": [
+            "A temporary document that serves as proof of insurance",
+            "A document detailing the terms of the policy",
+            "A form for vehicle repair",
+            "A renewal notice"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What does the 'Knock for Knock' agreement prevent?",
+        "options": [
+            "Claims from reaching court",
+            "Accidents",
+            "Third-party insurance requirements",
+            "Policy cancellations"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is a 'proposal form' used for?",
+        "options": [
+            "To collect all necessary information for assessing risk",
+            "To provide repair estimates",
+            "To renew the policy",
+            "To cancel insurance"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which policy provides the most comprehensive coverage, including own damage and liability?",
+        "options": [
+            "Liability-only policy",
+            "Package policy",
+            "Third-party policy",
+            "Renewal policy"
         ],
         "correctIndex": 1
     },
     {
-        "question": "What is one of the main benefits of buying motor insurance online?",
+        "question": "Which class covers internal risks only for motor trade policies?",
         "options": [
-            "Lower premiums",
-            "Instant policy issuance without paperwork",
-            "Better coverage options",
-            "Free vehicle repairs"
-        ],
-        "correctIndex": 1
-    },
-    {
-        "question": "Who oversees the administration of the Motor Third Party Pool?",
-        "options": [
-            "The Reserve Bank of India",
-            "The General Insurance Corporation (GIC)",
-            "The Motor Vehicles Authority",
-            "Local traffic police"
-        ],
-        "correctIndex": 1
-    },
-    {
-        "question": "What is a requirement for obtaining an International Driving Permit (IDP) in India?",
-        "options": [
-            "Owning a private vehicle",
-            "Holding a valid Indian driving license",
-            "Being over 25 years of age",
-            "Paying a large deposit"
-        ],
-        "correctIndex": 1
-    },
-    {
-        "question": "Which organization provides rules and procedures for underwriting in the Motor Third Party Pool?",
-        "options": [
-            "The Reserve Bank of India",
-            "The Insurance Regulatory and Development Authority of India (IRDAI)",
-            "The General Insurance Council",
-            "The Indian National Motor Association"
+            "Class E",
+            "Class F",
+            "Class G",
+            "Class H"
         ],
         "correctIndex": 2
     },
     {
-        "question": "Which concept in motor insurance uses GPS tracking to monitor driving behavior?",
+        "question": "What is required along with an International Driving Permit (IDP) to drive legally abroad?",
         "options": [
-            "Knock for Knock Agreement",
-            "Usage-Based Insurance (UBI)",
-            "Third-Party Insurance",
-            "Rent-a-Car Insurance"
+            "A national driver's license",
+            "Vehicle registration",
+            "Proof of ownership",
+            "Only a passport"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which document evidences compliance with the Motor Vehicles Act of 1988?",
+        "options": [
+            "Certificate of insurance",
+            "Vehicle registration",
+            "Cover note",
+            "Proposal form"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which insurance form covers liability for injuries to third parties?",
+        "options": [
+            "Liability-only policy",
+            "Cover note",
+            "Policy renewal notice",
+            "Proposal form"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What does the policy’s 'own damage' section cover?",
+        "options": [
+            "Damage to the insured's own vehicle",
+            "Third-party injury",
+            "Only theft",
+            "Legal fees"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the main function of a 'motor trade policy'?",
+        "options": [
+            "To cover risks specific to the motor trade",
+            "To increase vehicle sales",
+            "To insure vehicles used for transporting goods",
+            "To insure only luxury cars"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Who is responsible for setting the rules for the Motor Third Party Pool?",
+        "options": [
+            "IRDAI",
+            "General Insurance Council",
+            "Ministry of Transport",
+            "Insurance Company"
         ],
         "correctIndex": 1
+    },
+    {
+        "question": "What is the main purpose of an e-insurance account?",
+        "options": [
+            "To store all policies digitally for easy access",
+            "To lower insurance rates",
+            "To reduce vehicle theft",
+            "To simplify claim processing"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which of these is considered an 'accessory' in motor insurance?",
+        "options": [
+            "A car’s stereo system",
+            "Its engine",
+            "Its tires",
+            "Its license plate"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What type of vehicle is covered under the 'road transit risks only' class?",
+        "options": [
+            "All types",
+            "Motorcycles",
+            "Only goods-carrying vehicles",
+            "Motor trade vehicles"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What is included in a 'package policy'?",
+        "options": [
+            "Own damage and liability coverage",
+            "Only own damage coverage",
+            "Only liability coverage",
+            "Personal injury coverage only"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What does the 'no claim bonus' reward?",
+        "options": [
+            "Claim-free years",
+            "Frequent claims",
+            "Luxury vehicles",
+            "Policy renewal"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What type of vehicle is covered under 'miscellaneous and special types' class?",
+        "options": [
+            "Ambulances",
+            "Private cars",
+            "Motorcycles",
+            "Passenger service vehicles"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is required for a motor insurance policy to be renewed?",
+        "options": [
+            "Payment of renewal premium",
+            "Cover note",
+            "Only a new proposal form",
+            "A previous claim"
+        ],
+        "correctIndex": 0
     }
 ]
