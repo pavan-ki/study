@@ -1,20 +1,20 @@
 document.addEventListener("DOMContentLoaded", () => {
     populateMenu();
     // Load the first mock test from Chapter 01 by default
-    loadQuiz("Chapter 01/Mock Test 1.json", "Chapter 01", "Mock Test 1");
+    loadQuiz("Chapter 01 - INTRODUCTION TO MOTOR INSURANCE/Easy.json", "Chapter 01 - INTRODUCTION TO MOTOR INSURANCE", "Easy.json");
 });
 
 let questions = [];
 let userAnswers = {};
-let selectedChapter = "Chapter 01"; // Track the currently selected chapter
-let selectedMockTest = "Mock Test 1"; // Track the currently selected mock test
+let selectedChapter = "Chapter 01 - INTRODUCTION TO MOTOR INSURANCE/Easy.json"; // Track the currently selected chapter
+let selectedMockTest = "Easy"; // Track the currently selected mock test
 
 // Dynamically populate the accordion menu with chapters and mock tests
 function populateMenu() {
     const chapters = {
-        "Chapter 01": ["Mock Test 1.json", "Mock Test 2.json"],
-        "Chapter 02": ["Mock Test 1.json", "Mock Test 2.json"],
-        "Chapter 03": ["Mock Test 1.json", "Mock Test 2.json"]
+        "Chapter 01 - INTRODUCTION TO MOTOR INSURANCE": ["Easy.json", "Medium.json", "Hard.json"],
+        "Chapter 02 - MARKETING IN MOTOR INSURANCE": ["Easy.json", "Medium.json", "Hard.json"],
+        "Chapter 03 - TYPE OF MOTOR VEHICLES, DOCUMENTS AND POLICIES": ["Easy.json", "Medium.json", "Hard.json"]
     };
 
     const sidenav = document.getElementById("mySidenav");
@@ -36,6 +36,7 @@ function populateMenu() {
             quizLink.textContent = mockTest.replace(".json", ""); // Display name without .json
             quizLink.classList.add("quiz-link");
             quizLink.onclick = () => loadQuiz(`${chapter}/${mockTest}`, chapter, mockTest.replace(".json", ""));
+            quizLink.onclick = () => loadQuiz(encodeURIComponent(`${chapter}/${mockTest}`), chapter, mockTest.replace(".json", ""));
             quizLinksContainer.appendChild(quizLink);
         });
 
@@ -61,7 +62,6 @@ function toggleChapter(chapter, chapterHeading) {
 // Load quiz from a specific chapter and mock test file, update header
 async function loadQuiz(filePath, chapterName, mockTestName) {
     try {
-        const response = await fetch(encodeURIComponent(filePath));
         questions = await response.json();
 
         // Reset UI for a new quiz
