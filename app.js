@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     populateMenu();
     // Load the first mock test from Chapter 01 by default
-    loadQuiz(encodeURIComponent("Chapter 01/Mock Test 1.json"));
+    loadQuiz("Chapter 01/Mock Test 1.json");
 });
 
 let questions = [];
