@@ -35,7 +35,6 @@ function populateMenu() {
             const quizLink = document.createElement("a");
             quizLink.textContent = mockTest.replace(".json", ""); // Display name without .json
             quizLink.classList.add("quiz-link");
-            quizLink.onclick = () => loadQuiz(`${chapter}/${mockTest}`, chapter, mockTest.replace(".json", ""));
             quizLink.onclick = () => loadQuiz(encodeURIComponent(`${chapter}/${mockTest}`), chapter, mockTest.replace(".json", ""));
             quizLinksContainer.appendChild(quizLink);
         });
@@ -62,6 +61,7 @@ function toggleChapter(chapter, chapterHeading) {
 // Load quiz from a specific chapter and mock test file, update header
 async function loadQuiz(filePath, chapterName, mockTestName) {
     try {
+        const response = await fetch(filePath);
         questions = await response.json();
 
         // Reset UI for a new quiz
