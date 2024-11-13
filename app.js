@@ -1,20 +1,20 @@
 document.addEventListener("DOMContentLoaded", () => {
     populateMenu();
     // Load the first mock test from Chapter 01 by default
-    loadQuiz("Chapter 01/Mock Test 01.json", "Chapter 01", "Mock Test 01");
+    loadQuiz("Chapter 01/Mock Test 1.json", "Chapter 01", "Mock Test 1");
 });
 
 let questions = [];
 let userAnswers = {};
 let selectedChapter = "Chapter 01"; // Track the currently selected chapter
-let selectedMockTest = "Mock Test 01"; // Track the currently selected mock test
+let selectedMockTest = "Mock Test 1"; // Track the currently selected mock test
 
 // Dynamically populate the accordion menu with chapters and mock tests
 function populateMenu() {
     const chapters = {
-        "Chapter 01": ["Mock Test 01.json", "Mock Test 02.json"],
-        "Chapter 02": ["Mock Test 01.json", "Mock Test 02.json"],
-        "Chapter 03": ["Mock Test 01.json", "Mock Test 02.json"]
+        "Chapter 01": ["Mock Test 1.json", "Mock Test 2.json"],
+        "Chapter 02": ["Mock Test 1.json", "Mock Test 2.json"],
+        "Chapter 03": ["Mock Test 1.json", "Mock Test 2.json"]
     };
 
     const sidenav = document.getElementById("mySidenav");
