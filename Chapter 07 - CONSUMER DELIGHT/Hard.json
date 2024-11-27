@@ -1,0 +1,252 @@
+[
+    {
+        "question": "How did the Japanese Quality Revolution impact global quality standards?",
+        "options": [
+            "It established customer satisfaction as a global focus",
+            "It standardized premium pricing worldwide",
+            "It eliminated the need for quality inspections",
+            "It prioritized financial returns over customer focus"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is Philip Crosby's 'price of non-conformance'?",
+        "options": [
+            "The cost of not meeting quality standards",
+            "A penalty for excessive defect rates",
+            "A measure of customer dissatisfaction",
+            "A fixed charge for quality assessments"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What role did nationalization play in stabilizing the insurance market?",
+        "options": [
+            "It introduced strict customer grievance mechanisms",
+            "It enhanced financial strength and extended rural coverage",
+            "It limited competition by eliminating private insurers",
+            "It standardized claim settlement timelines"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "How does the concept of 'quality control' evaluate service performance?",
+        "options": [
+            "By comparing actual quality with set goals and taking corrective actions",
+            "By increasing product offerings",
+            "By prioritizing manual inspection processes",
+            "By focusing on policyholder grievances exclusively"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is one key expectation of policyholders regarding reliability in insurance?",
+        "options": [
+            "Guaranteed solvency margins and claims payability",
+            "Reduced premiums for high-risk customers",
+            "Elimination of underwriting requirements",
+            "Standardization of all policies across insurers"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What distinguishes 'problem solving' in insurance from other service elements?",
+        "options": [
+            "It focuses on empathy towards customers",
+            "It emphasizes transparent and prompt resolutions",
+            "It prioritizes the reduction of service interactions",
+            "It ensures uniform policy pricing"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "How does the IRDAI aim to protect policyholder interests?",
+        "options": [
+            "By eliminating regulatory oversight",
+            "By ensuring precise, clear, and accurate information",
+            "By standardizing claim rejection processes",
+            "By increasing policy pricing across regions"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the primary function of the Insurance Ombudsman?",
+        "options": [
+            "Advising on policy regulations",
+            "Resolving personal insurance grievances and awarding claims",
+            "Issuing premium guidelines",
+            "Standardizing product documentation"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the role of 'Assurance' in customer experience management?",
+        "options": [
+            "It eliminates the need for customer feedback",
+            "It guarantees adequate policy coverage and timely updates",
+            "It reduces customer access to grievance redressal mechanisms",
+            "It ensures fixed policy benefits"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is a critical implication of service gaps in motor insurance claims?",
+        "options": [
+            "Delays in claim registration and settlement processes",
+            "Elimination of policyholder expectations",
+            "Standardization of claims settlement timelines",
+            "Increased reliance on manual claim reviews"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "How can operating offices improve the claims settlement process?",
+        "options": [
+            "By reducing communication with proposers",
+            "By adhering to IRDA regulations for timely claim settlements",
+            "By standardizing premium rates",
+            "By eliminating documentation requirements"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is a major focus of the Integrated Grievance Management Scheme (IGMS)?",
+        "options": [
+            "Reducing regulatory compliance",
+            "Providing an online platform for tracking and resolving complaints",
+            "Eliminating customer grievances entirely",
+            "Standardizing premium rates across insurers"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "How should insurers address customer grievances effectively?",
+        "options": [
+            "By focusing on customer profitability",
+            "By providing cost-effective and consumer-friendly solutions",
+            "By reducing service options",
+            "By standardizing all service interactions"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is one implication of cultural attitudes in claims settlement?",
+        "options": [
+            "Focus on fault-finding to reduce payments",
+            "Adopt a culture of helping attitude and customer support",
+            "Eliminate third-party counselors",
+            "Reduce interaction with policyholders"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "How does 'Empathy' enhance customer service in insurance?",
+        "options": [
+            "By eliminating customer interactions",
+            "By offering personalized and customized policy solutions",
+            "By standardizing claims procedures",
+            "By reducing documentation requirements"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is a key responsibility of agents in addressing customer needs?",
+        "options": [
+            "Providing objective and unbiased policy information",
+            "Focusing only on policy sales",
+            "Standardizing claims settlement amounts",
+            "Reducing customer support mechanisms"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the purpose of a 'bond of trust' in customer service?",
+        "options": [
+            "Reducing policyholder expectations",
+            "Building confidence and demonstrating fair treatment",
+            "Eliminating grievance mechanisms",
+            "Standardizing premium rates"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is one critical responsibility of Claims Counselors?",
+        "options": [
+            "Issuing policy documents",
+            "Assisting customers with claim settlements and paperwork",
+            "Reducing communication with policyholders",
+            "Standardizing claims processing timelines"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "How can insurers achieve consumer delight?",
+        "options": [
+            "By adhering strictly to fault-based liability systems",
+            "By adopting a customer-first attitude and expediting claims",
+            "By standardizing claim rejection processes",
+            "By limiting customer interactions to grievance redressal"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is one outcome of effective Customer Experience Management (CEM)?",
+        "options": [
+            "Improved insurer brand and customer loyalty",
+            "Reduced customer expectations",
+            "Elimination of grievance mechanisms",
+            "Standardization of service offerings"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the significance of 'under promise and over deliver' in customer service?",
+        "options": [
+            "To standardize service timelines",
+            "To exceed customer expectations consistently",
+            "To focus on profitability over service quality",
+            "To reduce customer grievance mechanisms"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the primary focus of the Insurance Ombudsman Scheme?",
+        "options": [
+            "Standardizing policy terms",
+            "Resolving grievances and rebuilding customer confidence",
+            "Eliminating customer feedback processes",
+            "Reducing insurer responsibilities"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "How does the IRDAI aim to improve policyholder experiences?",
+        "options": [
+            "By focusing on insurer profitability",
+            "By ensuring transparency and fair treatment",
+            "By eliminating customer grievance platforms",
+            "By reducing policyholder entitlements"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the role of Third-Party Counselors in insurance?",
+        "options": [
+            "To reduce customer expectations",
+            "To assist beneficiaries with claims and compromise settlements",
+            "To eliminate third-party claims",
+            "To standardize policy formats"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is one feature of value-added services in insurance?",
+        "options": [
+            "Fair pricing and convenience for customers",
+            "Increased procedural requirements",
+            "Elimination of customer loyalty programs",
+            "Standardization of premium rates"
+        ],
+        "correctIndex": 0
+    }
+]

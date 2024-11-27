@@ -1,0 +1,252 @@
+[
+    {
+        "question": "What was the shift in quality management after the doctrine of 'Caveat Emptor'?",
+        "options": [
+            "Emphasis on customer satisfaction and reducing waste",
+            "Complete reliance on buyer's responsibility",
+            "Standardization of manual inspection processes",
+            "Focus on financial returns for sellers"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What does Philip Crosby mean by 'Quality is free'?",
+        "options": [
+            "Achieving zero defect is costly but beneficial",
+            "Preventive measures cost less than failure corrections",
+            "Quality systems eliminate customer complaints",
+            "Higher investments are required for better quality"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is one major benefit of the nationalization of the insurance industry?",
+        "options": [
+            "Higher policy costs for customers",
+            "Improved reach to rural and underserved areas",
+            "Reduced role of regulatory authorities",
+            "Elimination of social obligations"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is one critical objective of opening the insurance sector to private companies?",
+        "options": [
+            "Reducing competition in the market",
+            "Improving service quality and product offerings",
+            "Standardizing premium rates across regions",
+            "Eliminating rural insurance schemes"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the primary focus of the basic element 'Tangibility' in customer service?",
+        "options": [
+            "Improving empathy for customers",
+            "Ensuring physical delivery and quality of services",
+            "Standardizing premium rates",
+            "Increasing the complexity of procedures"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is a key aspect of 'Problem Solving' in customer service?",
+        "options": [
+            "Long waiting times for service representatives",
+            "Politeness and transparency in addressing customer issues",
+            "Focus on financial returns for the insurer",
+            "Reducing available service options"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "How does the 'Responsiveness' element improve customer satisfaction?",
+        "options": [
+            "By delaying claims settlement",
+            "By providing prompt updates and resolution of issues",
+            "By reducing renewal reminders",
+            "By limiting communication with customers"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the significance of 'Assurance' in customer service?",
+        "options": [
+            "Guaranteeing insurance profits",
+            "Providing regular updates and adequate policy coverage",
+            "Eliminating policyholder rights",
+            "Focusing on claim rejection mechanisms"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "How can insurers demonstrate 'Empathy' towards customers?",
+        "options": [
+            "By focusing only on profitability",
+            "By offering personalized consulting services",
+            "By reducing policyholder interactions",
+            "By increasing procedural requirements"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the main objective of the IRDAI in protecting policyholders?",
+        "options": [
+            "Reducing the role of insurance agents",
+            "Ensuring fair treatment and accurate information",
+            "Eliminating grievance redressal mechanisms",
+            "Focusing only on insurer profits"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is a function of the Insurance Ombudsman under the RPG Rules 1998?",
+        "options": [
+            "Standardizing premium rates",
+            "Resolving disputes and awarding claims up to Rs. 20 lakhs",
+            "Eliminating policy disputes",
+            "Issuing insurance licenses"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the focus of the grievance redressal mechanism under IRDAI?",
+        "options": [
+            "Reducing customer interactions",
+            "Providing cost-effective and timely solutions",
+            "Standardizing claim amounts",
+            "Eliminating online grievance systems"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is one implication of service gaps in motor insurance claims?",
+        "options": [
+            "Delayed claim registrations and settlements",
+            "Elimination of documentation processes",
+            "Improved service levels",
+            "Reduced local administration challenges"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "How should operating offices address service gaps in claim settlements?",
+        "options": [
+            "By recording proposal receipt dates and expediting approvals",
+            "By standardizing premium rates",
+            "By limiting communication with policyholders",
+            "By eliminating proposal review mechanisms"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the role of Claims Counselors in customer service?",
+        "options": [
+            "Issuing cover notes",
+            "Assisting customers in claim settlements and related tasks",
+            "Standardizing policy terms",
+            "Reducing customer support interactions"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is a key outcome of the Integrated Grievance Management Scheme (IGMS)?",
+        "options": [
+            "Eliminating customer complaints",
+            "Providing a centralized platform for monitoring grievances",
+            "Standardizing all insurance policies",
+            "Reducing regulatory requirements"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is a critical feature of value-added services in insurance?",
+        "options": [
+            "Offering unfair pricing models",
+            "Treating customers with respect and providing convenience",
+            "Increasing documentation requirements",
+            "Reducing claim settlement efficiency"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does 'under promise and over deliver' emphasize in customer service?",
+        "options": [
+            "Exceeding customer expectations consistently",
+            "Standardizing all services",
+            "Focusing on marketing campaigns",
+            "Eliminating customer satisfaction metrics"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the importance of building a 'bond of trust' in insurance services?",
+        "options": [
+            "Reducing customer loyalty",
+            "Building confidence and ensuring fair treatment",
+            "Increasing claims rejection rates",
+            "Eliminating customer support mechanisms"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What should insurers prioritize to enhance consumer delight?",
+        "options": [
+            "Focus on fault-finding",
+            "Adopt a helping attitude and responsiveness",
+            "Reduce claims settlement timelines",
+            "Eliminate third-party services"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is a function of the Insurance Ombudsman?",
+        "options": [
+            "Setting insurance premiums",
+            "Resolving customer grievances up to Rs. 20 lakhs",
+            "Eliminating third-party claims",
+            "Standardizing insurance policy formats"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is a key feature of grievance redressal mechanisms?",
+        "options": [
+            "Reducing customer support interactions",
+            "Ensuring cost-effective and timely solutions",
+            "Increasing procedural complexity",
+            "Eliminating online grievance platforms"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "How can insurers improve Customer Experience Management (CEM)?",
+        "options": [
+            "By focusing solely on profits",
+            "By creating customer-centric processes and systems",
+            "By standardizing customer expectations",
+            "By eliminating grievance mechanisms"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is one responsibility of agents in addressing customer issues?",
+        "options": [
+            "Focusing on increasing premiums",
+            "Providing accurate and objective information",
+            "Eliminating policy-related documentation",
+            "Reducing customer interactions"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is a key implication of cultural attitudes in insurance services?",
+        "options": [
+            "Focusing on finding faults to reduce claims",
+            "Adopting a supportive and customer-friendly approach",
+            "Standardizing all claim amounts",
+            "Reducing customer grievance mechanisms"
+        ],
+        "correctIndex": 1
+    }
+]

@@ -1,0 +1,252 @@
+[
+    {
+        "question": "What is one of the two key areas expected to drive success in the insurance industry?",
+        "options": [
+            "Marketing",
+            "Cloud and Analytics",
+            "Customer Service",
+            "Field Sales"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is a benefit of cloud-based systems in motor insurance?",
+        "options": [
+            "Increased paperwork",
+            "Improved data access and reduced operating costs",
+            "Elimination of on-premises data centers",
+            "Mandatory upgrades for users"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does analytics in insurance primarily rely on?",
+        "options": [
+            "Customer reviews",
+            "Operations research and data visualization",
+            "Printed reports",
+            "Telecommunication data"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which of these is a key area of data analytics for insurers?",
+        "options": [
+            "Enhanced Analytics",
+            "Manual Reporting",
+            "Basic Spreadsheets",
+            "Offline Claims"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is predictive analytics often used for in insurance?",
+        "options": [
+            "Increasing paperwork",
+            "Improving claims-fraud management",
+            "Eliminating customer queries",
+            "Adjusting office hours"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does the acronym V2V stand for in automobile technology?",
+        "options": [
+            "Vehicle-to-Vehicle communication",
+            "Vehicle Value Verification",
+            "Vehicle Vendor Validation",
+            "Vehicle-to-Vendor interaction"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is a major advantage of using telematics in motor insurance?",
+        "options": [
+            "Predicting weather patterns",
+            "Assessing risk based on driver behavior",
+            "Enhancing vehicle colors",
+            "Developing manual claim forms"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is a primary focus of predictive analytics in commercial lines of business?",
+        "options": [
+            "Replacing underwriters",
+            "Enhancing underwriter decision-making",
+            "Reducing data collection efforts",
+            "Improving office layouts"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which device is commonly used to transmit driving behavior data in telematics?",
+        "options": [
+            "Smartphones",
+            "Onboard diagnostics (OBD) devices",
+            "GPS trackers",
+            "Cameras"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is one key factor in determining insurance premium rates?",
+        "options": [
+            "Claims cost",
+            "Vehicle color",
+            "Driver's attire",
+            "Mileage per year"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What does the Insurance Information Bureau (IIB) do?",
+        "options": [
+            "Prepares insurance advertisements",
+            "Collates and analyzes industry data",
+            "Manages vehicle repairs",
+            "Provides training to agents"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is an advantage of using machine-learning in predictive analytics?",
+        "options": [
+            "Reduced need for underwriters",
+            "Faster and more accurate insights",
+            "Complete elimination of human intervention",
+            "Reduction in the number of insured customers"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does V2X in automobile technology stand for?",
+        "options": [
+            "Vehicle-to-X-ray",
+            "Vehicle-to-Everything communication",
+            "Vehicle-to-Exchange systems",
+            "Vehicle-to-Expert systems"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What type of vehicles are known as fully autonomous vehicles?",
+        "options": [
+            "Manual cars",
+            "Driverless cars",
+            "Hybrid cars",
+            "Electric scooters"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is one potential application of predictive analytics in insurance?",
+        "options": [
+            "Improving vehicle design",
+            "Claims fraud detection",
+            "Reducing sales team sizes",
+            "Eliminating customer reviews"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does the term 'analytics' emphasize in insurance?",
+        "options": [
+            "Individual analyses",
+            "Entire methodology",
+            "Reducing data sources",
+            "Eliminating competition"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is one feature enabled by V2V technology?",
+        "options": [
+            "Manual driving assistance",
+            "Vehicle communication for improved traffic flow",
+            "Manual safety checks",
+            "Enhanced tire durability"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Why is data governance important for insurers?",
+        "options": [
+            "To outsource data management",
+            "To ensure trust and benefit from data",
+            "To reduce storage capacity",
+            "To allow free access to data"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is a key challenge in detecting drug-impaired driving?",
+        "options": [
+            "Limited availability of blood tests",
+            "Complexity in testing various substances",
+            "High cost of breathalyzers",
+            "Lack of police officers"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is one example of a connected vehicle service?",
+        "options": [
+            "GPS",
+            "Solar panels",
+            "Car covers",
+            "Seat cushions"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the primary goal of data security in insurance?",
+        "options": [
+            "Allowing open data sharing",
+            "Protecting critical organizational data",
+            "Reducing IT budgets",
+            "Storing data in offline formats"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is one advantage of automating claims processes?",
+        "options": [
+            "Increased manual data entry",
+            "Reduced processing costs",
+            "Extended claim settlement timelines",
+            "Limited claim options"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is one challenge faced in analyzing driver behavior under drug influence?",
+        "options": [
+            "Lack of advanced vehicles",
+            "Variety of impairing substances",
+            "Absence of traffic rules",
+            "Inability to monitor accidents"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "How is predictive analytics used in customer acquisition?",
+        "options": [
+            "By reducing marketing campaigns",
+            "By identifying prospects likely to respond",
+            "By eliminating competitive pricing",
+            "By creating generic advertisements"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What role does TAC play as a data depository?",
+        "options": [
+            "Issuing insurance policies",
+            "Capturing and analyzing insurance data",
+            "Providing loans to customers",
+            "Selling vehicles at discounts"
+        ],
+        "correctIndex": 1
+    }
+]

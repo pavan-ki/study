@@ -1,0 +1,252 @@
+[
+    {
+        "question": "What is the basis of Motor Third Party insurance in Germany?",
+        "options": [
+            "Tort or negligence of the driver",
+            "Strict liability",
+            "Voluntary insurance",
+            "State-funded insurance"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which country has a Motor Insurance Bureau for uninsured vehicles?",
+        "options": [
+            "Germany",
+            "England",
+            "Australia",
+            "USA"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the legal basis of Motor Third Party liability in France?",
+        "options": [
+            "Contributory negligence",
+            "Strict liability",
+            "Negligence of the driver",
+            "State insurance scheme"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "In which country is motor insurance included in vehicle registration fees?",
+        "options": [
+            "England",
+            "Australia",
+            "South Africa",
+            "France"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the term for motor insurance in the USA?",
+        "options": [
+            "Compulsory motor insurance",
+            "Financial responsibility liability",
+            "Third-party liability insurance",
+            "Mandatory state coverage"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the maximum lump sum payout for death or injury under Germany's Motor Third Party insurance?",
+        "options": [
+            "Euro 300,000",
+            "Euro 450,000",
+            "Euro 600,000",
+            "Euro 750,000"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What fund compensates victims of uninsured vehicles in France?",
+        "options": [
+            "Solatium Fund",
+            "Guarantee Fund (Fonds de Garantie)",
+            "Public Liability Fund",
+            "State Accident Fund"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What section of the MV Act makes motor insurance compulsory in India?",
+        "options": [
+            "Section 146",
+            "Section 94",
+            "Section 163",
+            "Section 150"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is a key objective of Third Party Claims Management in India?",
+        "options": [
+            "Reducing insurance premiums",
+            "Providing relief to innocent accident victims",
+            "Eliminating uninsured vehicles",
+            "Promoting commercial vehicle insurance"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which principle allows insurers to recover compensation paid from third parties?",
+        "options": [
+            "Doctrine of Subrogation",
+            "Doctrine of Causa Proxima",
+            "Doctrine of Uberrimae Fides",
+            "Doctrine of Contribution"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What principle does Section 140 of the MV Act, 1988 establish?",
+        "options": [
+            "No-fault liability",
+            "Negligence-based compensation",
+            "Strict liability",
+            "Contributory negligence"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the fixed compensation for death under Section 140 of the MV Act?",
+        "options": [
+            "Rs. 15,000",
+            "Rs. 25,000",
+            "Rs. 50,000",
+            "Rs. 75,000"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What maxim governs the application of proximate cause?",
+        "options": [
+            "Causa proxima non remota spectatur",
+            "Volenti non fit injuria",
+            "Res ipsa loquitur",
+            "Actus reus"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What does 'Hit and Run' mean in motor insurance?",
+        "options": [
+            "Accidents caused by uninsured vehicles",
+            "Accidents where the vehicle cannot be identified",
+            "Accidents with contributory negligence",
+            "Accidents resulting in property damage"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the compensation for grievous hurt under the Hit and Run scheme?",
+        "options": [
+            "Rs. 12,500",
+            "Rs. 25,000",
+            "Rs. 50,000",
+            "Rs. 75,000"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the primary duty of insurers under Section 149 of the MV Act?",
+        "options": [
+            "To recover premiums from insured",
+            "To pay third parties as per judgment or decree",
+            "To provide vehicle repair services",
+            "To avoid liability under certain circumstances"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Who compensates for accidents caused by unidentified vehicles?",
+        "options": [
+            "State Fund",
+            "Solatium Fund",
+            "Vehicle Owner",
+            "Insurance Company"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the purpose of Section 163(A) of the MV Act?",
+        "options": [
+            "Introduce structured formula-based compensation",
+            "Eliminate fault-based claims",
+            "Promote private vehicle insurance",
+            "Reduce liability limits"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which of the following is NOT a defense against negligence?",
+        "options": [
+            "Volenti non fit injuria",
+            "Act of God",
+            "Doctrine of Subrogation",
+            "Inevitable Accident"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What does the term 'Vicarious Liability' imply?",
+        "options": [
+            "Liability for one\u2019s own actions",
+            "Liability for another's actions",
+            "Shared liability between two parties",
+            "Liability waived by insurance"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is 'Contributory Negligence'?",
+        "options": [
+            "Negligence shared by multiple parties",
+            "Claimant's actions contributing to the accident",
+            "Fault solely on the defendant",
+            "Negligence by an unrelated third party"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What fund compensates victims of hit-and-run accidents in India?",
+        "options": [
+            "Guarantee Fund",
+            "Solatium Fund",
+            "Public Liability Fund",
+            "Victim Relief Fund"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does Section 146 of the MV Act ensure?",
+        "options": [
+            "Compulsory third-party motor insurance",
+            "Liability coverage for property damage",
+            "Compensation for workmen injuries",
+            "Vehicle repair assistance"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the main purpose of third-party liability insurance?",
+        "options": [
+            "To cover vehicle damages",
+            "To protect victims of motor accidents",
+            "To increase premiums",
+            "To settle disputes between drivers"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which section of the MV Act deals with No-Fault Liability?",
+        "options": [
+            "Section 140",
+            "Section 146",
+            "Section 163",
+            "Section 149"
+        ],
+        "correctIndex": 0
+    }
+]

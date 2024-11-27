@@ -1,0 +1,252 @@
+[
+    {
+        "question": "What does the term 'Caveat Emptor' mean?",
+        "options": [
+            "The seller is responsible for product quality",
+            "The buyer is responsible for ensuring product quality",
+            "The insurer guarantees policy value",
+            "The government regulates quality standards"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What was the primary aim of the Japanese Quality Revolution?",
+        "options": [
+            "Improving employee salaries",
+            "Achieving world leadership in quality",
+            "Developing international trade",
+            "Enhancing government policies"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "According to Philip Crosby, what is the performance standard for quality?",
+        "options": [
+            "90% defect-free",
+            "Zero Defect",
+            "Close enough",
+            "99% conformance"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is one reward of achieving higher quality in service?",
+        "options": [
+            "Reduced market share",
+            "Greater customer loyalty",
+            "Increased service calls",
+            "Higher inspection costs"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the impact of nationalization on the insurance sector?",
+        "options": [
+            "Increased policy costs",
+            "Improved human resource development",
+            "Reduced rural coverage",
+            "Limited product offerings"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What was one objective of opening the insurance sector to private companies?",
+        "options": [
+            "Improving quality of customer services",
+            "Reducing competition",
+            "Increasing claims rejection rates",
+            "Eliminating regulatory bodies"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which element of customer service is associated with on-time delivery of policies?",
+        "options": [
+            "Reliability",
+            "Empathy",
+            "Tangibility",
+            "Reasonableness"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What does 'reliability' in insurance services ensure?",
+        "options": [
+            "Improved policy pricing",
+            "Security and solvency of the insurer",
+            "Elimination of underwriting processes",
+            "Increased sales through advertisements"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is an example of responsiveness in customer service?",
+        "options": [
+            "Ignoring claim settlement problems",
+            "Providing prompt reissue of policy documents",
+            "Increasing documentation requirements",
+            "Reducing interaction with customers"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is meant by 'empathy' in customer service?",
+        "options": [
+            "Providing customized consulting services",
+            "Focusing on profitability over customer needs",
+            "Standardizing policy designs",
+            "Eliminating customer feedback mechanisms"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the primary objective of IRDAI?",
+        "options": [
+            "To eliminate policyholder's rights",
+            "To protect policyholder interests",
+            "To increase policy costs",
+            "To replace customer grievance mechanisms"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does the Insurance Ombudsman Scheme aim to address?",
+        "options": [
+            "Policy cancellations",
+            "Consumer grievances in insurance services",
+            "Increasing premium rates",
+            "Eliminating legal processes"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is one function of the Insurance Ombudsman?",
+        "options": [
+            "Issuing new policies",
+            "Conciliation of disputes",
+            "Setting policy premiums",
+            "Standardizing product offerings"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the focus of Customer Experience Management (CEM)?",
+        "options": [
+            "Reducing customer interactions",
+            "Creating customer-centric business processes",
+            "Standardizing all customer needs",
+            "Eliminating grievance mechanisms"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the insurer's primary service?",
+        "options": [
+            "Issuing cover notes",
+            "Settling genuine claims without hassles",
+            "Reducing customer interactions",
+            "Focusing on advertising campaigns"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does a Claims Counselor assist with?",
+        "options": [
+            "Standardizing policy documents",
+            "Helping clients settle claims and manage paperwork",
+            "Reducing claims submission processes",
+            "Eliminating third-party claims"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is one outcome of providing high-quality customer service?",
+        "options": [
+            "Increased service gaps",
+            "Enhanced customer satisfaction",
+            "Reduced claims settlement ratios",
+            "Higher premium rates"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the role of the Integrated Grievance Management Scheme (IGMS)?",
+        "options": [
+            "Eliminating customer complaints",
+            "Providing online grievance management",
+            "Standardizing all insurance policies",
+            "Replacing insurance regulations"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is one implication of service gaps in motor insurance claims?",
+        "options": [
+            "Delayed claim registrations",
+            "Reduced claims ratio",
+            "Improved local administration",
+            "Increased premium payments"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is one responsibility of operating offices in claims settlement?",
+        "options": [
+            "Delaying communication with proposers",
+            "Recording the date of proposal receipt",
+            "Standardizing claim amounts",
+            "Eliminating claim redress mechanisms"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is one way insurance companies create value-added services?",
+        "options": [
+            "Offering unfair pricing",
+            "Treating customers with respect",
+            "Increasing documentation requirements",
+            "Standardizing premium rates"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does 'under promise and over deliver' signify in customer service?",
+        "options": [
+            "Ensuring services exceed customer expectations",
+            "Standardizing all services",
+            "Reducing customer satisfaction",
+            "Eliminating customer loyalty programs"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the significance of 'bond of trust' in insurance services?",
+        "options": [
+            "Eliminating customer support systems",
+            "Building confidence between insurer and customer",
+            "Increasing claims rejection rates",
+            "Reducing customer interactions"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is one recommendation for insurers to enhance consumer delight?",
+        "options": [
+            "Focus on fault-finding",
+            "Adopt a helping attitude",
+            "Increase claims processing time",
+            "Eliminate third-party counselors"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is one key feature of a grievance redressal mechanism?",
+        "options": [
+            "Delayed resolution processes",
+            "Cost-effectiveness and consumer-friendliness",
+            "Elimination of insurance regulations",
+            "Reduction of consumer rights"
+        ],
+        "correctIndex": 1
+    }
+]

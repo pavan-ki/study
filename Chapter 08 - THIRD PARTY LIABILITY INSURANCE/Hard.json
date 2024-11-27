@@ -1,0 +1,252 @@
+[
+    {
+        "question": "What distinguishes strict liability in Germany\u2019s motor insurance from negligence-based liability?",
+        "options": [
+            "It requires proof of negligence",
+            "It holds drivers liable regardless of fault",
+            "It limits compensation to property damage only",
+            "It applies only to uninsured vehicles"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the role of the Motor Insurance Bureau in England?",
+        "options": [
+            "To compensate victims of insured vehicles",
+            "To cover uninsured and untraced vehicle claims",
+            "To enforce mandatory insurance laws",
+            "To regulate motor insurance premiums"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the significance of 'no-fault liability' under Section 140 of the MV Act?",
+        "options": [
+            "It eliminates third-party claims",
+            "It provides fixed compensation without proving fault",
+            "It standardizes liability for property damage",
+            "It applies only to commercial vehicles"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "How does the Guarantee Fund in France assist accident victims?",
+        "options": [
+            "By covering property damage claims",
+            "By compensating victims of uninsured and untraced vehicles",
+            "By subsidizing third-party insurance premiums",
+            "By resolving disputes through arbitration"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is a primary limitation of Financial Responsibility Laws in the USA?",
+        "options": [
+            "They require pre-accident proof of insurance",
+            "They depend on post-accident ability to pay damages",
+            "They exclude property damage claims",
+            "They are enforced only for commercial vehicles"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the purpose of the Solatium Fund in India?",
+        "options": [
+            "To compensate victims of uninsured vehicles",
+            "To assist victims of hit-and-run accidents",
+            "To reduce motor insurance premiums",
+            "To promote third-party insurance coverage"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does 'proximate cause' determine in motor insurance claims?",
+        "options": [
+            "The nearest event in time to the loss",
+            "The most significant and direct cause of the loss",
+            "The least contributory factor to the loss",
+            "The claimant\u2019s role in the event"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which defense is NOT available to insurers under Section 149 of the MV Act?",
+        "options": [
+            "Policy obtained through non-disclosure",
+            "Volenti non fit injuria",
+            "Vehicle used beyond policy scope",
+            "Contributory negligence of the claimant"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "question": "What is the compensation limit for grievous hurt under the Hit and Run Scheme in India?",
+        "options": [
+            "Rs. 12,500",
+            "Rs. 25,000",
+            "Rs. 50,000",
+            "Rs. 75,000"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the legal significance of vicarious liability in motor insurance?",
+        "options": [
+            "It limits liability to the policyholder",
+            "It holds employers accountable for employee negligence",
+            "It exempts vehicle owners from third-party claims",
+            "It eliminates shared liability"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the primary feature of structured formula-based liability under Section 163(A)?",
+        "options": [
+            "It eliminates fault-based disputes",
+            "It increases property damage compensation",
+            "It allows for unlimited claims",
+            "It reduces insurer liability for third-party damages"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "How does the concept of contributory negligence affect motor insurance claims?",
+        "options": [
+            "It absolves the claimant of all responsibility",
+            "It reduces compensation based on the claimant\u2019s fault",
+            "It increases insurer liability",
+            "It eliminates third-party claims"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What role does the Motor Third Party Insurance Scheme in Australia serve?",
+        "options": [
+            "Covers only property damage",
+            "Includes insurance in vehicle registration fees",
+            "Eliminates third-party liability",
+            "Operates under a no-fault compensation system"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the significance of 'act of God' as a defense in motor insurance claims?",
+        "options": [
+            "It absolves liability for unavoidable natural events",
+            "It increases compensation limits",
+            "It eliminates property damage claims",
+            "It applies only to commercial vehicles"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the primary goal of the Guarantee Fund in France?",
+        "options": [
+            "To resolve policy disputes",
+            "To compensate victims of uninsured and untraced vehicles",
+            "To provide subsidies for vehicle repairs",
+            "To standardize premium rates"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "How does the doctrine of subrogation benefit insurers?",
+        "options": [
+            "Allows recovery of compensation paid to policyholders from third parties",
+            "Limits insurer liability for third-party claims",
+            "Eliminates policyholder contributions",
+            "Standardizes compensation amounts"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What principle underpins the Hit and Run Scheme in India?",
+        "options": [
+            "Strict liability for all motor vehicles",
+            "Compensation from the Solatium Fund for victims of untraced vehicles",
+            "Exemption for uninsured vehicles",
+            "Liability limited to commercial vehicles only"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the purpose of Section 146 of the MV Act in India?",
+        "options": [
+            "Compulsory third-party motor insurance",
+            "Compensation for property damage",
+            "Liability for personal injury claims",
+            "Standardization of insurance premiums"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is a distinguishing feature of no-fault liability under Section 140 of the MV Act?",
+        "options": [
+            "Compensation requires proof of negligence",
+            "Compensation is fixed and not fault-based",
+            "Liability is limited to property damage only",
+            "It applies only to hit-and-run cases"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which defense applies when the claimant knowingly accepts the risk of injury?",
+        "options": [
+            "Volenti non fit injuria",
+            "Contributory negligence",
+            "Doctrine of Subrogation",
+            "Proximate cause"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What distinguishes motor insurance in the USA under financial responsibility laws?",
+        "options": [
+            "Mandatory insurance coverage for all vehicles",
+            "Proof of financial ability to pay damages after an accident",
+            "Unlimited compensation for third-party claims",
+            "Compulsory no-fault liability for property damage"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the compensation limit for death under Section 140 of the MV Act?",
+        "options": [
+            "Rs. 25,000",
+            "Rs. 50,000",
+            "Rs. 75,000",
+            "Rs. 1,00,000"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the role of proximate cause in determining motor insurance claims?",
+        "options": [
+            "Identifies the claimant's fault in the event",
+            "Determines the most direct and effective cause of the loss",
+            "Limits liability to the least contributing factor",
+            "Reduces compensation based on policy exclusions"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the purpose of structured liability under Section 163(A)?",
+        "options": [
+            "To provide fixed compensation based on income and age",
+            "To eliminate hit-and-run cases",
+            "To standardize premium rates",
+            "To promote voluntary insurance policies"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which section of the MV Act mandates the payment of third-party claims by insurers?",
+        "options": [
+            "Section 140",
+            "Section 149",
+            "Section 163",
+            "Section 146"
+        ],
+        "correctIndex": 1
+    }
+]

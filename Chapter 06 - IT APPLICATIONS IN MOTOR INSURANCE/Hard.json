@@ -1,0 +1,242 @@
+[
+    {
+        "question": "What is the primary challenge insurers face when transitioning to cloud systems for motor insurance?",
+        "options": [
+            "Cost of cloud implementation",
+            "Compatibility with existing data centers",
+            "Reducing policyholder numbers",
+            "Eliminating manual claim processes"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which area of analytics focuses on quantifying performance and visualizing data patterns?",
+        "options": [
+            "Descriptive analytics",
+            "Predictive analytics",
+            "Enhanced analytics",
+            "Enterprise decision management"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is a key advantage of applying telematics data in usage-based insurance (UBI)?",
+        "options": [
+            "Setting uniform premium rates",
+            "Creating precise rating variables",
+            "Eliminating fraud detection processes",
+            "Automating all claim settlements"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "How do predictive analytics streamline claims processes?",
+        "options": [
+            "By automating claim settlement approvals",
+            "By providing real-time alerts and segmentation triggers",
+            "By eliminating underwriter reviews",
+            "By using static risk models"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the role of data governance in an insurer's analytics strategy?",
+        "options": [
+            "Standardizing premium rates across policies",
+            "Ensuring trust and value in organizational data",
+            "Eliminating redundant data fields",
+            "Outsourcing analytics to external vendors"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is one major drawback of identifying drug-impaired driving in motor insurance claims?",
+        "options": [
+            "Lack of standardized testing procedures",
+            "Uniform drug impact on driver behavior",
+            "Excessive costs of blood alcohol tests",
+            "Increased dependency on police reports"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is a critical use of narrative descriptions in motor insurance analytics?",
+        "options": [
+            "Reducing premium rates for risky drivers",
+            "Identifying claim severity and subrogation opportunities",
+            "Automating renewal processes",
+            "Standardizing accident reports"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What distinguishes V2X from traditional vehicle communication technologies?",
+        "options": [
+            "Focus on driver behavior analysis",
+            "Ability to connect with both vehicles and infrastructure",
+            "Limited deployment in global markets",
+            "Requirement for manual updates"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is a significant challenge in deploying predictive analytics for fraud detection?",
+        "options": [
+            "Inadequate access to narrative data",
+            "Lack of advanced algorithms",
+            "High dependency on manual processes",
+            "Increased operational costs"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which aspect of predictive analytics is used to identify underpriced and overpriced segments in commercial lines?",
+        "options": [
+            "Enhanced visualization techniques",
+            "Segmentation models",
+            "Standard underwriting guidelines",
+            "Claims fraud triggers"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What role does machine-learning technology play in predictive analytics?",
+        "options": [
+            "Replacing traditional underwriting processes",
+            "Uncovering predictive signals missed by conventional methods",
+            "Eliminating the need for human intervention",
+            "Standardizing claims data"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Why is the TAC's requirement for standardized data codes critical for motor insurers?",
+        "options": [
+            "It facilitates outsourcing of claims management",
+            "It ensures consistent data analysis across insurers",
+            "It eliminates the need for data security measures",
+            "It restricts insurers from creating custom policies"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the primary purpose of predictive analytics in commercial insurance?",
+        "options": [
+            "Replacing underwriter decision-making",
+            "Enhancing underwriters' ability to assess risks",
+            "Eliminating fraudulent claims",
+            "Standardizing premium rates across markets"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "How does predictive analytics influence customer retention strategies?",
+        "options": [
+            "By identifying customers likely to leave and assessing profitability",
+            "By reducing premium rates for all customers",
+            "By automating customer queries",
+            "By standardizing claim settlement timelines"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is one key factor in determining motor insurance premium rates?",
+        "options": [
+            "Driver's attire",
+            "Historical claims cost",
+            "Vehicle brand popularity",
+            "Policyholder's occupation"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "How does TAC contribute to claims data accuracy for insurers?",
+        "options": [
+            "By reducing underwriting data requirements",
+            "By enforcing consistent data collection standards",
+            "By standardizing claims approval processes",
+            "By eliminating unstructured narrative data"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is one major limitation of traditional underwriting approaches in commercial lines?",
+        "options": [
+            "Dependency on predictive models",
+            "Inability to adapt to new data sources",
+            "Excessive reliance on segmentation models",
+            "Lack of skilled underwriters"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is a primary goal of V2V technology in the context of road safety?",
+        "options": [
+            "Eliminating human-driven vehicles",
+            "Facilitating communication between vehicles to reduce accidents",
+            "Standardizing vehicle designs",
+            "Automating vehicle manufacturing"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is a key advantage of using big data in motor insurance analytics?",
+        "options": [
+            "Reducing data storage costs",
+            "Generating actionable insights for risk assessment",
+            "Eliminating manual claims processes",
+            "Automating policy renewals"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which of these is a critical output of TAC's underwriting data analysis?",
+        "options": [
+            "Loss ratios by vehicle type and age",
+            "Driver's insurance preferences",
+            "Vehicle maintenance schedules",
+            "Customer service ratings"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "How can predictive analytics optimize claims triage processes?",
+        "options": [
+            "By automating claim approvals",
+            "By identifying high-priority claims using narrative data",
+            "By eliminating underwriter involvement",
+            "By standardizing premium adjustments"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the significance of V2X applications in traffic flow management?",
+        "options": [
+            "They eliminate traffic signals",
+            "They improve coordination among connected vehicles",
+            "They reduce vehicle manufacturing costs",
+            "They automate road maintenance processes"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is one challenge in applying predictive analytics to commercial insurance?",
+        "options": [
+            "Resistance to adopting advanced tools",
+            "Limited scope of narrative data",
+            "Dependency on manual underwriting",
+            "Standardized risk assessment methods"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is a significant outcome of using predictive analytics in motor insurance?",
+        "options": [
+            "Eliminating manual claims processes",
+            "Improving accuracy in pricing and underwriting",
+            "Reducing customer retention efforts",
+            "Standardizing premium rates across regions"
+        ],
+        "correctIndex": 1
+    }
+]

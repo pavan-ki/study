@@ -1,0 +1,252 @@
+[
+    {
+        "question": "What is a key factor insurers must consider when switching to cloud-based systems?",
+        "options": [
+            "Speed of transitioning to cloud",
+            "Cost-effectiveness of the cloud system",
+            "Elimination of physical offices",
+            "Compatibility with policy documents"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which of the following is a key difference between analytics and analysis?",
+        "options": [
+            "Analytics focuses on patterns, while analysis focuses on individual data points",
+            "Analysis requires algorithms, while analytics doesn't",
+            "Analytics is a manual process, while analysis is automated",
+            "Analysis is broader in scope compared to analytics"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "How do telematics devices contribute to motor insurance?",
+        "options": [
+            "By providing maintenance updates",
+            "By transmitting driving behavior and mileage data",
+            "By automatically renewing policies",
+            "By calculating repair costs"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does predictive analytics in insurance rely on to improve claims management?",
+        "options": [
+            "Customer feedback surveys",
+            "Data mining and real-time alerts",
+            "Manual underwriting processes",
+            "Paper-based records"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which of these is an example of V2X technology?",
+        "options": [
+            "Vehicles communicating with roadside infrastructure",
+            "Manual transmission systems",
+            "Offline navigation systems",
+            "Car manual updates"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the role of data governance in analytics?",
+        "options": [
+            "To ensure data is used for marketing only",
+            "To establish trust and ensure the value of data",
+            "To eliminate redundant storage systems",
+            "To provide free data access to customers"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What makes drug-impaired driving more complex to detect compared to alcohol-impaired driving?",
+        "options": [
+            "Lack of breathalyzer tests for drugs",
+            "High availability of drugs",
+            "Uniform impact of drugs on driving ability",
+            "Standardized drug testing protocols"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is one challenge insurers face in handling predictive analytics for large claims?",
+        "options": [
+            "Unstructured narrative data",
+            "High availability of predictive models",
+            "Lack of trained surveyors",
+            "Data security compliance"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is a common application of machine-learning technology in insurance?",
+        "options": [
+            "Improving manual claim processing",
+            "Enhancing accuracy of predictive models",
+            "Replacing customer service representatives",
+            "Eliminating premium adjustments"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "How does V2V technology improve road safety?",
+        "options": [
+            "By eliminating human drivers",
+            "By allowing vehicles to communicate with each other",
+            "By enforcing stricter traffic laws",
+            "By monitoring weather patterns"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is one benefit of predictive analytics in fraud detection?",
+        "options": [
+            "Increased claim settlement time",
+            "Reduced fraudulent claims through real-time detection",
+            "Higher premium rates for risky drivers",
+            "Complete elimination of manual reviews"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does the Insurance Information Bureau (IIB) primarily focus on?",
+        "options": [
+            "Providing customer discounts",
+            "Collating and analyzing industry-wide data",
+            "Offering insurance claim settlement services",
+            "Developing new vehicle models"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "How does predictive analytics support underwriters in commercial lines?",
+        "options": [
+            "By automating claim settlements",
+            "By providing actionable insights for better risk assessment",
+            "By eliminating underwriting tasks",
+            "By standardizing premium rates"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is a key reason for adopting cloud-based analytics solutions?",
+        "options": [
+            "To eliminate manual data entry",
+            "To reduce operating costs and improve scalability",
+            "To avoid using external vendors",
+            "To replace existing policy documents"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which aspect of predictive analytics is particularly important for claim triage?",
+        "options": [
+            "Eliminating manual claim reviews",
+            "Analyzing narrative descriptions for better claim categorization",
+            "Standardizing premium adjustments",
+            "Enhancing customer loyalty programs"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "How do connected vehicle services impact motor insurance?",
+        "options": [
+            "They eliminate policy renewals",
+            "They provide data for usage-based insurance products",
+            "They automate premium calculations",
+            "They reduce the need for surveys"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is a significant advantage of using big data in insurance?",
+        "options": [
+            "Eliminating data storage requirements",
+            "Providing insights for better decision-making",
+            "Reducing regulatory compliance needs",
+            "Avoiding customer feedback collection"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is one way predictive analytics helps insurers in customer acquisition?",
+        "options": [
+            "Eliminating marketing expenses",
+            "Identifying prospects likely to respond to campaigns",
+            "Standardizing premium rates",
+            "Reducing claims processing time"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the primary focus of TAC as a data repository?",
+        "options": [
+            "Issuing new insurance policies",
+            "Capturing and analyzing underwriting and claims data",
+            "Providing vehicle registration services",
+            "Managing insurance agent training"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does the 'future of auto insurance' emphasize?",
+        "options": [
+            "Expanding traditional vehicle models",
+            "Adopting new safety and innovation technologies",
+            "Eliminating connected vehicle services",
+            "Reducing dependency on IT systems"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the role of predictive analytics in pricing?",
+        "options": [
+            "It eliminates the need for underwriters",
+            "It improves pricing accuracy using data-driven insights",
+            "It reduces the number of policyholders",
+            "It standardizes rates across all insurers"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which factor is NOT typically captured in TAC's claims data?",
+        "options": [
+            "Vehicle registration details",
+            "Driver's education level",
+            "Accident time and location",
+            "Insurance company's marketing budget"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "question": "How does V2X technology contribute to traffic management?",
+        "options": [
+            "By increasing vehicle emissions",
+            "By improving traffic flow through communication",
+            "By reducing the need for road maintenance",
+            "By automating toll payments"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is a common use case for narrative data in insurance analytics?",
+        "options": [
+            "Enhancing premium rates",
+            "Improving claim categorization and subrogation opportunities",
+            "Reducing underwriting procedures",
+            "Eliminating policy renewals"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is one challenge in implementing predictive analytics for commercial lines?",
+        "options": [
+            "Limited data availability",
+            "Resistance to replacing traditional underwriting approaches",
+            "Increased policy cancellation rates",
+            "Higher customer churn"
+        ],
+        "correctIndex": 1
+    }
+]
