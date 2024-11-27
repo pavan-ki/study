@@ -1,0 +1,252 @@
+[
+    {
+        "question": "What is the role of a surveyor in ensuring compliance with the 'Driver Clause'?",
+        "options": [
+            "To verify the validity and type of the driver's license",
+            "To assess the financial status of the driver",
+            "To ensure the driver has a clean driving history",
+            "To inspect the insured vehicle's condition before the accident"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What happens if a driver's license is found to have expired at the time of the accident?",
+        "options": [
+            "The claim is rejected outright",
+            "The insurer requires the driver to renew their license before settlement",
+            "The policy is canceled",
+            "The insurer imposes a penalty on the claim amount"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Under what conditions is a 'cash loss settlement' preferred?",
+        "options": [
+            "When the insured is unable to produce repair bills",
+            "When the vehicle is beyond repair",
+            "When salvage value exceeds repair costs",
+            "When the insured opts for policy cancellation"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "How does a surveyor determine if a part is damaged due to an accident or poor maintenance?",
+        "options": [
+            "By conducting a comparative analysis with similar vehicles",
+            "By assessing the wear and tear of the part",
+            "By inspecting the accident site for corroborating evidence",
+            "By consulting the repairer for insights"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What is the significance of the salvage value in a constructive total loss claim?",
+        "options": [
+            "It reduces the insurer's claim payout",
+            "It determines the IDV of the vehicle",
+            "It is used to calculate depreciation on replaced parts",
+            "It decides whether the vehicle should be scrapped"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which method is used to calculate repair costs in commercial vehicle claims?",
+        "options": [
+            "Time basis",
+            "Job basis",
+            "Piece rate system",
+            "All of the above"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "question": "Why are older vehicles subject to higher depreciation rates in claim settlements?",
+        "options": [
+            "Due to higher salvage value",
+            "To account for wear and tear over time",
+            "To encourage insured individuals to upgrade their vehicles",
+            "To reduce the insurer's liability"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is a major drawback of windscreen replacement instead of repair?",
+        "options": [
+            "It increases the cost of repairs significantly",
+            "It compromises the structural integrity of the vehicle",
+            "It voids the motor insurance policy",
+            "It requires additional surveyor approvals"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the purpose of a tachograph in fleet management?",
+        "options": [
+            "To monitor vehicle maintenance schedules",
+            "To track driver behavior and speed patterns",
+            "To calculate claim amounts",
+            "To assess road safety conditions"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the role of depreciation in determining liability for repaired vehicles?",
+        "options": [
+            "To reduce the claim amount for new parts",
+            "To increase the repairer's payment",
+            "To calculate the vehicle's market value",
+            "To determine the insured's premium rates"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which document is mandatory for settling a theft claim?",
+        "options": [
+            "Satisfaction note from the insured",
+            "Untraced certificate from police authorities",
+            "A detailed repair estimate",
+            "The vehicle's original invoice"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does a surveyor's report primarily focus on during a final survey?",
+        "options": [
+            "Determining the pre-accident condition of the vehicle",
+            "Analyzing the insured's financial history",
+            "Calculating premium adjustments",
+            "Recording the insured's driving history"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the main concern when replacing parts during a repair?",
+        "options": [
+            "The quality of the replacement part",
+            "Ensuring the replaced part meets safety standards",
+            "Avoiding unnecessary replacements",
+            "Minimizing repair costs for the repairer"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "How is a claim for a repaired stolen vehicle typically processed?",
+        "options": [
+            "Through cash loss settlement",
+            "As a spot survey",
+            "Under a repair basis settlement",
+            "As a constructive total loss"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What is the primary purpose of an 'untraced certificate' in theft cases?",
+        "options": [
+            "To finalize claim settlement without police involvement",
+            "To certify that the vehicle has not been recovered by authorities",
+            "To authorize the insured to cancel the policy",
+            "To determine salvage value"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is a critical factor in deciding a constructive total loss?",
+        "options": [
+            "Repair costs exceeding 75% of IDV",
+            "The salvage value of the vehicle",
+            "The type of damage sustained",
+            "The vehicle's registration status"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the usual action for mechanical breakdowns that cause accidents?",
+        "options": [
+            "They are excluded from motor insurance coverage",
+            "They are covered if consequential damages occur",
+            "They are settled as cash loss claims",
+            "They require independent surveys"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which of the following is NOT a function of the claim form?",
+        "options": [
+            "To verify policy coverage details",
+            "To establish the insured's identity",
+            "To calculate depreciation rates",
+            "To document the cause of the accident"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What is a 'spot survey' primarily used for in commercial vehicle claims?",
+        "options": [
+            "To determine the IDV",
+            "To verify the insured's repair estimates",
+            "To inspect damages and establish the cause of the accident",
+            "To finalize the settlement amount"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What role does the principle of subrogation play in motor insurance claims?",
+        "options": [
+            "It allows the insurer to recover costs from third parties liable for damages",
+            "It excludes third-party claims from coverage",
+            "It facilitates immediate settlement of claims",
+            "It ensures no claim bonus eligibility for the insured"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Why is an 'indemnity bond' sometimes required in theft claims?",
+        "options": [
+            "To protect the insured against theft recurrence",
+            "To ensure the insured repays the claim if the vehicle is recovered",
+            "To facilitate immediate claim payout",
+            "To authorize repair work on the stolen vehicle"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which method is most effective in preventing fraudulent claims?",
+        "options": [
+            "Comprehensive policy exclusions",
+            "Detailed and accurate surveyor reports",
+            "Increasing policy premiums",
+            "Reducing claim settlement times"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the main focus of a re-inspection survey?",
+        "options": [
+            "To verify that repairs match the assessed damage",
+            "To determine the salvage value of replaced parts",
+            "To reassess the cause of the accident",
+            "To calculate the total repair costs"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the insurer's responsibility during 'cashless settlement' processes?",
+        "options": [
+            "To reimburse the insured directly",
+            "To pay the repairer directly for admissible claim costs",
+            "To negotiate repair costs with the insured",
+            "To waive deductible charges for the insured"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "How does the principle of indemnity prevent financial gain in claims?",
+        "options": [
+            "By applying depreciation to new parts",
+            "By limiting coverage to third-party liabilities",
+            "By excluding mechanical breakdowns",
+            "By reducing premiums for high-risk drivers"
+        ],
+        "correctIndex": 0
+    }
+]

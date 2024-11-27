@@ -1,0 +1,252 @@
+[
+    {
+        "question": "What is the primary focus of motor insurance claims?",
+        "options": [
+            "Cause of accident and damages",
+            "Vehicle maintenance schedule",
+            "Policy premium rates",
+            "Surveyor's qualifications"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "In the context of motor claims, what does the term 'shearing forces' usually indicate?",
+        "options": [
+            "Forces causing direct impact",
+            "Forces causing bending, not breaking",
+            "Forces causing breakage due to impact",
+            "Forces unrelated to accidents"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What is a key step during the preliminary scrutiny phase in own damage claims?",
+        "options": [
+            "Finalizing repair estimates",
+            "Issuing a claim form to the insured",
+            "Releasing the salvage",
+            "Inspecting repaired vehicles"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does the 'Driver Clause' in a motor insurance policy specify?",
+        "options": [
+            "Conditions under which the insured can drive any vehicle",
+            "Validity and type of the driver's license",
+            "Exclusions for mechanical breakdowns",
+            "Special policy rates for experienced drivers"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which statement is true regarding 'Total Loss' in motor insurance?",
+        "options": [
+            "Repairs exceeding 50% of the vehicle's value are considered total loss.",
+            "Salvage value is irrelevant for total loss calculations.",
+            "A vehicle is considered total loss when repair costs exceed 75% of the IDV.",
+            "The registration book is not required for a total loss claim."
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What is the role of a surveyor in motor insurance claims?",
+        "options": [
+            "To determine policy premium rates",
+            "To assess the cause and extent of loss",
+            "To repair the insured vehicle",
+            "To approve claims unconditionally"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is typically required when a vehicle is stolen?",
+        "options": [
+            "Insurance policy renewal",
+            "Submission of repair bills",
+            "A copy of the FIR lodged with the police",
+            "An affidavit from the insured"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What is a 'spot survey' primarily used for?",
+        "options": [
+            "Calculating the IDV of a vehicle",
+            "Inspecting damages at the accident site",
+            "Preparing a final survey report",
+            "Issuing claim numbers to insured individuals"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is meant by 'cashless settlement' in motor insurance?",
+        "options": [
+            "Reimbursement of repair costs to the insured",
+            "Direct payment to preferred garages by insurers",
+            "Waiver of deductible amounts for the insured",
+            "Claim settlement without any formalities"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Why is the 'principle of indemnity' important in motor insurance?",
+        "options": [
+            "It ensures fair premium rates for the insured.",
+            "It prevents the insured from gaining financially from a claim.",
+            "It limits the role of surveyors in claim settlement.",
+            "It covers maintenance expenses for older vehicles."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the first step in claim settlement for own damage claims?",
+        "options": [
+            "Issuing a claim number",
+            "Preliminary scrutiny of the policy records",
+            "Conducting a final survey",
+            "Assessing repair estimates"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is a 'constructive total loss' in motor insurance?",
+        "options": [
+            "When the insured decides not to repair the vehicle",
+            "When the cost of repair exceeds 75% of the IDV",
+            "When the vehicle is damaged but repairable",
+            "When the insurer refuses to pay for repairs"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which document is essential for processing a theft claim?",
+        "options": [
+            "The vehicle's registration certificate",
+            "A duplicate key",
+            "A salvage receipt",
+            "A satisfaction note from the insured"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the purpose of depreciation charges in motor insurance claims?",
+        "options": [
+            "To reduce claim amounts for newer vehicles",
+            "To reflect the wear and tear of replaced parts",
+            "To penalize the insured for high claim frequency",
+            "To ensure the insurer profits from claims"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which type of loss is excluded from motor insurance policy coverage?",
+        "options": [
+            "Fire damage",
+            "Mechanical breakdown",
+            "Theft of the vehicle",
+            "Damage due to road accidents"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the key role of a motor surveyor during spot surveys?",
+        "options": [
+            "To finalize the claim amount",
+            "To identify moral hazards and document actual damages",
+            "To repair the vehicle on-site",
+            "To deny claims for undocumented damages"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Why are preferred garages significant in motor insurance?",
+        "options": [
+            "They ensure cashless settlements for insured vehicles",
+            "They allow insured individuals to avoid paying deductibles",
+            "They replace damaged vehicles with new ones",
+            "They bypass the need for a surveyor's report"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the role of the insured in a motor insurance claim?",
+        "options": [
+            "To ensure all claim documents are submitted",
+            "To decide the claim amount with the surveyor",
+            "To perform a preliminary vehicle inspection",
+            "To negotiate salvage value with the insurer"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the IDV in motor insurance?",
+        "options": [
+            "Insured's Damage Value",
+            "Initial Deposit Value",
+            "Insurance Declared Value",
+            "Individual Deduction Value"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What is included in the final survey report for a motor claim?",
+        "options": [
+            "Salvage sale details",
+            "List of all damaged parts and extent of repairs",
+            "Details of towing charges",
+            "Premium adjustments for the next renewal"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is a key exclusion under Section I of motor insurance policies?",
+        "options": [
+            "Damage due to fire",
+            "Third-party liabilities",
+            "Damage caused by mechanical wear and tear",
+            "Theft of the vehicle"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What does a claim form typically require about the driver?",
+        "options": [
+            "Driving experience and history",
+            "Income details",
+            "Family background",
+            "Vehicle ownership history"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the main purpose of a 'cash loss settlement'?",
+        "options": [
+            "To provide immediate claim payouts without repair bills",
+            "To avoid depreciation charges",
+            "To transfer claim rights to a third party",
+            "To facilitate complete vehicle replacement"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which of the following is considered a 'physical cause' of road accidents?",
+        "options": [
+            "Over-speeding",
+            "Untrained drivers",
+            "Foggy weather conditions",
+            "Drunken driving"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the purpose of the 'Driver Clause' in motor insurance policies?",
+        "options": [
+            "To exclude specific drivers from coverage",
+            "To ensure compliance with valid driving licenses",
+            "To provide discounts for experienced drivers",
+            "To determine the insured's eligibility for a claim"
+        ],
+        "correctIndex": 1
+    }
+]

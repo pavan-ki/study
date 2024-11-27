@@ -1,0 +1,252 @@
+[
+    {
+        "question": "What is the primary purpose of preliminary scrutiny in motor insurance claims?",
+        "options": [
+            "To verify the policy coverage and issue a claim form",
+            "To calculate the deductible amount",
+            "To assess salvage value",
+            "To finalize the settlement amount"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Under what circumstances is a spot survey typically conducted?",
+        "options": [
+            "For minor damages below Rs. 20,000",
+            "When a vehicle meets with an accident in a remote location",
+            "During policy renewal inspections",
+            "For processing theft claims"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is an 'untraced certificate' in the context of theft claims?",
+        "options": [
+            "A certificate issued when the vehicle owner cannot be located",
+            "A document certifying that the stolen vehicle is classified as untraceable",
+            "A receipt for submitting all claim documents",
+            "An approval for claim settlement without a police report"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the principle of indemnity in motor insurance?",
+        "options": [
+            "To ensure the insured receives the full replacement value",
+            "To restore the insured to their financial position before the loss",
+            "To allow policyholders to profit from claims",
+            "To exclude depreciation costs from claims"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which of the following is NOT typically part of a claim form?",
+        "options": [
+            "Details of the insured vehicle",
+            "Information about the driver",
+            "Exact repair costs",
+            "Details about the cause and circumstances of the accident"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What is the role of the surveyor in a final survey?",
+        "options": [
+            "To finalize the claim settlement amount",
+            "To verify and document damages and assess repair needs",
+            "To issue payment to repair shops",
+            "To handle negotiations with third parties"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which of the following factors typically results in a constructive total loss?",
+        "options": [
+            "When the vehicle owner decides to scrap the vehicle",
+            "When repair costs exceed 50% of the IDV",
+            "When repair costs exceed 75% of the IDV",
+            "When the insurer refuses to settle the claim"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What is the salvage value in a motor insurance claim?",
+        "options": [
+            "The value of parts retained by the insurer",
+            "The cost of repairs after depreciation",
+            "The market value of damaged parts or vehicle",
+            "The amount deducted for excess and depreciation"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What is the purpose of the 'driver clause' in motor insurance policies?",
+        "options": [
+            "To exclude unlicensed drivers from coverage",
+            "To provide additional benefits for drivers with clean records",
+            "To specify coverage limitations based on the driver's profile",
+            "To include all authorized drivers under the policy"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the significance of the IDV in determining claim settlement?",
+        "options": [
+            "It represents the premium paid by the insured",
+            "It is the maximum sum insured payable for a claim",
+            "It determines the salvage value of the vehicle",
+            "It excludes depreciation on replaced parts"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the primary purpose of a re-inspection survey?",
+        "options": [
+            "To estimate the cost of repairs",
+            "To ensure the insured has completed repairs as per the assessment",
+            "To verify the vehicle's pre-accident condition",
+            "To finalize the claim settlement"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "How does the depreciation rate affect claim settlements?",
+        "options": [
+            "It increases the salvage value",
+            "It reduces the payable claim amount for replaced parts",
+            "It determines the IDV of the vehicle",
+            "It has no impact on settlements for older vehicles"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which statement is true about cashless settlements?",
+        "options": [
+            "The insured receives the settlement amount in cash",
+            "The insurer pays the repairer directly for admissible costs",
+            "The claim amount is settled without a survey",
+            "The insured bears all repair costs upfront"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the typical procedure for assessing theft claims?",
+        "options": [
+            "Immediate settlement upon FIR submission",
+            "Verification of documents and issuing an untraced certificate if the vehicle is not recovered",
+            "Spot survey of the theft location",
+            "Re-inspection of the vehicle"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the purpose of the claim form declaration?",
+        "options": [
+            "To provide detailed repair estimates",
+            "To confirm the accuracy of statements and void the policy for false claims",
+            "To authorize the surveyor to conduct repairs",
+            "To waive depreciation charges"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "When is a spot survey most critical?",
+        "options": [
+            "For minor damages below Rs. 20,000",
+            "For vehicles repaired at authorized garages",
+            "When a vehicle meets with an accident in a remote area",
+            "For processing third-party claims"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Which factor is considered during pre-accident condition assessment?",
+        "options": [
+            "Vehicle's service history",
+            "Vehicle's odometer reading",
+            "Vehicle's paint condition",
+            "All of the above"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "question": "What is the main objective of the principle of contribution?",
+        "options": [
+            "To ensure insurers share the loss in proportion to their liability",
+            "To calculate depreciation on replaced parts",
+            "To prevent fraudulent claims",
+            "To establish the cause of the accident"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which of the following is covered under a motor insurance policy?",
+        "options": [
+            "Damage due to mechanical wear and tear",
+            "Accidental damage caused by third-party negligence",
+            "Loss due to delayed maintenance",
+            "Routine vehicle servicing costs"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the first step in handling own damage claims?",
+        "options": [
+            "Finalizing the settlement amount",
+            "Conducting a spot survey",
+            "Issuing a claim form",
+            "Assessing salvage value"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Which of the following is a valid reason for claim rejection?",
+        "options": [
+            "Expired driver's license at the time of accident",
+            "Submission of a repair estimate",
+            "Filing a claim for minor damages",
+            "Reporting the accident within 24 hours"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the key difference between total loss and constructive total loss?",
+        "options": [
+            "Total loss occurs only in theft cases",
+            "Constructive total loss involves repair costs exceeding 50% of the IDV",
+            "Total loss involves repair costs exceeding 75% of the IDV",
+            "Constructive total loss applies to minor damages only"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What is a typical exclusion under Section I of a motor insurance policy?",
+        "options": [
+            "Damage caused by fire",
+            "Theft of the vehicle",
+            "Damage due to mechanical breakdown",
+            "Accidental damage to the vehicle"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What is the role of the surveyor in loss minimization?",
+        "options": [
+            "To negotiate claim amounts with the insured",
+            "To identify and exclude losses due to poor maintenance",
+            "To conduct repairs on behalf of the insurer",
+            "To finalize policy renewals"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is typically included in the assessment phase of a claim?",
+        "options": [
+            "Verification of policy coverage",
+            "Detailed damage inspection and cost estimation",
+            "Issuing claim numbers to the insured",
+            "Authorizing salvage collection"
+        ],
+        "correctIndex": 1
+    }
+]
