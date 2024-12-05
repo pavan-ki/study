@@ -1,27 +1,15 @@
-let isNavOpen = false;
-
 document.addEventListener("DOMContentLoaded", () => {
     populateMenu();
+    // Load the first mock test from Chapter 01 by default
     loadQuiz("Chapter 01 - INTRODUCTION TO MOTOR INSURANCE/Easy.json", "Chapter 01 - INTRODUCTION TO MOTOR INSURANCE", "Easy");
 });
-
-// Toggle Hamburger Menu
-function toggleNav() {
-    const sidenav = document.getElementById("mySidenav");
-    if (!isNavOpen) {
-        sidenav.classList.add("open");
-    } else {
-        sidenav.classList.remove("open");
-    }
-    isNavOpen = !isNavOpen;
-}
 
 let questions = [];
 let userAnswers = {};
 let selectedChapter = "Chapter 01 - INTRODUCTION TO MOTOR INSURANCE/Easy.json"; // Track the currently selected chapter
 let selectedMockTest = "Easy"; // Track the currently selected mock test
 
-// Populate Menu with Chapters and Quizzes
+// Dynamically populate the accordion menu with chapters and mock tests
 function populateMenu() {
     const chapters = {
         "Chapter 01 - INTRODUCTION TO MOTOR INSURANCE": ["Easy.json", "Medium.json", "Hard.json"],
@@ -37,20 +25,25 @@ function populateMenu() {
     };
 
     const sidenav = document.getElementById("mySidenav");
-    Object.keys(chapters).forEach((chapter, index) => {
-        // Chapter heading
+    sidenav.innerHTML = ""; // Clear previous content
+
+    Object.keys(chapters).forEach((chapter, chapterIndex) => {
+        // Create chapter heading
         const chapterHeading = document.createElement("h3");
         chapterHeading.textContent = chapter;
-        chapterHeading.onclick = () => chapterHeading.classList.toggle("expanded");
+        chapterHeading.className = chapterIndex === 0 ? "expanded" : ""; // Expand first chapter by default
+        chapterHeading.onclick = () => toggleChapter(chapter, chapterHeading);
 
-        // Quiz links container
+        // Create mock test links container
         const quizLinksContainer = document.createElement("div");
         quizLinksContainer.className = "quiz-links";
-        chapters[chapter].forEach(test => {
-            const testLink = document.createElement("a");
-            testLink.textContent = test.replace(".json", "");
-            testLink.onclick = () => loadQuiz(`${chapter}/${test}`, chapter, test.replace(".json", ""));
-            quizLinksContainer.appendChild(testLink);
+
+        chapters[chapter].forEach(mockTest => {
+            const quizLink = document.createElement("a");
+            quizLink.textContent = mockTest.replace(".json", ""); // Display name without .json
+            quizLink.classList.add("quiz-link");
+            quizLink.onclick = () => loadQuiz(encodeURIComponent(`${chapter}/${mockTest}`), chapter, mockTest.replace(".json", ""));
+            quizLinksContainer.appendChild(quizLink);
         });
 
         sidenav.appendChild(chapterHeading);
@@ -72,7 +65,7 @@ function toggleChapter(chapter, chapterHeading) {
     chapterHeading.nextElementSibling.style.display = "block";
 }
 
-// Load Quiz
+// Load quiz from a specific chapter and mock test file, update header
 async function loadQuiz(filePath, chapterName, mockTestName) {
     try {
         const response = await fetch(filePath);
