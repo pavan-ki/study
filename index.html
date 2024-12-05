@@ -4,220 +4,184 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Promotion Exercise 2025 - 2026</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
     <style>
-        /* Root Variables for Theme Colors */
         :root {
-            --primary-color: #4a90e2;
-            --secondary-color: #ffffff;
-            --accent-color: #4caf50;
-            --background-color: #f4f4f9;
-            --text-color: #333;
-            --hover-color: #357abd;
-            --shadow-color: rgba(0, 0, 0, 0.1);
-        }
+    --primary-color: #4a90e2;
+    --secondary-color: #ffffff;
+    --accent-color: #4caf50;
+    --background-color: #f4f4f9;
+    --text-color: #333;
+    --hover-color: #357abd;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+    }
 
-        body {
-            font-family: 'Roboto', sans-serif;
-            background-color: var(--background-color);
-            color: var(--text-color);
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            min-height: 100vh;
-        }
+    body {
+        font-family: 'Roboto', sans-serif;
+        background-color: var(--background-color);
+        color: var(--text-color);
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+    }
 
-        .header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            width: 100%;
-            max-width: 800px;
-            padding: 15px;
-            margin-top: 20px;
-            background-color: var(--secondary-color);
-            border-radius: 8px;
-            box-shadow: 0 4px 8px var(--shadow-color);
-        }
+    .header {
+        width: 100%;
+        background-color: var(--primary-color);
+        color: var(--secondary-color);
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0 4px 8px var(--shadow-color);
+    }
 
-        .header span {
-            font-size: 1rem;
-        }
+    .header h1 {
+        margin: 0;
+        font-size: 1.5rem;
+    }
 
-        .header .reveal-btn {
-            background-color: var(--accent-color);
-            color: var(--secondary-color);
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
+    .hamburger-menu {
+        font-size: 1.5rem;
+        background: none;
+        border: none;
+        color: var(--secondary-color);
+        cursor: pointer;
+    }
 
-        .header .reveal-btn:hover {
-            background-color: #388e3c;
-        }
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: var(--primary-color);
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
 
-        h2 {
-            margin: 20px 0;
-            color: var(--primary-color);
-        }
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: var(--secondary-color);
+        display: block;
+        transition: 0.3s;
+    }
 
-        #quiz-container {
-            width: 100%;
-            max-width: 800px;
-            margin-top: 20px;
-            padding: 15px;
-        }
+    .sidenav a:hover {
+        color: var(--accent-color);
+    }
 
-        .question-card {
-            background-color: var(--secondary-color);
-            border-radius: 10px;
-            padding: 20px;
-            margin-bottom: 20px;
-            box-shadow: 0 4px 12px var(--shadow-color);
-        }
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
 
-        .question-title {
-            font-size: 1.2rem;
-            margin-bottom: 15px;
-            color: var(--text-color);
-        }
+    .main-content {
+        width: 100%;
+        max-width: 800px;
+        padding: 20px;
+        margin: 20px auto;
+        background-color: var(--secondary-color);
+        border-radius: 8px;
+        box-shadow: 0 4px 8px var(--shadow-color);
+    }
 
-        .options-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
+    .quiz-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
 
-        .option-button {
-            flex: 1;
-            padding: 10px;
-            border: 2px solid var(--primary-color);
-            border-radius: 8px;
-            background-color: var(--secondary-color);
-            color: var(--primary-color);
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
+    .quiz-header span {
+        font-size: 1rem;
+    }
 
-        .option-button:hover {
-            background-color: var(--primary-color);
-            color: var(--secondary-color);
-        }
+    .reveal-btn, .submit-btn {
+        background-color: var(--primary-color);
+        color: var(--secondary-color);
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
 
-        .option-button.selected {
-            background-color: var(--accent-color);
-            color: var(--secondary-color);
-        }
+    .reveal-btn:hover, .submit-btn:hover {
+        background-color: var(--hover-color);
+    }
 
-        .summary-card {
-            background-color: var(--secondary-color);
-            border-radius: 10px;
-            padding: 20px;
-            box-shadow: 0 4px 8px var(--shadow-color);
-            text-align: center;
-            margin-top: 20px;
-            width: 100%;
-            max-width: 800px;
-        }
+    .question-card {
+        background-color: var(--background-color);
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px var(--shadow-color);
+        margin-bottom: 20px;
+    }
 
-        .submit-btn {
-            padding: 12px 24px;
-            font-size: 1rem;
-            border: none;
-            border-radius: 8px;
-            background-color: var(--primary-color);
-            color: var(--secondary-color);
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
+    .question-title {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
 
-        .submit-btn:hover {
-            background-color: var(--hover-color);
-        }
+    .options-container {
+        display: flex;
+        flex-direction: column;
+    }
 
-        .hamburger-menu {
-            position: fixed;
-            top: 20px;
-            left: 20px;
-            font-size: 1.5rem;
-            cursor: pointer;
-            z-index: 1000;
-        }
+    .option-button {
+        background-color: var(--secondary-color);
+        border: 1px solid var(--primary-color);
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s, border-color 0.3s;
+    }
 
-        .sidenav {
-            height: 100%;
-            width: 0;
-            position: fixed;
-            top: 0;
-            left: 0;
-            background-color: #333;
-            overflow-x: hidden;
-            transition: 0.5s;
-            padding-top: 60px;
-            z-index: 1000;
-            box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3);
-        }
+    .option-button:hover {
+        background-color: var(--primary-color);
+        color: var(--secondary-color);
+    }
 
-        .sidenav h3 {
-            color: var(--secondary-color);
-            padding: 10px 20px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
+    .option-button.selected {
+        background-color: var(--accent-color);
+        color: var(--secondary-color);
+    }
 
-        .sidenav h3:hover {
-            background-color: #575757;
-        }
-
-        .quiz-links a {
-            color: var(--secondary-color);
-            padding: 10px 20px;
-            display: block;
-            text-decoration: none;
-            transition: background-color 0.2s;
-        }
-
-        .quiz-links a:hover {
-            background-color: #575757;
-        }
-
-        .sidenav h3.expanded + .quiz-links {
-            display: block;
-        }
-
-        .highlight {
-            background-color: var(--accent-color);
-            color: var(--secondary-color);
-        }
+    .feedback {
+        padding-top: 10px;
+        font-weight: bold;
+    }
     </style>
 </head>
-<body class="bg-gray-100 text-gray-800">
-    <header class="bg-white shadow-md p-4 flex justify-between items-center">
-        <h1 class="text-2xl font-bold">Promotion Exercise 2025 - 2026</h1>
-        <button class="hamburger-menu text-2xl">&#9776;</button>
+<body>
+    <header class="header">
+        <h1>Promotion Exercise 2025 - 2026</h1>
+        <button class="hamburger-menu" onclick="openNav()">&#9776;</button>
     </header>
-    <nav id="mySidenav" class="sidenav bg-gray-800 text-white fixed top-0 left-0 h-full w-0 overflow-x-hidden transition-width duration-300">
-        <a href="javascript:void(0)" class="closebtn text-2xl absolute top-0 right-0 mt-4 mr-4" onclick="closeNav()">&times;</a>
+    <nav id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <!-- Menu content will be populated by JavaScript -->
     </nav>
-    <main class="container mx-auto p-4">
-        <h2 class="text-xl font-semibold">Promotion Exercise 2025 - 2026</h2>
-
-        <div class="header">
+    <main class="main-content">
+        <h2>Quiz</h2>
+        <div class="quiz-header">
             <span id="question-count"></span>
             <span id="summary"></span>
             <button class="reveal-btn" onclick="revealAnswers()">Reveal Answers</button>
         </div>
-
         <div id="quiz-container"></div>
-        <div id="summary" class="mt-4"></div>
-        <div id="result-container" class="mt-4"></div>
-
+        <div id="result-container"></div>
         <button class="submit-btn" onclick="submitQuiz()">Submit</button>
     </main>
     <script src="app.js"></script>
