@@ -73,7 +73,7 @@ function toggleChapter(chapter, chapterHeading) {
 }
 
 // Load Quiz
-async function loadQuiz(filePath, chapterName, testName) {
+async function loadQuiz(filePath, chapterName, mockTestName) {
     try {
         const response = await fetch(filePath);
         questions = await response.json();
