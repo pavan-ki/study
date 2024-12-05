@@ -2,6 +2,8 @@ document.addEventListener("DOMContentLoaded", () => {
     populateMenu();
     // Load the first mock test from Chapter 01 by default
     loadQuiz("Chapter 01 - INTRODUCTION TO MOTOR INSURANCE/Easy.json", "Chapter 01 - INTRODUCTION TO MOTOR INSURANCE", "Easy");
+
+    document.querySelector(".hamburger-menu").addEventListener("click", openNav);
 });
 
 let questions = [];
