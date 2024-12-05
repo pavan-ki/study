@@ -196,3 +196,25 @@ function revealAnswers() {
         optionButtons[q.correctIndex].classList.add('highlight');
     });
 }
+
+// Open side navigation
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.addEventListener("click", closeNavOnClickOutside);
+}
+
+// Close side navigation
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.removeEventListener("click", closeNavOnClickOutside);
+}
+
+// Close navigation when clicking outside
+function closeNavOnClickOutside(event) {
+    const sidenav = document.getElementById("mySidenav");
+    const hamburgerMenu = document.querySelector(".hamburger-menu");
+
+    if (!sidenav.contains(event.target) && !hamburgerMenu.contains(event.target)) {
+        closeNav();
+    }
+}
