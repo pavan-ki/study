@@ -1,0 +1,102 @@
+[
+    {
+        "question": "What is the primary purpose of granting damages under the Motor Vehicle Act, 1988?",
+        "options": [
+            "To punish the driver",
+            "To provide dependents with a sufficient capital sum",
+            "To promote road safety",
+            "To compensate insurers"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does Section 163(A) of the Motor Vehicle Act, 1988 provide?",
+        "options": [
+            "Liability of drivers for accidents",
+            "Structured Compensation on a No Fault basis",
+            "Rules for traffic violations",
+            "Guidelines for insurance premiums"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What are the two types of damages contemplated by law?",
+        "options": [
+            "Pecuniary and Non-Pecuniary damages",
+            "Nominal and Punitive damages",
+            "Temporary and Permanent damages",
+            "Physical and Mental damages"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What does 'Loss of Consortium' refer to in permissible heads for assessment?",
+        "options": [
+            "Loss of companionship of a spouse",
+            "Loss of job opportunities",
+            "Medical expenses",
+            "Loss of property"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the primary basis for granting compensation in case of grievous injuries?",
+        "options": [
+            "Medical expenses only",
+            "Pain and suffering, among others",
+            "Damage to property",
+            "Loss of academic year"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What type of damages are typically awarded for funeral expenses?",
+        "options": [
+            "Global compensation",
+            "Pecuniary damages",
+            "Non-pecuniary damages",
+            "Nominal damages"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is a key factor in determining the multiplier for compensation?",
+        "options": [
+            "The victim's marital status",
+            "The age of the deceased or dependents",
+            "The location of the accident",
+            "The type of vehicle involved"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the main goal of 'Structured Compensation Method'?",
+        "options": [
+            "To delay compensation payments",
+            "To provide immediate relief based on fixed criteria",
+            "To reduce compensation amounts",
+            "To increase litigation costs"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which method is known as Lord Wright's formula?",
+        "options": [
+            "Structured Compensation Method",
+            "Multiplier Method",
+            "Hybrid Method",
+            "Statutory Compensation Method"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does the term 'Multiplier' represent in compensation calculation?",
+        "options": [
+            "The number of years a victim could have worked",
+            "The victim's annual salary",
+            "The amount of medical expenses",
+            "The extent of property damage"
+        ],
+        "correctIndex": 0
+    }
+]

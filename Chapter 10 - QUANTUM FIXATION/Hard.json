@@ -1,0 +1,102 @@
+[
+    {
+        "question": "Which Supreme Court case determined that compensation for pain and suffering must consider special circumstances like age and deprivation?",
+        "options": [
+            "(1995) ACJ 366",
+            "Nandakumar's Case 1996 ACJ 555",
+            "Master Mallikarjun vs. National Insurance Co. Ltd.",
+            "Lata Wadhwa vs. State of Bihar"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Under what circumstances does Section 175 of the Motor Vehicle Act permit a civil suit for vehicle damages?",
+        "options": [
+            "When the damage is to personal property only",
+            "When the claim is contractual and unrelated to tortious liability",
+            "When the vehicle damage involves a third-party claim",
+            "When Claims Tribunal jurisdiction is exclusive"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "In the 'Multiplier Method,' what is 'Y' in the formula (A-E) * (Y)?",
+        "options": [
+            "Years of dependency",
+            "Total compensation payable",
+            "Number of dependents",
+            "Multiplier based on age"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "question": "What did the Supreme Court emphasize in the case of State of Haryana vs. Darshana Devi (1979 ACJ 205)?",
+        "options": [
+            "Structured Compensation Method application",
+            "Absence of a No Fault Liability regime",
+            "Necessity of proving negligence for claims",
+            "Exclusive jurisdiction of Claims Tribunals"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "In the case of Master Mallikarjun vs. National Insurance Co. Ltd., what is the compensation for a disability above 90%?",
+        "options": [
+            "Rs. 3 lakh",
+            "Rs. 5 lakh",
+            "Rs. 6 lakh",
+            "Rs. 4 lakh"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What is the maximum multiplier prescribed by the Supreme Court for age groups 21-25 years in Sarala Verma's case?",
+        "options": [
+            "16",
+            "18",
+            "20",
+            "19"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "question": "What is the key distinction in compensation under Sections 163(A) and 166 regarding negligence?",
+        "options": [
+            "Section 163(A) requires proof of negligence",
+            "Section 166 requires proof of negligence",
+            "Both require no proof of negligence",
+            "Both require substantial proof of fault"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "In Lata Wadhwa vs. State of Bihar, what distinction was made regarding children\u2019s compensation?",
+        "options": [
+            "Based on parental income",
+            "Based on age groups 5-10 and 10-15 years",
+            "Based on regional factors",
+            "Based on educational achievements"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which provision mandates structured compensation based on income and age without proving fault?",
+        "options": [
+            "Section 166",
+            "Section 163(A)",
+            "Section 140",
+            "Section 168"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What factor does NOT influence the multiplier selection according to the Supreme Court?",
+        "options": [
+            "Victim\u2019s age",
+            "Dependency duration",
+            "Victim\u2019s marital status",
+            "Education level"
+        ],
+        "correctIndex": 3
+    }
+]

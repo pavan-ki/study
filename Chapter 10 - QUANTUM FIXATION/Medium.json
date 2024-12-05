@@ -1,0 +1,102 @@
+[
+    {
+        "question": "Under which section of the Motor Vehicle Act, 1988, is the 'Structured Compensation Schedule' appended?",
+        "options": [
+            "Section 140",
+            "Section 163(A)",
+            "Section 168",
+            "Section 161"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is a key distinction in damage claims between Sections 163(A) and 166 of the Motor Vehicle Act?",
+        "options": [
+            "Section 163(A) applies only to minors, while Section 166 applies to adults.",
+            "Section 163(A) requires no proof of fault, while Section 166 considers tortious liability.",
+            "Section 163(A) covers property damage, while Section 166 does not.",
+            "Section 166 provides higher compensation limits compared to Section 163(A)."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What type of damages include pain, suffering, and loss of amenity of life?",
+        "options": [
+            "Pecuniary damages",
+            "Non-pecuniary damages",
+            "Special damages",
+            "Global damages"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does the term 'No Fault Liability' signify in the context of motor accident claims?",
+        "options": [
+            "The victim must prove the driver's negligence.",
+            "Compensation is granted irrespective of fault.",
+            "Compensation is denied if the victim contributed to the accident.",
+            "The claim can only be filed in civil court."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which of the following is NOT a permissible head for compensation in case of death?",
+        "options": [
+            "Loss of dependency",
+            "Loss of consortium",
+            "Loss of marital prospects",
+            "Loss of property value"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "question": "Which court case emphasized the importance of considering age and deprivation in compensation for non-pecuniary damages?",
+        "options": [
+            "Davies vs. Powell",
+            "Master Mallikarjun vs. National Insurance Co. Ltd.",
+            "(1995) ACJ 366",
+            "State Express Transport Corporation vs. G. Kathamuthu"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "In assessing compensation, what does 'Multiplier Method' primarily account for?",
+        "options": [
+            "Loss of academic year",
+            "Future income loss and dependency",
+            "Medical expenses incurred",
+            "Property damage claims"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does the 'Hybrid Method' of compensation assessment combine?",
+        "options": [
+            "Pecuniary and non-pecuniary damages",
+            "Multiplier and statutory methods",
+            "Tortious liability and no fault regimes",
+            "Medical and funeral expense claims"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What compensation is awarded for children with disabilities between 30% and 60%?",
+        "options": [
+            "Rs. 2 lakh",
+            "Rs. 3 lakh",
+            "Rs. 4 lakh",
+            "Rs. 5 lakh"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What compensation amount is specified under Section 161 for hit-and-run accidents causing grievous hurt?",
+        "options": [
+            "Rs. 5,000",
+            "Rs. 10,000",
+            "Rs. 12,500",
+            "Rs. 25,000"
+        ],
+        "correctIndex": 2
+    }
+]
