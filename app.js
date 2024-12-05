@@ -19,7 +19,8 @@ function populateMenu() {
         "Chapter 05 - MOTOR INSURANCE CLAIMS": ["Easy.json", "Medium.json", "Hard.json"],
         "Chapter 06 - IT APPLICATIONS IN MOTOR INSURANCE": ["Easy.json", "Medium.json", "Hard.json"],
         "Chapter 07 - CONSUMER DELIGHT": ["Easy.json", "Medium.json", "Hard.json"],
-        "Chapter 08 - THIRD PARTY LIABILITY INSURANCE": ["Easy.json", "Medium.json", "Hard.json"]
+        "Chapter 08 - THIRD PARTY LIABILITY INSURANCE": ["Easy.json", "Medium.json", "Hard.json"],
+        "Chapter 09 - PROCEDURES FOR FILING AND DEFENDING": ["Easy.json", "Medium.json", "Hard.json"]
     };
 
     const sidenav = document.getElementById("mySidenav");

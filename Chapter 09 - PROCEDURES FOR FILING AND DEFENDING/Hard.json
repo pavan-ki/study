@@ -1,0 +1,242 @@
+[
+    {
+        "question": "What is the legal framework under which Claims Tribunals operate?",
+        "options": [
+            "Civil Procedure Code (CPC) exclusively",
+            "Motor Vehicles Act (MV Act) with CPC provisions",
+            "Indian Penal Code (IPC) provisions",
+            "Constitutional law under Article 32"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the purpose of Section 163A under the MV Act?",
+        "options": [
+            "To establish fault-based liability systems",
+            "To enable structured compensation without proving fault",
+            "To remove limitations on liability amounts",
+            "To enforce strict timelines for claim submissions"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the significance of a written statement in tribunal defenses?",
+        "options": [
+            "Serves as the primary defense document for insurers",
+            "Allows victims to submit compensation demands",
+            "Eliminates the need for investigation reports",
+            "Directly resolves disputes without hearings"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the limitation period for filing appeals under Section 173 of the MV Act?",
+        "options": [
+            "30 days from the date of judgment",
+            "60 days from the date of award",
+            "90 days from the tribunal's decision",
+            "120 days from the incident date"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What is the role of Section 165 of the MV Act in claims processes?",
+        "options": [
+            "Empowers tribunals to adjudicate motor claims",
+            "Defines premium calculations for insurance policies",
+            "Allows insurers to deny fraudulent claims",
+            "Regulates the jurisdiction of High Courts in appeals"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What does 'Res Ipsa Loquitur' mean in tribunal cases?",
+        "options": [
+            "The law is supreme",
+            "The thing speaks for itself",
+            "The claimant is always at fault",
+            "Compensation must be quantified precisely"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What type of defenses are available under Section 149(2) of the MV Act?",
+        "options": [
+            "Statutory defenses like policy violation and fraud",
+            "Common law defenses like contributory negligence",
+            "Unlimited defenses for insurers",
+            "Defenses based on tribunal authority challenges"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What evidence strengthens a contributory negligence defense?",
+        "options": [
+            "Witness statements and victim's driving behavior",
+            "Policy terms exclusively",
+            "Documentary evidence of premium payments",
+            "Statements from unrelated parties"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the purpose of Section 148A in the CPC?",
+        "options": [
+            "Allows lodging of caveats to receive prior notice",
+            "Mandates strict timelines for claims defense",
+            "Restricts tribunal awards for contributory negligence",
+            "Authorizes insurers to challenge victim claims"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the defense of 'no insurable interest' in tribunal cases?",
+        "options": [
+            "The claimant has no legal relationship with the vehicle",
+            "The insurer disputes the premium amount",
+            "The tribunal lacks jurisdiction over claims",
+            "The victim failed to follow statutory rules"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which section allows recovery of tribunal awards as arrears of land revenue?",
+        "options": [
+            "Section 174 of the MV Act",
+            "Section 173 of the MV Act",
+            "Section 165 of the MV Act",
+            "Section 149 of the MV Act"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the purpose of Section 151 in tribunal proceedings?",
+        "options": [
+            "Grants inherent powers to ensure justice",
+            "Restricts tribunal authority in certain claims",
+            "Defines compensation for contributory negligence cases",
+            "Imposes limits on victim appeals"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the role of MACTs in handling third-party claims?",
+        "options": [
+            "Regulating motor insurance policies",
+            "Adjudicating claims and ensuring fair compensation",
+            "Defending insurers against false claims",
+            "Calculating and issuing policy refunds"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the evidential value of an investigation report in a claim?",
+        "options": [
+            "Admissible as supporting evidence with corroboration",
+            "Irrelevant to tribunal proceedings",
+            "Conclusive for all compensation awards",
+            "Primary evidence for contributory negligence defenses"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What does Order 41 of the CPC govern?",
+        "options": [
+            "Procedures for filing appeals",
+            "Premium calculation methods",
+            "Handling misrepresentation claims",
+            "Execution of tribunal awards"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which principle applies when an insurer recovers claims paid from third parties?",
+        "options": [
+            "Doctrine of Subrogation",
+            "Causa Proxima",
+            "Composite Negligence",
+            "Volenti Non Fit Injuria"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the tribunal's approach to contributory negligence cases?",
+        "options": [
+            "Compensation is reduced proportionate to claimant's fault",
+            "Claims are dismissed automatically",
+            "Awards are doubled for shared liability cases",
+            "The insurer pays the full compensation amount"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the primary goal of Section 140 under the MV Act?",
+        "options": [
+            "Mandating No-Fault Liability compensation",
+            "Regulating premium rates for third-party policies",
+            "Defining structured compensation formulas",
+            "Limiting tribunal jurisdiction"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which type of claims fall under Section 161 of the MV Act?",
+        "options": [
+            "Hit-and-run accident compensation",
+            "Contributory negligence cases",
+            "Disputed tribunal awards",
+            "No insurable interest claims"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the evidential weight of affidavits in tribunal hearings?",
+        "options": [
+            "Primary evidence replacing oral testimonies",
+            "Supplementary evidence supporting claims",
+            "Irrelevant unless supported by investigation reports",
+            "Mandatory for contributory negligence defenses"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the compensation limit for grievous hurt under the Solatium Fund?",
+        "options": [
+            "₹25,000",
+            "₹50,000",
+            "₹75,000",
+            "₹100,000"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What does the tribunal consider while framing issues?",
+        "options": [
+            "Material facts in dispute",
+            "Insurer's premium structures",
+            "Victim's employment history",
+            "Witness credibility exclusively"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the doctrine of vicarious liability in motor claims?",
+        "options": [
+            "Holds vehicle owners responsible for drivers' negligence",
+            "Applies only to contributory negligence cases",
+            "Limits insurer liability in structured awards",
+            "Excludes all third-party claims"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What role does Order 6 of the CPC play in tribunal cases?",
+        "options": [
+            "Allows amendment of pleadings",
+            "Defines timelines for appeals",
+            "Restricts victim compensation claims",
+            "Mandates premium adjustments for insurers"
+        ],
+        "correctIndex": 0
+    }
+]

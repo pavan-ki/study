@@ -1,0 +1,252 @@
+[
+    {
+        "question": "What is the primary responsibility of insurers under third-party liability?",
+        "options": [
+            "To defend claimants in tribunal hearings",
+            "To settle claims as per policy terms and tribunal orders",
+            "To issue refunds on expired policies",
+            "To increase policyholder premiums"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does the Claims Tribunal primarily assess in compensation cases?",
+        "options": [
+            "Fault of the insured",
+            "Nature and extent of injury or loss",
+            "Policy terms of the insurer",
+            "Legal representation quality"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What does Section 140 of the MV Act mandate?",
+        "options": [
+            "Compulsory third-party insurance",
+            "No-fault liability compensation",
+            "Standardized premium rates",
+            "Proportional liability sharing"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which section of the MV Act ensures compensation for hit-and-run victims?",
+        "options": [
+            "Section 163",
+            "Section 140",
+            "Section 146",
+            "Section 161"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "question": "What is the primary limitation for filing appeals in motor claims cases?",
+        "options": [
+            "Limited evidence submission",
+            "Time restrictions as per tribunal guidelines",
+            "Inadequate representation by insurers",
+            "Unavailability of claimants"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the primary focus of written statements in claim defenses?",
+        "options": [
+            "Highlighting factual and statutory defenses",
+            "Providing historical insurance data",
+            "Questioning the validity of tribunal members",
+            "Eliminating contributory negligence claims"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the purpose of Order 41 of the CPC?",
+        "options": [
+            "Guidelines for filing and processing appeals",
+            "Managing the validity of existing awards",
+            "Determining interest on compensation amounts",
+            "Allowing insurers to revoke claims"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What evidence is crucial in proving contributory negligence?",
+        "options": [
+            "Victim's prior driving record",
+            "Behavior of the victim during the accident",
+            "Witness statements supporting the insurer",
+            "Policy exclusion clauses"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does Section 174 of the MV Act enable?",
+        "options": [
+            "Compensation recovery as arrears of land revenue",
+            "Tribunals to impose additional penalties",
+            "Compensatory costs for false claims",
+            "Notification to claimants for missed hearings"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What role do investigation reports play in tribunal hearings?",
+        "options": [
+            "Serve as conclusive evidence",
+            "Guide tribunals in issue framing and decision-making",
+            "Limit the claimant's arguments",
+            "Highlight insurer objections exclusively"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the significance of Section 163A?",
+        "options": [
+            "No-fault liability structured formula claims",
+            "Compensation based on evidence of negligence",
+            "Reduction of liability for contributory claims",
+            "Extension of filing deadlines for appeals"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the evidential value of an expert opinion in motor claims?",
+        "options": [
+            "Primary evidence in all cases",
+            "Supplementary evidence supporting other claims",
+            "Irrelevant to tribunal proceedings",
+            "Mandatory for No-Fault Liability cases"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does Section 96 of the CPC address?",
+        "options": [
+            "Appeals against original decrees",
+            "Processes for framing tribunal rules",
+            "Compensation limits for damages",
+            "Disqualification of advocates in claims"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the limitation for filing appeals under Section 173 of the MV Act?",
+        "options": [
+            "30 days",
+            "60 days",
+            "90 days",
+            "120 days"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What is the purpose of Section 148A of the CPC?",
+        "options": [
+            "Allow caveats to prevent judgments without notice",
+            "Enable supplementary defense strategies",
+            "Provide additional powers to tribunals",
+            "Restrict claimants from filing appeals"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which aspect of tribunal awards is appealable?",
+        "options": [
+            "Quantum of compensation awarded",
+            "Tribunal membership disputes",
+            "Invalidation of third-party policies",
+            "Compliance failures by insurers"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the defense of 'no insurable interest'?",
+        "options": [
+            "The claimant has no direct relationship with the vehicle",
+            "The policy was issued under coercion",
+            "The insured failed to renew premiums",
+            "The insurer disqualified the policyholder"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the role of MACTs under Section 165 of the MV Act?",
+        "options": [
+            "To arbitrate disputes between insurers",
+            "To adjudicate compensation for third-party claims",
+            "To regulate premiums for motor insurance policies",
+            "To enforce compliance with policy terms"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the significance of contributory negligence in tribunal rulings?",
+        "options": [
+            "Shifts the entire liability to the victim",
+            "Reduces compensation based on the victim\u2019s fault",
+            "Invalidates tribunal awards",
+            "Eliminates no-fault liability claims"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which doctrine emphasizes 'the thing speaks for itself'?",
+        "options": [
+            "Res ipsa loquitur",
+            "Volenti non fit injuria",
+            "Causa Proxima",
+            "Doctrine of Subrogation"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the role of Section 151 of the CPC in tribunals?",
+        "options": [
+            "Provides inherent powers to tribunals to ensure justice",
+            "Limits tribunal jurisdiction in specific claims",
+            "Standardizes award calculation methods",
+            "Restricts insurer defenses to statutory claims"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What defense can insurers use for policyholder fraud?",
+        "options": [
+            "Non-joinder of necessary parties",
+            "Policy obtained under misrepresentation",
+            "Causa Proxima defense",
+            "Doctrine of Composite Negligence"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the role of evidence affidavits in tribunal cases?",
+        "options": [
+            "Provide direct cross-examination substitutes",
+            "Allow insurers to avoid hearings",
+            "Discredit opposing witnesses automatically",
+            "Supplement primary evidence in claims"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "question": "What is the purpose of Section 94 of the CPC?",
+        "options": [
+            "Empowers tribunals to grant interim relief",
+            "Ensures timely judgment notifications",
+            "Limits tribunal powers in appeal cases",
+            "Enforces compliance with policy terms"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which principle allows the insurer to recover claims paid from third parties?",
+        "options": [
+            "Doctrine of Subrogation",
+            "Causa Proxima",
+            "Res ipsa loquitur",
+            "Vicarious Liability"
+        ],
+        "correctIndex": 0
+    }
+]

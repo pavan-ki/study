@@ -1,0 +1,252 @@
+[
+    {
+        "question": "What is the main focus of Chapter 9?",
+        "options": [
+            "Procedures for filing and defending third-party claims",
+            "Overview of international motor insurance laws",
+            "Analysis of premium calculations in insurance",
+            "Details of health insurance policies"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What does Section 169 (1) of the Motor Vehicles Act, 1988 allow Claims Tribunals to do?",
+        "options": [
+            "Issue summons to another state",
+            "Grant adjournments",
+            "File additional claims",
+            "Order compensatory costs"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What powers does Section 169 (2) of the MV Act grant the Claims Tribunal?",
+        "options": [
+            "Compel discovery and production of documents",
+            "Review the High Court judgments",
+            "File appeals in Supreme Court",
+            "Provide tax exemptions to insurers"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the purpose of Section 28 of the Civil Procedure Code?",
+        "options": [
+            "To define written statements",
+            "To allow service of summons across states",
+            "To impose penalties for negligence",
+            "To allow exemption for certain individuals"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does Section 35A of the CPC deal with?",
+        "options": [
+            "Penalties for default",
+            "Compensatory costs for false or vexatious claims",
+            "Execution decrees",
+            "Non-joinder of necessary parties"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the purpose of Section 75 of the CPC?",
+        "options": [
+            "To examine witnesses in international courts",
+            "To issue commissions for technical investigations",
+            "To file petitions against insurers",
+            "To define contributory negligence"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which section allows Claims Tribunals to issue supplemental proceedings?",
+        "options": [
+            "Section 169 of MV Act",
+            "Section 94 of CPC",
+            "Section 95 of CPC",
+            "Section 32 of CPC"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does Order 6 of the CPC allow for?",
+        "options": [
+            "Production of evidence",
+            "Amendment of petitions",
+            "Issuance of commissions",
+            "Imposition of compensatory costs"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the primary role of a panel advocate in defending third-party claims?",
+        "options": [
+            "Protecting the interests of claimants",
+            "Providing legal defense for insurers",
+            "Facilitating out-of-court settlements",
+            "Adjusting insurance premiums"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is contributory negligence?",
+        "options": [
+            "Negligence solely by the driver",
+            "Negligence shared by the victim in causing the accident",
+            "Negligence in documentation processes",
+            "Intentional harm caused by the claimant"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does Section 163A of the MV Act provide for?",
+        "options": [
+            "Claims based on a structured formula without negligence proof",
+            "Compensation for contributory negligence cases",
+            "Exemption of drivers from liability",
+            "Filing appeals in the Supreme Court"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the purpose of a written statement in third-party claims?",
+        "options": [
+            "To file complaints against claimants",
+            "To outline defenses by the contesting insurer",
+            "To appeal tribunal decisions",
+            "To issue commissions for technical reviews"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does Order 1 of the CPC deal with?",
+        "options": [
+            "Amendments in petitions",
+            "Non-joinder of necessary parties",
+            "Filing written statements",
+            "Imposing fines for defaults"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the defense of 'mis-joinder of necessary parties'?",
+        "options": [
+            "Excluding unnecessary parties from proceedings",
+            "Claiming compensation without proving liability",
+            "Including irrelevant parties in the case",
+            "Combining separate claims in one case"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What is the limitation for filing written statements under the CPC?",
+        "options": [
+            "30 days from the accident date",
+            "60 days from the service of summons",
+            "90 days from the service of summons",
+            "120 days from the accident date"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What is the role of the Claims Tribunal in framing issues?",
+        "options": [
+            "Issuing compensatory costs",
+            "Resolving disputes without evidence",
+            "Identifying material points of contention for resolution",
+            "Determining insurance premiums"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What is the evidential value of an investigation report in Claims Tribunal proceedings?",
+        "options": [
+            "Highly credible without supporting documents",
+            "Admissible only if corroborated with other evidence",
+            "Primary evidence for all claims",
+            "Not admissible under any circumstances"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the key purpose of the No-Fault Liability application under Section 140 of the MV Act?",
+        "options": [
+            "To file negligence-based claims",
+            "To provide interim compensation without proof of fault",
+            "To allow appeal against tribunal decisions",
+            "To enforce payment from the insured"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the required action upon receiving a tribunal's judgment?",
+        "options": [
+            "File an appeal within 15 days",
+            "Notify claimants and ensure compliance",
+            "Request a revision petition",
+            "Initiate execution proceedings"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does Section 174 of the MV Act deal with?",
+        "options": [
+            "Execution of awards as arrears of land revenue",
+            "Imposing penalties for negligence",
+            "Filing appeals against awards",
+            "Resolving contributory negligence cases"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the limitation period for filing appeals under the MV Act?",
+        "options": [
+            "30 days",
+            "60 days",
+            "90 days",
+            "120 days"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What is the maximum amount for No-Fault Liability claims?",
+        "options": [
+            "₹10,000",
+            "₹25,000 for grievous hurt and ₹50,000 for death",
+            "₹50,000 for grievous hurt and ₹75,000 for death",
+            "₹1,00,000"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does Section 151 of the CPC grant courts?",
+        "options": [
+            "Compulsory insurance filing powers",
+            "Inherent powers to ensure justice",
+            "Authority to impose compensatory costs",
+            "Right to issue technical commissions"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does Section 148A of the CPC allow?",
+        "options": [
+            "Issuing commissions for investigations",
+            "Lodging caveats to receive notices before decisions",
+            "Imposing penalties for false claims",
+            "Appealing tribunal awards"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What are the two types of defenses in written statements?",
+        "options": [
+            "Compensatory and statutory",
+            "Statutory and factual",
+            "Legal and compensatory",
+            "Statutory and financial"
+        ],
+        "correctIndex": 1
+    }
+]
