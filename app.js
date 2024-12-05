@@ -1,10 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-    // Toggle theme
-    const themeToggle = document.getElementById("theme-toggle");
-    themeToggle.addEventListener("change", () => {
-        document.body.classList.toggle("dark", themeToggle.checked);
-    });
-
     populateMenu();
     // Load the first mock test from Chapter 01 by default
     loadQuiz("Chapter 01 - INTRODUCTION TO MOTOR INSURANCE/Easy.json", "Chapter 01 - INTRODUCTION TO MOTOR INSURANCE", "Easy");
@@ -201,14 +195,4 @@ function revealAnswers() {
         const optionButtons = document.getElementById(`question-${index}`).querySelectorAll('.option-button');
         optionButtons[q.correctIndex].classList.add('highlight');
     });
-}
-
-function openNav() {
-    const sidenav = document.getElementById("mySidenav");
-    sidenav.style.width = "250px";
-}
-
-function closeNav() {
-    const sidenav = document.getElementById("mySidenav");
-    sidenav.style.width = "0";
 }
