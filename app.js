@@ -2,7 +2,6 @@ let isNavOpen = false;
 
 document.addEventListener("DOMContentLoaded", () => {
     populateMenu();
-    // Load the first mock test from Chapter 01 by default
     loadQuiz("Chapter 01 - INTRODUCTION TO MOTOR INSURANCE/Easy.json", "Chapter 01 - INTRODUCTION TO MOTOR INSURANCE", "Easy");
 });
 
@@ -22,7 +21,6 @@ let userAnswers = {};
 let selectedChapter = "Chapter 01 - INTRODUCTION TO MOTOR INSURANCE/Easy.json"; // Track the currently selected chapter
 let selectedMockTest = "Easy"; // Track the currently selected mock test
 
-// Dynamically populate the accordion menu with chapters and mock tests
 // Populate Menu with Chapters and Quizzes
 function populateMenu() {
     const chapters = {
@@ -45,7 +43,6 @@ function populateMenu() {
         chapterHeading.textContent = chapter;
         chapterHeading.onclick = () => chapterHeading.classList.toggle("expanded");
 
-        // Create mock test links container
         // Quiz links container
         const quizLinksContainer = document.createElement("div");
         quizLinksContainer.className = "quiz-links";
@@ -75,7 +72,6 @@ function toggleChapter(chapter, chapterHeading) {
     chapterHeading.nextElementSibling.style.display = "block";
 }
 
-// Load quiz from a specific chapter and mock test file, update header
 // Load Quiz
 async function loadQuiz(filePath, chapterName, testName) {
     try {
