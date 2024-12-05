@@ -4,151 +4,150 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Promotion Exercise 2025 - 2026</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
-        /* Light theme styling */
+        /* Root Variables for Theme Colors */
+        :root {
+            --primary-color: #4a90e2;
+            --secondary-color: #ffffff;
+            --accent-color: #4caf50;
+            --background-color: #f4f4f9;
+            --text-color: #333;
+            --hover-color: #357abd;
+            --shadow-color: rgba(0, 0, 0, 0.1);
+        }
+
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
-            color: #333;
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
             display: flex;
             flex-direction: column;
             align-items: center;
-            padding: 20px;
-            margin: 0;
+            min-height: 100vh;
         }
 
         .header {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            width: 90%;
-            max-width: 600px;
+            width: 100%;
+            max-width: 800px;
+            padding: 15px;
             margin-top: 20px;
-            padding: 10px;
-            background-color: #ffffff;
+            background-color: var(--secondary-color);
             border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            font-size: 0.9em;
-            color: #333;
+            box-shadow: 0 4px 8px var(--shadow-color);
         }
 
-        .reveal-btn {
-            padding: 8px 16px;
-            font-size: 0.9em;
-            background-color: #4caf50;
-            color: white;
+        .header span {
+            font-size: 1rem;
+        }
+
+        .header .reveal-btn {
+            background-color: var(--accent-color);
+            color: var(--secondary-color);
+            padding: 10px 20px;
             border: none;
             border-radius: 5px;
             cursor: pointer;
-            transition: background-color 0.3s ease;
-            margin-left: 10px;
+            transition: background-color 0.3s;
         }
 
-        .reveal-btn:hover {
+        .header .reveal-btn:hover {
             background-color: #388e3c;
         }
 
+        h2 {
+            margin: 20px 0;
+            color: var(--primary-color);
+        }
+
         #quiz-container {
-            width: 90%;
-            max-width: 600px;
+            width: 100%;
+            max-width: 800px;
             margin-top: 20px;
+            padding: 15px;
         }
 
         .question-card {
-            background-color: #ffffff;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            background-color: var(--secondary-color);
+            border-radius: 10px;
             padding: 20px;
             margin-bottom: 20px;
+            box-shadow: 0 4px 12px var(--shadow-color);
         }
 
         .question-title {
-            font-size: 1.1em;
-            margin-bottom: 10px;
-            color: #333;
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+            color: var(--text-color);
         }
 
         .options-container {
             display: flex;
-            flex-direction: column;
+            flex-wrap: wrap;
             gap: 10px;
         }
 
         .option-button {
-            padding: 12px;
-            font-size: 1em;
-            cursor: pointer;
-            border: 2px solid #4a90e2;
-            border-radius: 5px;
-            background-color: #f0f8ff;
-            color: #333;
-            transition: background-color 0.3s ease, color 0.3s ease;
-        }
-
-        .option-button:hover, .option-button.selected {
-            background-color: #4a90e2;
-            color: white;
-        }
-
-        /* Feedback styles */
-        .correct {
-            color: #4caf50;
-            margin-top: 10px;
-            font-weight: bold;
-        }
-
-        .incorrect {
-            color: #e57373;
-            margin-top: 10px;
-            font-weight: bold;
-        }
-
-        .unanswered {
-            color: #ffb74d;
-            margin-top: 10px;
-            font-weight: bold;
-        }
-
-        /* Summary styling */
-        #result-container {
-            margin-top: 20px;
-            padding: 15px;
-            background-color: #ffffff;
+            flex: 1;
+            padding: 10px;
+            border: 2px solid var(--primary-color);
             border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            color: #333;
-            text-align: center;
-            width: 90%;
-            max-width: 600px;
+            background-color: var(--secondary-color);
+            color: var(--primary-color);
+            cursor: pointer;
+            transition: all 0.3s ease;
         }
 
-        button.submit-btn {
+        .option-button:hover {
+            background-color: var(--primary-color);
+            color: var(--secondary-color);
+        }
+
+        .option-button.selected {
+            background-color: var(--accent-color);
+            color: var(--secondary-color);
+        }
+
+        .summary-card {
+            background-color: var(--secondary-color);
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px var(--shadow-color);
+            text-align: center;
+            margin-top: 20px;
+            width: 100%;
+            max-width: 800px;
+        }
+
+        .submit-btn {
             padding: 12px 24px;
-            font-size: 1em;
+            font-size: 1rem;
             border: none;
-            border-radius: 5px;
-            background-color: #4a90e2;
-            color: white;
+            border-radius: 8px;
+            background-color: var(--primary-color);
+            color: var(--secondary-color);
             cursor: pointer;
             transition: background-color 0.3s ease;
-            margin-top: 20px;
         }
 
-        button.submit-btn:hover {
-            background-color: #357abd;
+        .submit-btn:hover {
+            background-color: var(--hover-color);
         }
 
-        /* Side navigation menu styling */
         .hamburger-menu {
-            position: absolute;
+            position: fixed;
             top: 20px;
             left: 20px;
+            font-size: 1.5rem;
             cursor: pointer;
-            font-size: 1.5em;
-            user-select: none;
+            z-index: 1000;
         }
 
-        /* Accordion menu styling */
         .sidenav {
             height: 100%;
             width: 0;
@@ -164,31 +163,21 @@
         }
 
         .sidenav h3 {
-            color: #f4f4f9;
-            font-size: 1.2em;
+            color: var(--secondary-color);
             padding: 10px 20px;
             cursor: pointer;
-            margin: 0;
-            background-color: #444;
-            transition: background-color 0.3s ease;
+            transition: background-color 0.3s;
         }
 
         .sidenav h3:hover {
             background-color: #575757;
         }
 
-        .quiz-links {
-            display: none;
-            background-color: #333;
-        }
-
         .quiz-links a {
-            padding: 10px 40px;
+            color: var(--secondary-color);
+            padding: 10px 20px;
             display: block;
             text-decoration: none;
-            color: #f4f4f9;
-            font-size: 1em;
-            cursor: pointer;
             transition: background-color 0.2s;
         }
 
@@ -200,64 +189,27 @@
             display: block;
         }
 
-        /* Highlighted correct answer styling */
         .highlight {
-            background-color: #4caf50; /* Green background */
-            color: white; /* White text */
-            border-color: #4caf50;
+            background-color: var(--accent-color);
+            color: var(--secondary-color);
         }
-
-        .selected {
-            background-color: #4caf50;
-            color: white;
-            font-weight: bold;
-        }
-
     </style>
 </head>
 <body>
-    <!-- Hamburger icon for menu -->
     <div class="hamburger-menu" onclick="openNav()">☰</div>
-
-    <!-- Side navigation accordion menu -->
-    <div id="mySidenav" class="sidenav">
-        <!-- Chapters and Quizzes will be dynamically populated here -->
-    </div>
+    <div id="mySidenav" class="sidenav"></div>
 
     <div class="header">
         <span id="question-count"></span>
         <span id="summary"></span>
         <button class="reveal-btn" onclick="revealAnswers()">Reveal Answers</button>
     </div>
+
     <h2>Promotion Exercise 2025 - 2026</h2>
     <div id="quiz-container"></div>
     <button class="submit-btn" onclick="submitQuiz()">Submit</button>
-
     <div id="result-container" class="summary-card"></div>
 
     <script src="app.js"></script>
-    <script>
-        // Open side navigation
-        function openNav() {
-            document.getElementById("mySidenav").style.width = "250px";
-            document.addEventListener("click", closeNavOnClickOutside);
-        }
-
-        // Close side navigation
-        function closeNav() {
-            document.getElementById("mySidenav").style.width = "0";
-            document.removeEventListener("click", closeNavOnClickOutside);
-        }
-
-        // Close navigation when clicking outside
-        function closeNavOnClickOutside(event) {
-            const sidenav = document.getElementById("mySidenav");
-            const hamburgerMenu = document.querySelector(".hamburger-menu");
-
-            if (!sidenav.contains(event.target) && !hamburgerMenu.contains(event.target)) {
-                closeNav();
-            }
-        }
-    </script>
 </body>
 </html>
