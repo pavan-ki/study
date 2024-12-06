@@ -1,0 +1,252 @@
+[
+    {
+        "question": "What is a key reason for delayed submission of FIRs in TP claims?",
+        "options": [
+            "Unavailability of police officers",
+            "Lack of awareness among claimants",
+            "High insurance premiums",
+            "Complexity of legal procedures"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which section of the IPC defines dishonesty in fraudulent acts?",
+        "options": [
+            "Section 463",
+            "Section 464",
+            "Section 23",
+            "Section 191"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What measure is crucial for fraud management in TP claims?",
+        "options": [
+            "Approving all claims without investigation",
+            "Thorough documentation and evidence collection",
+            "Avoiding collaboration with law enforcement",
+            "Delaying claim settlements indefinitely"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does Section 158(6) of the MV Act, 1988 mandate?",
+        "options": [
+            "Filing claims within 60 days",
+            "Submitting FIRs to insurers within 30 days",
+            "Paying compensation immediately",
+            "Conducting vehicle inspections regularly"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the primary characteristic of 'forum shopping'?",
+        "options": [
+            "Filing multiple claims for a single accident",
+            "Comparing insurance policies",
+            "Changing insurance providers frequently",
+            "Disputing tribunal decisions without evidence"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "How can orphan claims be addressed?",
+        "options": [
+            "By ignoring incomplete details",
+            "By assigning investigators to trace policy information",
+            "By rejecting all such claims",
+            "By transferring claims to another insurer"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is a common fraud method in road accident claims?",
+        "options": [
+            "Filing claims with accurate documents",
+            "Substituting uninsured vehicles with insured ones",
+            "Documenting accident details thoroughly",
+            "Avoiding collaboration with authorities"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does Section 191 of the IPC cover?",
+        "options": [
+            "Giving false evidence",
+            "Fabricating false documents",
+            "Providing accurate medical records",
+            "Submitting genuine claims"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which practice is an example of underwriting fraud?",
+        "options": [
+            "Issuing forged cover notes",
+            "Denying claims without reason",
+            "Conducting vehicle inspections",
+            "Maintaining accurate records"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which legal section allows insurers to recall awards tainted by fraud?",
+        "options": [
+            "Section 151 of CPC",
+            "Section 158 of MV Act",
+            "Section 194-A of Income Tax Act",
+            "Section 170 of CPC"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the focus of Section 464 of IPC?",
+        "options": [
+            "Forgery and creating false documents",
+            "Witness protection",
+            "Insurance premium regulation",
+            "Motor vehicle registration"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What can investigators use to detect fraud effectively?",
+        "options": [
+            "Inaccurate evidence",
+            "Videography and documentation",
+            "Ignoring discrepancies in claims",
+            "Delaying site visits"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What type of claims does Section 194-A of the Income Tax Act address?",
+        "options": [
+            "Claims related to health insurance",
+            "Claims involving TDS on compensation interest",
+            "Motor vehicle registration claims",
+            "Filing insurance policies for accidents"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which action exemplifies forum shopping?",
+        "options": [
+            "Filing claims in different tribunals for the same accident",
+            "Submitting a single claim for a verified accident",
+            "Providing detailed evidence for a claim",
+            "Avoiding duplicate claims for the same incident"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the first step in processing third-party claims?",
+        "options": [
+            "Submitting premium details",
+            "Receiving summons and studying the plaint",
+            "Rejecting the claim without verification",
+            "Avoiding legal proceedings"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What role does Section 158(6) of MV Act play?",
+        "options": [
+            "Mandates evidence collection after claim approval",
+            "Requires FIR submission to insurers within 30 days",
+            "Allows multiple claims for a single accident",
+            "Focuses on premium collection after accidents"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which method helps auditors address orphan claims?",
+        "options": [
+            "Avoiding policy verification",
+            "Assigning investigators to trace details",
+            "Processing claims without verification",
+            "Ignoring tribunal decisions"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does Section 170 of CPC involve?",
+        "options": [
+            "Claims involving gratuitous passengers",
+            "Witness cross-examinations",
+            "Invalidating genuine claims",
+            "Defenses against frivolous claims"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is a preventive measure against fraud?",
+        "options": [
+            "Allowing unchecked issuance of cover notes",
+            "Using videography for investigation",
+            "Avoiding collaboration with law enforcement",
+            "Filing claims without evidence"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "How can fabricated documents be challenged?",
+        "options": [
+            "Ignoring the discrepancies",
+            "Engaging forensic experts and presenting evidence",
+            "Avoiding legal procedures",
+            "Submitting unverified counterclaims"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What defines a fabricated claim?",
+        "options": [
+            "Claims with incomplete medical records",
+            "Claims with forged or falsified evidence",
+            "Claims submitted after a legitimate accident",
+            "Claims with accurate FIR submissions"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does Section 463 of IPC address?",
+        "options": [
+            "Intentional perversion of facts",
+            "Procedures for vehicle registration",
+            "Guidelines for insurance premium calculation",
+            "Methods for vehicle inspection"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which entity can revoke awards obtained through fraud?",
+        "options": [
+            "Claims Tribunal",
+            "Regional Transport Office",
+            "Insurance companies without tribunal approval",
+            "Local law enforcement"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "How does videography aid fraud prevention?",
+        "options": [
+            "By delaying claim investigations",
+            "By documenting accident sites and investigations",
+            "By fabricating evidence for claims",
+            "By avoiding the collection of accurate evidence"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is a common defect in processing TP claims?",
+        "options": [
+            "Failing to issue summons to insurers",
+            "Delays in filing accurate Written Statements",
+            "Submitting all claims to tribunals promptly",
+            "Maintaining accurate and complete documentation"
+        ],
+        "correctIndex": 1
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "question": "What is the primary objective of fraud management in TP claims?",
+        "options": [
+            "To increase insurance premiums",
+            "To ensure only genuine claims are settled",
+            "To delay the settlement process",
+            "To avoid investigating claims"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Under which section of the MV Act, 1988, must FIRs be submitted to insurers within 30 days?",
+        "options": [
+            "Section 140",
+            "Section 158(6)",
+            "Section 163(A)",
+            "Section 166"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does 'forum shopping' mean in the context of fraudulent claims?",
+        "options": [
+            "Shopping for car insurance online",
+            "Filing multiple claims in different tribunals for the same accident",
+            "Comparing tribunal decisions",
+            "Submitting genuine claims"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which of the following is an example of underwriting fraud?",
+        "options": [
+            "Forging a cover note",
+            "Providing correct vehicle details",
+            "Filing claims on time",
+            "Submitting accurate medical records"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the role of an investigator in managing fraud?",
+        "options": [
+            "To approve claims without investigation",
+            "To collect evidence and verify documents",
+            "To file all claims under the same category",
+            "To delay the claims process"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What type of accident might fraudsters falsely claim as a road accident?",
+        "options": [
+            "A tree fall injury",
+            "A natural disaster",
+            "A theft case",
+            "A property damage case"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is the purpose of Section 194-A of the Income Tax Act in the context of insurance claims?",
+        "options": [
+            "To mandate TDS on interest portions of compensation",
+            "To exempt insurers from paying taxes",
+            "To regulate vehicle registrations",
+            "To audit fraudulent claims"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What is an orphan claim?",
+        "options": [
+            "A claim with incomplete or missing policy details",
+            "A claim filed by multiple parties",
+            "A claim that has been rejected",
+            "A claim involving more than one vehicle"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which of these is NOT a measure for preventing fraud?",
+        "options": [
+            "Abolishing cover notes in high-risk areas",
+            "Using videography for investigations",
+            "Allowing unchecked agent activities",
+            "Rotating staff and offices regularly"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What does Section 151 of the CPC enable insurers to do?",
+        "options": [
+            "Appeal court decisions",
+            "Recall awards tainted by fraud",
+            "File multiple claims",
+            "Exempt taxes on settlements"
+        ],
+        "correctIndex": 1
+    }
+]

@@ -1,0 +1,252 @@
+[
+    {
+        "question": "Which legal case emphasized the tribunal's power to recall awards tainted by fraud?",
+        "options": [
+            "Nandabalan’s Case",
+            "Rajendra Singh’s Case (2000 ACJ 1032)",
+            "Sarala Verma vs. Delhi Transport Corporation",
+            "Lata Wadhwa vs. State of Bihar"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the legal implication of Section 464 of the IPC?",
+        "options": [
+            "Defines fabrication of false evidence",
+            "Covers forging and creating false documents",
+            "Mandates submission of insurance claims within 30 days",
+            "Addresses taxation on compensation awards"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which strategy is most effective in preventing forum shopping?",
+        "options": [
+            "Maintaining centralized databases",
+            "Avoiding cross-verification of claims",
+            "Allowing duplicate claims in multiple tribunals",
+            "Rejecting all TP claims without evidence"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "How does Section 194-A of the Income Tax Act relate to compensation claims?",
+        "options": [
+            "It exempts insurers from taxation",
+            "Mandates TDS on interest portions of awards",
+            "Prohibits multiple claims for the same incident",
+            "Regulates vehicle registration fees"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What role does videography play in fraud prevention during investigations?",
+        "options": [
+            "Documents accident sites and claimant interactions",
+            "Replaces written statements for claims processing",
+            "Ensures delays in evidence collection",
+            "Prevents insurers from verifying evidence"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What does Section 151 of CPC empower insurers to do in cases of fraud?",
+        "options": [
+            "File appeals for rejected claims",
+            "Recall tribunal awards obtained through fraudulent means",
+            "Increase premiums for high-risk policies",
+            "Mandate videographic evidence for all claims"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which of the following is a key aspect of auditing orphan claims?",
+        "options": [
+            "Rejecting all claims without investigation",
+            "Assigning investigators to trace missing policy details",
+            "Processing claims based solely on oral evidence",
+            "Filing FIRs for all orphan claims"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the significance of Rajendra Singh’s Case in fraud management?",
+        "options": [
+            "It introduced structured compensation schedules",
+            "It highlighted tribunal power to recall fraudulent awards",
+            "It mandated FIR submission within 30 days",
+            "It restricted forum shopping in motor claims"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which type of fraud involves substituting uninsured vehicles in claims?",
+        "options": [
+            "Underwriting fraud",
+            "Medical case conversion",
+            "Road accident fraud",
+            "Orphan claim fraud"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Which of these is NOT a preventive measure against fraud in TP claims?",
+        "options": [
+            "Regular staff rotation",
+            "Using videography for documentation",
+            "Allowing unchecked issuance of cover notes",
+            "Cross-verifying submitted documents"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "How does Section 158(6) of the MV Act impact TP claim submissions?",
+        "options": [
+            "Mandates FIR submission to insurers within 30 days",
+            "Requires tribunal approval for all claims",
+            "Exempts insurers from processing delayed claims",
+            "Allows multiple claims for the same accident"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What defines a fabricated TP claim?",
+        "options": [
+            "Accurate evidence and documentation",
+            "Claims based on falsified or forged documents",
+            "Claims involving multiple accidents",
+            "Claims with delayed FIR submission"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is a primary function of the Insurance Fraud Bureau?",
+        "options": [
+            "Centralizing data for fraud detection",
+            "Regulating insurance premiums",
+            "Processing genuine claims quickly",
+            "Issuing videographic guidelines"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which court case addressed systemic fraud in TP claims?",
+        "options": [
+            "Lata Wadhwa vs. State of Bihar",
+            "Nandabalan’s Case",
+            "Sarala Verma vs. Delhi Transport Corporation",
+            "Rajendra Singh’s Case"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What type of fraud involves staging accidents?",
+        "options": [
+            "Underwriting fraud",
+            "Road accident fraud",
+            "Medical case conversion",
+            "Orphan claim fraud"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "How can fraudulent medical claims be identified?",
+        "options": [
+            "Ignoring medical evidence",
+            "Using forensic analysis and expert reviews",
+            "Avoiding collaboration with doctors",
+            "Allowing claims based on verbal statements"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is a characteristic of forum shopping in motor claims?",
+        "options": [
+            "Centralized tribunal decisions",
+            "Filing duplicate claims in different tribunals",
+            "Submitting accurate documentation",
+            "Avoiding all tribunal interactions"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does Section 170 of CPC allow insurers to do?",
+        "options": [
+            "Cross-examine witnesses in gratuitous passenger claims",
+            "Mandate videographic documentation",
+            "Exempt orphan claims from audits",
+            "Limit tribunal awards for fabricated claims"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "How does the hybrid fraud management method operate?",
+        "options": [
+            "Combines structured compensation with tribunal awards",
+            "Includes centralized fraud detection and decentralized audits",
+            "Focuses only on medical case conversions",
+            "Avoids collaboration between tribunals and insurers"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the purpose of videographic evidence in fraud management?",
+        "options": [
+            "To delay investigations",
+            "To document sites and claimant interactions",
+            "To replace FIR submissions",
+            "To fabricate evidence for genuine claims"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which method helps trace missing details in orphan claims?",
+        "options": [
+            "Auditor reviews",
+            "Investigator assignments",
+            "Centralized tribunal appeals",
+            "Ignoring incomplete submissions"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is a significant finding of Nandabalan’s Case?",
+        "options": [
+            "Tribunal power to recall awards",
+            "Centralized fraud detection recommendations",
+            "Structured compensation mandates",
+            "Taxation on compensation interest"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What defines a road accident fraud?",
+        "options": [
+            "Filing claims based on authentic documentation",
+            "Converting non-road accidents into TP claims",
+            "Processing claims without tribunal involvement",
+            "Delaying claim settlement indefinitely"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the purpose of Section 463 of IPC in fraud detection?",
+        "options": [
+            "Defining forgery and false evidence creation",
+            "Regulating tribunal awards",
+            "Mandating TDS deductions",
+            "Ensuring orphan claims are audited"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which entity reviews fraudulent awards obtained through tribunal claims?",
+        "options": [
+            "Claims Tribunal",
+            "Regional Transport Authority",
+            "Local police station",
+            "Insurance Fraud Bureau"
+        ],
+        "correctIndex": 0
+    }
+]
