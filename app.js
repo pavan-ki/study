@@ -12,17 +12,17 @@ let selectedMockTest = "Easy"; // Track the currently selected mock test
 // Dynamically populate the accordion menu with chapters and mock tests
 function populateMenu() {
     const chapters = {
-        "Chapter 01 - INTRODUCTION TO MOTOR INSURANCE": ["Easy.json", "Medium.json", "Hard.json"],
-        "Chapter 02 - MARKETING IN MOTOR INSURANCE": ["Easy.json", "Medium.json", "Hard.json"],
-        "Chapter 03 - TYPE OF MOTOR VEHICLES, DOCUMENTS AND POLICIES": ["Easy.json", "Medium.json", "Hard.json"],
-        "Chapter 04 - UNDERWRITING IN MOTOR INSURANCE": ["Easy.json", "Medium.json", "Hard.json"],
-        "Chapter 05 - MOTOR INSURANCE CLAIMS": ["Easy.json", "Medium.json", "Hard.json"],
-        "Chapter 06 - IT APPLICATIONS IN MOTOR INSURANCE": ["Easy.json", "Medium.json", "Hard.json"],
-        "Chapter 07 - CONSUMER DELIGHT": ["Easy.json", "Medium.json", "Hard.json"],
-        "Chapter 08 - THIRD PARTY LIABILITY INSURANCE": ["Easy.json", "Medium.json", "Hard.json"],
-        "Chapter 09 - PROCEDURES FOR FILING AND DEFENDING": ["Easy.json", "Medium.json", "Hard.json"],
-        "Chapter 10 - QUANTUM FIXATION": ["Easy.json", "Medium.json", "Hard.json"],
-        "Chapter 11 - FRAUD MANAGEMENT AND INTERNAL AUDIT": ["Easy.json", "Medium.json", "Hard.json"]
+        "Chapter 01 - INTRODUCTION TO MOTOR INSURANCE": ["Easy.json", "Medium.json", "Hard.json", "Extreme.json", "Summary.json"],
+        "Chapter 02 - MARKETING IN MOTOR INSURANCE": ["Easy.json", "Medium.json", "Hard.json", "Extreme.json", "Summary.json"],
+        "Chapter 03 - TYPE OF MOTOR VEHICLES, DOCUMENTS AND POLICIES": ["Easy.json", "Medium.json", "Hard.json", "Extreme.json", "Summary.json"],
+        "Chapter 04 - UNDERWRITING IN MOTOR INSURANCE": ["Easy.json", "Medium.json", "Hard.json", "Extreme.json", "Summary.json"],
+        "Chapter 05 - MOTOR INSURANCE CLAIMS": ["Easy.json", "Medium.json", "Hard.json", "Extreme.json", "Summary.json"],
+        "Chapter 06 - IT APPLICATIONS IN MOTOR INSURANCE": ["Easy.json", "Medium.json", "Hard.json", "Extreme.json", "Summary.json"],
+        "Chapter 07 - CONSUMER DELIGHT": ["Easy.json", "Medium.json", "Hard.json", "Extreme.json", "Summary.json"],
+        "Chapter 08 - THIRD PARTY LIABILITY INSURANCE": ["Easy.json", "Medium.json", "Hard.json", "Extreme.json", "Summary.json"],
+        "Chapter 09 - PROCEDURES FOR FILING AND DEFENDING": ["Easy.json", "Medium.json", "Hard.json", "Extreme.json", "Summary.json"],
+        "Chapter 10 - QUANTUM FIXATION": ["Easy.json", "Medium.json", "Hard.json", "Extreme.json", "Summary.json"],
+        "Chapter 11 - FRAUD MANAGEMENT AND INTERNAL AUDIT": ["Easy.json", "Medium.json", "Hard.json", "Extreme.json", "Summary.json"]
     };
 
     const sidenav = document.getElementById("mySidenav");
@@ -43,7 +43,14 @@ function populateMenu() {
             const quizLink = document.createElement("a");
             quizLink.textContent = mockTest.replace(".json", ""); // Display name without .json
             quizLink.classList.add("quiz-link");
-            quizLink.onclick = () => loadQuiz(encodeURIComponent(`${chapter}/${mockTest}`), chapter, mockTest.replace(".json", ""));
+            
+            if (mockTest.startsWith("Summary")) {
+                quizLink.onclick = () => loadSummary(encodeURIComponent(`${chapter}/${mockTest}`), chapter, mockTest.replace(".json", ""));
+            }
+            else {
+                quizLink.onclick = () => loadQuiz(encodeURIComponent(`${chapter}/${mockTest}`), chapter, mockTest.replace(".json", ""));
+            }
+
             quizLinksContainer.appendChild(quizLink);
         });
 
@@ -87,6 +94,28 @@ async function loadQuiz(filePath, chapterName, mockTestName) {
     } catch (error) {
         console.error("Error loading quiz:", error);
         alert("Quiz file not found.");
+    }
+}
+
+
+// Load quiz from a specific chapter and mock test file, update header
+async function loadSummary(filePath, chapterName, mockTestName) {
+    try {
+        const response = await fetch(filePath);
+        questions = await response.json();
+
+        // Reset UI for a new quiz
+        userAnswers = {};
+        document.getElementById('quiz-container').innerHTML = createSummaryHTML(questions.question);
+
+        // Update the chapter and mock test name in the header
+        updateQuizHeader(chapterName, mockTestName);
+
+        // Update selected state in the menu
+        updateSelectedMockTest(chapterName, mockTestName);
+    } catch (error) {
+        console.error("Error loading summary:", error);
+        alert("Summary file not found.");
     }
 }
 
@@ -140,6 +169,15 @@ function createQuestionHTML(question, index) {
                 ${optionsHTML}
             </div>
             <div class="feedback" style="padding-top: 10px; font-weight: bold;"></div>
+        </div>
+    `;
+}
+
+// Generates HTML for each question card
+function createSummaryHTML(question) {
+    return `
+        <div class="question-card">
+            <div class="question-title">${question}</div>
         </div>
     `;
 }
